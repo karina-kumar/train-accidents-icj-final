@@ -1,662 +1,7275 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <!-- A Intro to Coding for Journalists class project -->
   <head>
     <title>Train Accidents | HARRIS</title>
-    <meta name="description" content="DESCRIPTION" />
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1"
-    />
-    <link rel="stylesheet" href="../css/main.css" />
+    <meta name="description" content="DESCRIPTION">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="../css/main.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html">Train Accidents</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Texas Counties
-              </a>
-              <ul
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <li>
-                  <a class="dropdown-item" href="..//ANDERSON.html">ANDERSON</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//ANGELINA.html">ANGELINA</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//ATASCOSA.html">ATASCOSA</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//AUSTIN.html">AUSTIN</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//BAILEY.html">BAILEY</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//BASTROP.html">BASTROP</a>
-                </li>
-
-                <li><a class="dropdown-item" href="..//BELL.html">BELL</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//BEXAR.html">BEXAR</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//BOSQUE.html">BOSQUE</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//BOWIE.html">BOWIE</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//BRAZORIA.html">BRAZORIA</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//BRAZOS.html">BRAZOS</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//BREWSTER.html">BREWSTER</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//BROWN.html">BROWN</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//BURLESON.html">BURLESON</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//BURNET.html">BURNET</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//CALDWELL.html">CALDWELL</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//CAMERON.html">CAMERON</a>
-                </li>
-
-                <li><a class="dropdown-item" href="..//CAMP.html">CAMP</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//CARSON.html">CARSON</a>
-                </li>
-
-                <li><a class="dropdown-item" href="..//CASS.html">CASS</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//CHAMBERS.html">CHAMBERS</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//CHEROKEE.html">CHEROKEE</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//CHILDRESS.html"
-                    >CHILDRESS</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//COLLIN.html">COLLIN</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//COLORADO.html">COLORADO</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//COMAL.html">COMAL</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//COMANCHE.html">COMANCHE</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//COOKE.html">COOKE</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//CRANE.html">CRANE</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//CULBERSON.html"
-                    >CULBERSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//DALLAM.html">DALLAM</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//DALLAS.html">DALLAS</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//DEAF SMITH.html"
-                    >DEAF SMITH</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//DENTON.html">DENTON</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//DONLEY.html">DONLEY</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//DUVAL.html">DUVAL</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//EASTLAND.html">EASTLAND</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//ECTOR.html">ECTOR</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//EL PASO.html">EL PASO</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//ELLIS.html">ELLIS</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//ERATH.html">ERATH</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//FALLS.html">FALLS</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//FAYETTE.html">FAYETTE</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//FORT BEND.html"
-                    >FORT BEND</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//FREESTONE.html"
-                    >FREESTONE</a
-                  >
-                </li>
-
-                <li><a class="dropdown-item" href="..//FRIO.html">FRIO</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//GALVESTON.html"
-                    >GALVESTON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//GARZA.html">GARZA</a>
-                </li>
-
-                <li><a class="dropdown-item" href="..//GRAY.html">GRAY</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//GRAYSON.html">GRAYSON</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//GREGG.html">GREGG</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//GRIMES.html">GRIMES</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//GUADALUPE.html"
-                    >GUADALUPE</a
-                  >
-                </li>
-
-                <li><a class="dropdown-item" href="..//HALE.html">HALE</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//HARDEMAN.html">HARDEMAN</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//HARDIN.html">HARDIN</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//HARRIS.html">HARRIS</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//HARRISON.html">HARRISON</a>
-                </li>
-
-                <li><a class="dropdown-item" href="..//HAYS.html">HAYS</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//HEMPHILL.html">HEMPHILL</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//HENDERSON.html"
-                    >HENDERSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//HIDALGO.html">HIDALGO</a>
-                </li>
-
-                <li><a class="dropdown-item" href="..//HILL.html">HILL</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//HOCKLEY.html">HOCKLEY</a>
-                </li>
-
-                <li><a class="dropdown-item" href="..//HOOD.html">HOOD</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//HOUSTON.html">HOUSTON</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//HOWARD.html">HOWARD</a>
-                </li>
-
-                <li><a class="dropdown-item" href="..//HUNT.html">HUNT</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//HUTCHINSON.html"
-                    >HUTCHINSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//IRION.html">IRION</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//JACKSON.html">JACKSON</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//JASPER.html">JASPER</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//JEFF DAVIS.html"
-                    >JEFF DAVIS</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//JEFFERSON.html"
-                    >JEFFERSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//JIM HOGG.html">JIM HOGG</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//JOHNSON.html">JOHNSON</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//KAUFMAN.html">KAUFMAN</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//KINNEY.html">KINNEY</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//LA SALLE.html">LA SALLE</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//LAMAR.html">LAMAR</a>
-                </li>
-
-                <li><a class="dropdown-item" href="..//LAMB.html">LAMB</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//LAVACA.html">LAVACA</a>
-                </li>
-
-                <li><a class="dropdown-item" href="..//LEE.html">LEE</a></li>
-
-                <li><a class="dropdown-item" href="..//LEON.html">LEON</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//LIBERTY.html">LIBERTY</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//LIMESTONE.html"
-                    >LIMESTONE</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//LIVE OAK.html">LIVE OAK</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//LUBBOCK.html">LUBBOCK</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//MARION.html">MARION</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//MARTIN.html">MARTIN</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//MATAGORDA.html"
-                    >MATAGORDA</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//MAVERICK.html">MAVERICK</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//MCLENNAN.html">MCLENNAN</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//MEDINA.html">MEDINA</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//MIDLAND.html">MIDLAND</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//MILAM.html">MILAM</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//MILLS.html">MILLS</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//MITCHELL.html">MITCHELL</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//MONTAGUE.html">MONTAGUE</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//MONTGOMERY.html"
-                    >MONTGOMERY</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//MOORE.html">MOORE</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//MORRIS.html">MORRIS</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//NACOGDOCHES.html"
-                    >NACOGDOCHES</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//NAVARRO.html">NAVARRO</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//NEWTON.html">NEWTON</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//NOLAN.html">NOLAN</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//NUECES.html">NUECES</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//ORANGE.html">ORANGE</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//PALO PINTO.html"
-                    >PALO PINTO</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//PANOLA.html">PANOLA</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//PARKER.html">PARKER</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//PARMER.html">PARMER</a>
-                </li>
-
-                <li><a class="dropdown-item" href="..//POLK.html">POLK</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//POTTER.html">POTTER</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//RANDALL.html">RANDALL</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//REEVES.html">REEVES</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//REFUGIO.html">REFUGIO</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//ROBERTS.html">ROBERTS</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//ROBERTSON.html"
-                    >ROBERTSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//RUNNELS.html">RUNNELS</a>
-                </li>
-
-                <li><a class="dropdown-item" href="..//RUSK.html">RUSK</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//SAN JACINTO.html"
-                    >SAN JACINTO</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//SAN PATRICIO.html"
-                    >SAN PATRICIO</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//SCURRY.html">SCURRY</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//SHELBY.html">SHELBY</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//TARRANT.html">TARRANT</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//TAYLOR.html">TAYLOR</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//TITUS.html">TITUS</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//TRAVIS.html">TRAVIS</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//UPSHUR.html">UPSHUR</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//UVALDE.html">UVALDE</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//VAL VERDE.html"
-                    >VAL VERDE</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//VAN ZANDT.html"
-                    >VAN ZANDT</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//VICTORIA.html">VICTORIA</a>
-                </li>
-
-                <li><a class="dropdown-item" href="..//WARD.html">WARD</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//WASHINGTON.html"
-                    >WASHINGTON</a
-                  >
-                </li>
-
-                <li><a class="dropdown-item" href="..//WEBB.html">WEBB</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//WHARTON.html">WHARTON</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//WICHITA.html">WICHITA</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//WILBARGER.html"
-                    >WILBARGER</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//WILLIAMSON.html"
-                    >WILLIAMSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//WINKLER.html">WINKLER</a>
-                </li>
-
-                <li><a class="dropdown-item" href="..//WISE.html">WISE</a></li>
-
-                <li><a class="dropdown-item" href="..//WOOD.html">WOOD</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//Not Specified.html"
-                    >Not Specified</a
-                  >
-                </li>
-              </ul>
-            </li>
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html">Train Accidents</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Texas Counties
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            
+            <li><a class="dropdown-item" href="..//county-pages/ANDERSON.html">ANDERSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ANGELINA.html">ANGELINA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ATASCOSA.html">ATASCOSA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/AUSTIN.html">AUSTIN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BAILEY.html">BAILEY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BASTROP.html">BASTROP</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BELL.html">BELL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BEXAR.html">BEXAR</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BOSQUE.html">BOSQUE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BOWIE.html">BOWIE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BRAZORIA.html">BRAZORIA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BRAZOS.html">BRAZOS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BREWSTER.html">BREWSTER</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BROWN.html">BROWN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BURLESON.html">BURLESON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BURNET.html">BURNET</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CALDWELL.html">CALDWELL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CAMERON.html">CAMERON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CAMP.html">CAMP</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CARSON.html">CARSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CASS.html">CASS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CHAMBERS.html">CHAMBERS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CHEROKEE.html">CHEROKEE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CHILDRESS.html">CHILDRESS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/COLLIN.html">COLLIN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/COLORADO.html">COLORADO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/COMAL.html">COMAL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/COMANCHE.html">COMANCHE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/COOKE.html">COOKE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CRANE.html">CRANE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CULBERSON.html">CULBERSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/DALLAM.html">DALLAM</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/DALLAS.html">DALLAS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/DEAF SMITH.html">DEAF SMITH</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/DENTON.html">DENTON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/DONLEY.html">DONLEY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/DUVAL.html">DUVAL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/EASTLAND.html">EASTLAND</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ECTOR.html">ECTOR</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/EL PASO.html">EL PASO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ELLIS.html">ELLIS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ERATH.html">ERATH</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/FALLS.html">FALLS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/FAYETTE.html">FAYETTE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/FORT BEND.html">FORT BEND</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/FREESTONE.html">FREESTONE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/FRIO.html">FRIO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/GALVESTON.html">GALVESTON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/GARZA.html">GARZA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/GRAY.html">GRAY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/GRAYSON.html">GRAYSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/GREGG.html">GREGG</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/GRIMES.html">GRIMES</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/GUADALUPE.html">GUADALUPE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HALE.html">HALE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HARDEMAN.html">HARDEMAN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HARDIN.html">HARDIN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HARRIS.html">HARRIS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HARRISON.html">HARRISON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HAYS.html">HAYS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HEMPHILL.html">HEMPHILL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HENDERSON.html">HENDERSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HIDALGO.html">HIDALGO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HILL.html">HILL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HOCKLEY.html">HOCKLEY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HOOD.html">HOOD</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HOUSTON.html">HOUSTON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HOWARD.html">HOWARD</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HUNT.html">HUNT</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HUTCHINSON.html">HUTCHINSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/IRION.html">IRION</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/JACKSON.html">JACKSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/JASPER.html">JASPER</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/JEFF DAVIS.html">JEFF DAVIS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/JEFFERSON.html">JEFFERSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/JIM HOGG.html">JIM HOGG</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/JOHNSON.html">JOHNSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/KAUFMAN.html">KAUFMAN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/KINNEY.html">KINNEY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LA SALLE.html">LA SALLE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LAMAR.html">LAMAR</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LAMB.html">LAMB</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LAVACA.html">LAVACA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LEE.html">LEE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LEON.html">LEON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LIBERTY.html">LIBERTY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LIMESTONE.html">LIMESTONE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LIVE OAK.html">LIVE OAK</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LUBBOCK.html">LUBBOCK</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MARION.html">MARION</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MARTIN.html">MARTIN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MATAGORDA.html">MATAGORDA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MAVERICK.html">MAVERICK</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MCLENNAN.html">MCLENNAN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MEDINA.html">MEDINA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MIDLAND.html">MIDLAND</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MILAM.html">MILAM</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MILLS.html">MILLS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MITCHELL.html">MITCHELL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MONTAGUE.html">MONTAGUE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MONTGOMERY.html">MONTGOMERY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MOORE.html">MOORE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MORRIS.html">MORRIS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/NACOGDOCHES.html">NACOGDOCHES</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/NAVARRO.html">NAVARRO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/NEWTON.html">NEWTON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/NOLAN.html">NOLAN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/NUECES.html">NUECES</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ORANGE.html">ORANGE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/PALO PINTO.html">PALO PINTO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/PANOLA.html">PANOLA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/PARKER.html">PARKER</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/PARMER.html">PARMER</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/POLK.html">POLK</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/POTTER.html">POTTER</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/RANDALL.html">RANDALL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/REEVES.html">REEVES</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/REFUGIO.html">REFUGIO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ROBERTS.html">ROBERTS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ROBERTSON.html">ROBERTSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/RUNNELS.html">RUNNELS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/RUSK.html">RUSK</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/SAN JACINTO.html">SAN JACINTO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/SAN PATRICIO.html">SAN PATRICIO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/SCURRY.html">SCURRY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/SHELBY.html">SHELBY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/TARRANT.html">TARRANT</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/TAYLOR.html">TAYLOR</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/TITUS.html">TITUS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/TRAVIS.html">TRAVIS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/UPSHUR.html">UPSHUR</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/UVALDE.html">UVALDE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/VAL VERDE.html">VAL VERDE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/VAN ZANDT.html">VAN ZANDT</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/VICTORIA.html">VICTORIA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WARD.html">WARD</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WASHINGTON.html">WASHINGTON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WEBB.html">WEBB</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WHARTON.html">WHARTON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WICHITA.html">WICHITA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WILBARGER.html">WILBARGER</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WILLIAMSON.html">WILLIAMSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WINKLER.html">WINKLER</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WISE.html">WISE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WOOD.html">WOOD</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/Not Specified.html">Not Specified</a></li>
+            
           </ul>
-        </div>
-      </div>
-    </nav>
-
-    <h1>HARRIS</h1>
-    <div class="col-md-6">
-      <table class="table table-striped"></table>
+        <li class="nav-item">
+          <a class="nav-link" href="../nationwide-data.html">U.S. Statistics </a>
+        </li>
+      </ul>
     </div>
+  </div>
+</nav>
+
+    
+<div class="container">
+<h1>HARRIS</h1>
+<p>DESCRIPTION HERE</p>
+<div class = "col-md-6 col-lg-8">
+  <table class="table table-striped table-hover table-bordered table-sm">
+      <thead>
+        <tr>
+          
+          <th scope="col">County Name</th>
+          <th scope="col">Accident Date</th>
+          <th scope="col">Accident Number</th>
+          <th scope="col">Accident Type</th>
+          <th scope="col">Equipment Damage($)</th>
+          <th scope="col">Track Damage($)</th>
+          <th scope="col">Desc of Cause</th>
+          <th scope="col"># Injured</th>
+          <th scope="col"># Killed</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-01-08</td>
+              <td>0120HO002</td>
+              <td>Other impacts</td>
+              <td>9459</td>
+              <td>554</td>
+              <td>Shoving movement, man on or at leading end of movement, failure to control</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-01-08</td>
+              <td>0120HO002</td>
+              <td>Other impacts</td>
+              <td>228792</td>
+              <td>0</td>
+              <td>Shoving movement, man on or at leading end of movement, failure to control</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-01-25</td>
+              <td>0120HO024</td>
+              <td>Other impacts</td>
+              <td>21272</td>
+              <td>0</td>
+              <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-01-25</td>
+              <td>0120HO024</td>
+              <td>Other impacts</td>
+              <td>93750</td>
+              <td>132</td>
+              <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-02-08</td>
+              <td>0220HO008</td>
+              <td>Derailment</td>
+              <td>8079</td>
+              <td>77</td>
+              <td>Objects such as lading chains or straps fouling switches</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-02-09</td>
+              <td>0220HO011</td>
+              <td>Derailment</td>
+              <td>13181</td>
+              <td>120</td>
+              <td>Interaction of lateral/vertical forces (includes harmonic rock off)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-02-10</td>
+              <td>0220HO014</td>
+              <td>Derailment</td>
+              <td>2124</td>
+              <td>10</td>
+              <td>Wide gage (due to defective or missing crossties)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-02-17</td>
+              <td>2020000003</td>
+              <td>Derailment</td>
+              <td>40000</td>
+              <td>150</td>
+              <td>Switch improperly lined</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-02-17</td>
+              <td>0220HO019</td>
+              <td>Derailment</td>
+              <td>5266</td>
+              <td>74</td>
+              <td>Radio controlled switch not locked effectively</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-02-29</td>
+              <td>RD0220131</td>
+              <td>Side collision</td>
+              <td>22895</td>
+              <td>650</td>
+              <td>Shoving movement, absence of man on or at leading end of movement</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-02-29</td>
+              <td>RD0220131</td>
+              <td>Side collision</td>
+              <td>37405</td>
+              <td>0</td>
+              <td>Shoving movement, absence of man on or at leading end of movement</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-03-14</td>
+              <td>0320HO011</td>
+              <td>Other impacts</td>
+              <td>44044</td>
+              <td>0</td>
+              <td>Classification yard automatic control system retarder failure</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-03-14</td>
+              <td>0320HO011</td>
+              <td>Other impacts</td>
+              <td>170597</td>
+              <td>1464</td>
+              <td>Classification yard automatic control system retarder failure</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-03-18</td>
+              <td>RD0320120</td>
+              <td>Derailment</td>
+              <td>24064</td>
+              <td>950</td>
+              <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-03-21</td>
+              <td>0320HO025</td>
+              <td>Derailment</td>
+              <td>396106</td>
+              <td>1490</td>
+              <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-03-22</td>
+              <td>0320HO026</td>
+              <td>Other impacts</td>
+              <td>113</td>
+              <td>0</td>
+              <td>Other miscellaneous causes (Provide detailed description in narrative)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-03-22</td>
+              <td>0320HO026</td>
+              <td>Other impacts</td>
+              <td>35780</td>
+              <td>792</td>
+              <td>Other miscellaneous causes (Provide detailed description in narrative)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-04-05</td>
+              <td>0420HO005</td>
+              <td>Other impacts</td>
+              <td>1289</td>
+              <td>0</td>
+              <td>Snow, ice, mud, gravel, coal, sand, etc. on track</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-04-05</td>
+              <td>0420HO005</td>
+              <td>Other impacts</td>
+              <td>11081</td>
+              <td>198</td>
+              <td>Snow, ice, mud, gravel, coal, sand, etc. on track</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-04-08</td>
+              <td>0420HO006</td>
+              <td>Other impacts</td>
+              <td>250</td>
+              <td>6</td>
+              <td>Passed couplers (other than automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-04-08</td>
+              <td>0420HO006</td>
+              <td>Other impacts</td>
+              <td>44019</td>
+              <td>0</td>
+              <td>Passed couplers (other than automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-04-10</td>
+              <td>0420HO012</td>
+              <td>Derailment</td>
+              <td>133573</td>
+              <td>3007</td>
+              <td>Cross level of track irregular (at joints)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-04-22</td>
+              <td>RD0420111</td>
+              <td>Derailment</td>
+              <td>8500</td>
+              <td>12</td>
+              <td>Shoving movement, man on or at leading end of movement, failure to control</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-04-30</td>
+              <td>2020000007</td>
+              <td>Derailment</td>
+              <td>4000</td>
+              <td>21</td>
+              <td>Independent (engine) brake, improper use (except actuation) (H023)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-05-06</td>
+              <td>0520HO003</td>
+              <td>Derailment</td>
+              <td>800</td>
+              <td>0</td>
+              <td>.Broken Rail - Base</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-05-06</td>
+              <td>2020000009</td>
+              <td>Derailment</td>
+              <td>7800</td>
+              <td>65</td>
+              <td>Truck bolster stiff, improper swiveling</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-05-22</td>
+              <td>0520HO016</td>
+              <td>Raking collision</td>
+              <td>100</td>
+              <td>0</td>
+              <td>Improper operation of train line air connections  (bottling the air)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-05-22</td>
+              <td>0520HO016</td>
+              <td>Raking collision</td>
+              <td>194564</td>
+              <td>4993</td>
+              <td>Improper operation of train line air connections  (bottling the air)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-05-22</td>
+              <td>0520ME020</td>
+              <td>Fire/violent rupture</td>
+              <td>38520</td>
+              <td>0</td>
+              <td>Oil or fuel fire (LOCOMOTIVE)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-05-25</td>
+              <td>0520HO020</td>
+              <td>Derailment</td>
+              <td>24030</td>
+              <td>496</td>
+              <td>Snow, ice, mud, gravel, coal, sand, etc. on track</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-05-27</td>
+              <td>0520HO024</td>
+              <td>Derailment</td>
+              <td>15915</td>
+              <td>414</td>
+              <td>Defective or missing crossties (use code T110 if results in wide gage)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-06-03</td>
+              <td>0620HO003</td>
+              <td>Other impacts</td>
+              <td>309</td>
+              <td>0</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-06-03</td>
+              <td>0620HO003</td>
+              <td>Other impacts</td>
+              <td>14290</td>
+              <td>396</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-06-15</td>
+              <td>RD0620113</td>
+              <td>Derailment</td>
+              <td>20678</td>
+              <td>700</td>
+              <td>Buffing or slack action excessive, train handling</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-06-19</td>
+              <td>0620HO019</td>
+              <td>Other impacts</td>
+              <td>18763</td>
+              <td>0</td>
+              <td>Classification yard automatic control system retarder failure</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-06-19</td>
+              <td>0620HO019</td>
+              <td>Other impacts</td>
+              <td>36985</td>
+              <td>0</td>
+              <td>Classification yard automatic control system retarder failure</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-06-25</td>
+              <td>0620ES060</td>
+              <td>Obstruction</td>
+              <td>14424</td>
+              <td>0</td>
+              <td>Human Factor - track</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-07-06</td>
+              <td>RD0720103</td>
+              <td>Derailment</td>
+              <td>43200</td>
+              <td>0</td>
+              <td>Snow, ice, mud, gravel, coal, sand, etc. on track</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-07-12</td>
+              <td>0720HO009</td>
+              <td>Other impacts</td>
+              <td>11228</td>
+              <td>132</td>
+              <td>Classification yard automatic control system - Inadequate or insufficient control  (e.g., automatic cycling, other software / programming deficiencies, etc.)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-07-12</td>
+              <td>0720HO009</td>
+              <td>Other impacts</td>
+              <td>28268</td>
+              <td>0</td>
+              <td>Classification yard automatic control system - Inadequate or insufficient control  (e.g., automatic cycling, other software / programming deficiencies, etc.)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-08-04</td>
+              <td>0820HO001</td>
+              <td>Derailment</td>
+              <td>15962</td>
+              <td>132</td>
+              <td>Kicking or dropping cars, inadequate precautions</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-08-04</td>
+              <td>0820HO002</td>
+              <td>Derailment</td>
+              <td>272242</td>
+              <td>6441</td>
+              <td>Wide gage (due to defective or missing spikes or other rail fasteners)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-08-05</td>
+              <td>0820HO003</td>
+              <td>Derailment</td>
+              <td>7143</td>
+              <td>14</td>
+              <td>Snow, ice, mud, gravel, coal, sand, etc. on track</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-08-07</td>
+              <td>0820HO006</td>
+              <td>Derailment</td>
+              <td>31279</td>
+              <td>345</td>
+              <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-08-16</td>
+              <td>0820SX011</td>
+              <td>Other impacts</td>
+              <td>34387</td>
+              <td>0</td>
+              <td>Cars left foul</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-08-16</td>
+              <td>0820SX011</td>
+              <td>Other impacts</td>
+              <td>49203</td>
+              <td>279</td>
+              <td>Cars left foul</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-09-02</td>
+              <td>2020000016</td>
+              <td>Derailment</td>
+              <td>2000</td>
+              <td>20</td>
+              <td>Shoving movement, man on or at leading end of movement, failure to control</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-09-11</td>
+              <td>2020000019</td>
+              <td>Raking collision</td>
+              <td>4000</td>
+              <td>0</td>
+              <td>Failure to properly secure hand brake on car(s) (railroad  employee)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-09-11</td>
+              <td>2020000019</td>
+              <td>Raking collision</td>
+              <td>35000</td>
+              <td>0</td>
+              <td>Failure to properly secure hand brake on car(s) (railroad  employee)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-09-18</td>
+              <td>0920HO023</td>
+              <td>Derailment</td>
+              <td>9470</td>
+              <td>16</td>
+              <td>Guard rail loose/broken or mislocated</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-09-22</td>
+              <td>0920HO028</td>
+              <td>Derailment</td>
+              <td>3138</td>
+              <td>0</td>
+              <td>.Broken Rail - Base</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-09-22</td>
+              <td>0920HO028</td>
+              <td>Derailment</td>
+              <td>21182</td>
+              <td>145</td>
+              <td>.Broken Rail - Base</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-09-25</td>
+              <td>0920HO032</td>
+              <td>Derailment</td>
+              <td>203177</td>
+              <td>1132</td>
+              <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-10-05</td>
+              <td>2020000020</td>
+              <td>Other impacts</td>
+              <td>10000</td>
+              <td>300</td>
+              <td>Kicking or dropping cars, inadequate precautions</td>
+              <td>1</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-10-06</td>
+              <td>1020HO003</td>
+              <td>Derailment</td>
+              <td>99146</td>
+              <td>564</td>
+              <td>Other wheel defects (CAR) (Provide detailed description in  narrative)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-10-22</td>
+              <td>1020HO017</td>
+              <td>Derailment</td>
+              <td>33892</td>
+              <td>584</td>
+              <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-10-27</td>
+              <td>1020SX031</td>
+              <td>Derailment</td>
+              <td>55036</td>
+              <td>253</td>
+              <td>Switch (hand operated) stand mechanism broken, loose, or worn</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-11-08</td>
+              <td>201108003</td>
+              <td>Other impacts</td>
+              <td>12000</td>
+              <td>0</td>
+              <td>Switch improperly lined</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-11-14</td>
+              <td>RD1120110</td>
+              <td>Derailment</td>
+              <td>91015</td>
+              <td>226</td>
+              <td>Worn flange</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-11-18</td>
+              <td>1120HO015</td>
+              <td>Derailment</td>
+              <td>335446</td>
+              <td>1410</td>
+              <td>Buffing or slack action excessive, train handling</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-11-23</td>
+              <td>1120HO019</td>
+              <td>Derailment</td>
+              <td>84136</td>
+              <td>278</td>
+              <td>Other brake defects, cars (Provide detailed description in  narrative)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-11-24</td>
+              <td>1120HO024</td>
+              <td>Other impacts</td>
+              <td>9871</td>
+              <td>17</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-11-24</td>
+              <td>1120HO024</td>
+              <td>Other impacts</td>
+              <td>15085</td>
+              <td>0</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-11-25</td>
+              <td>1120HO028</td>
+              <td>Hwy-rail crossing</td>
+              <td>0</td>
+              <td>NA</td>
+              <td>Highway user cited for violation of highway-rail grade crossing traffic laws</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-11-25</td>
+              <td>165904</td>
+              <td>Hwy-rail crossing</td>
+              <td>20127</td>
+              <td>0</td>
+              <td>Highway user cited for violation of highway-rail grade crossing traffic laws</td>
+              <td>1</td>
+              <td>1</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-12-07</td>
+              <td>1220HO004</td>
+              <td>Other impacts</td>
+              <td>5194</td>
+              <td>0</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-12-07</td>
+              <td>1220HO004</td>
+              <td>Other impacts</td>
+              <td>51305</td>
+              <td>216</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-12-21</td>
+              <td>1220HO015</td>
+              <td>Derailment</td>
+              <td>3323</td>
+              <td>10</td>
+              <td>Classification yard automatic control system retarder failure</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2020-12-22</td>
+              <td>1220HO017</td>
+              <td>Derailment</td>
+              <td>10363</td>
+              <td>890</td>
+              <td>Defective or missing crossties (use code T110 if results in wide gage)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-01-06</td>
+              <td>0121HO004</td>
+              <td>Other impacts</td>
+              <td>1308</td>
+              <td>0</td>
+              <td>Classification yard automatic control system retarder failure</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-01-06</td>
+              <td>0121HO004</td>
+              <td>Other impacts</td>
+              <td>88816</td>
+              <td>306</td>
+              <td>Classification yard automatic control system retarder failure</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-01-15</td>
+              <td>0121HO020</td>
+              <td>Obstruction</td>
+              <td>871</td>
+              <td>50</td>
+              <td>Objects such as lading chains or straps fouling switches</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-01-23</td>
+              <td>210123005</td>
+              <td>Derailment</td>
+              <td>372436</td>
+              <td>1731</td>
+              <td>Broken Rail - Vertical split head</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-01-31</td>
+              <td>0121HO036</td>
+              <td>Other impacts</td>
+              <td>45904</td>
+              <td>282</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-01-31</td>
+              <td>0121HO036</td>
+              <td>Other impacts</td>
+              <td>48821</td>
+              <td>0</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-02-05</td>
+              <td>0221HO005</td>
+              <td>Derailment</td>
+              <td>285130</td>
+              <td>1584</td>
+              <td>Shoving movement, absence of man on or at leading end of movement</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-02-07</td>
+              <td>2021000003</td>
+              <td>Other (describe in narrative)</td>
+              <td>0</td>
+              <td>NA</td>
+              <td>Switch improperly lined</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-02-11</td>
+              <td>0221HO017</td>
+              <td>Other impacts</td>
+              <td>18263</td>
+              <td>428</td>
+              <td>Classification yard automatic control system retarder failure</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-02-11</td>
+              <td>0221HO017</td>
+              <td>Other impacts</td>
+              <td>52159</td>
+              <td>0</td>
+              <td>Classification yard automatic control system retarder failure</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-02-12</td>
+              <td>0221HO021</td>
+              <td>Derailment</td>
+              <td>7644</td>
+              <td>0</td>
+              <td>Broken Rail - Detail fracture from shelling or head check</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-02-12</td>
+              <td>0221HO021</td>
+              <td>Derailment</td>
+              <td>107626</td>
+              <td>1280</td>
+              <td>Broken Rail - Detail fracture from shelling or head check</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-03-05</td>
+              <td>RD0321102</td>
+              <td>Derailment</td>
+              <td>600</td>
+              <td>15</td>
+              <td>Track alignment irregular (other than buckled/sunkink)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-03-08</td>
+              <td>0321HO011</td>
+              <td>Other impacts</td>
+              <td>7316</td>
+              <td>0</td>
+              <td>Switching movement, excessive speed</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-03-08</td>
+              <td>0321HO011</td>
+              <td>Other impacts</td>
+              <td>7779</td>
+              <td>10</td>
+              <td>Switching movement, excessive speed</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-03-12</td>
+              <td>0321HO024</td>
+              <td>Other (describe in narrative)</td>
+              <td>0</td>
+              <td>NA</td>
+              <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-03-12</td>
+              <td>2021000004</td>
+              <td>Other (describe in narrative)</td>
+              <td>0</td>
+              <td>NA</td>
+              <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-03-24</td>
+              <td>0321HO028</td>
+              <td>Other impacts</td>
+              <td>22513</td>
+              <td>99</td>
+              <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-03-24</td>
+              <td>0321HO028</td>
+              <td>Other impacts</td>
+              <td>46963</td>
+              <td>0</td>
+              <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-04-14</td>
+              <td>0421HO013</td>
+              <td>Derailment</td>
+              <td>0</td>
+              <td>NA</td>
+              <td>Failure to allow air brakes to fully release before proceeding (H005)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-04-14</td>
+              <td>RD0421105</td>
+              <td>Derailment</td>
+              <td>81534</td>
+              <td>420</td>
+              <td>Failure to allow air brakes to fully release before proceeding (H005)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-04-15</td>
+              <td>0421HO014</td>
+              <td>Derailment</td>
+              <td>298704</td>
+              <td>3173</td>
+              <td>Broken Rail - Detail fracture from shelling or head check</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-04-19</td>
+              <td>0421HO017</td>
+              <td>Derailment</td>
+              <td>110403</td>
+              <td>2530</td>
+              <td>Emergency brake application to avoid accident</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-04-25</td>
+              <td>0421HO024</td>
+              <td>Derailment</td>
+              <td>120</td>
+              <td>40</td>
+              <td>Other body defects, (CAR) (Provide detailed description in  narrative)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-05-15</td>
+              <td>2021000010</td>
+              <td>Side collision</td>
+              <td>45000</td>
+              <td>105</td>
+              <td>Shoving movement, man on or at leading end of movement, failure to control</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-05-15</td>
+              <td>RD0521115</td>
+              <td>Side collision</td>
+              <td>33750</td>
+              <td>0</td>
+              <td>Shoving movement, man on or at leading end of movement, failure to control</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-06-04</td>
+              <td>0621HO004</td>
+              <td>Other impacts</td>
+              <td>29475</td>
+              <td>656</td>
+              <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-06-04</td>
+              <td>0621HO004</td>
+              <td>Other impacts</td>
+              <td>56219</td>
+              <td>0</td>
+              <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-06-06</td>
+              <td>2021000013</td>
+              <td>Derailment</td>
+              <td>300</td>
+              <td>16</td>
+              <td>Wide gage (due to defective or missing crossties)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-06-07</td>
+              <td>0621HO008</td>
+              <td>Derailment</td>
+              <td>28928</td>
+              <td>144</td>
+              <td>Switch previously run through</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-06-13</td>
+              <td>0621HO010</td>
+              <td>Hwy-rail crossing</td>
+              <td>0</td>
+              <td>NA</td>
+              <td>Highway user deliberately disregarded crossing warning devices</td>
+              <td>1</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-06-26</td>
+              <td>2021000015</td>
+              <td>Other (describe in narrative)</td>
+              <td>0</td>
+              <td>NA</td>
+              <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-06-26</td>
+              <td>RD0621126</td>
+              <td>Other (describe in narrative)</td>
+              <td>0</td>
+              <td>NA</td>
+              <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-07-08</td>
+              <td>0721HO005</td>
+              <td>Derailment</td>
+              <td>18995</td>
+              <td>472</td>
+              <td>Other coupler and draft system defects, (CAR) (Provide detailed description in narrative)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-07-16</td>
+              <td>0721HO015</td>
+              <td>Derailment</td>
+              <td>17308</td>
+              <td>359</td>
+              <td>Rigging down or dragging</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-08-07</td>
+              <td>0821HO007</td>
+              <td>Hwy-rail crossing</td>
+              <td>120</td>
+              <td>18</td>
+              <td>Highway user deliberately disregarded crossing warning devices</td>
+              <td>3</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-08-09</td>
+              <td>0821HO009</td>
+              <td>Derailment</td>
+              <td>6717</td>
+              <td>14</td>
+              <td>Side bearing clearance insufficient</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-08-10</td>
+              <td>0821HO015</td>
+              <td>Derailment</td>
+              <td>0</td>
+              <td>NA</td>
+              <td>Cross level of track irregular (not at joints)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-08-10</td>
+              <td>21081001</td>
+              <td>Derailment</td>
+              <td>224175</td>
+              <td>0</td>
+              <td>Cross level of track irregular (not at joints)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-08-30</td>
+              <td>0821HO040</td>
+              <td>Derailment</td>
+              <td>385647</td>
+              <td>2805</td>
+              <td>Buffing or slack action excessive, train handling</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-09-04</td>
+              <td>0921HO004</td>
+              <td>Other impacts</td>
+              <td>7130</td>
+              <td>200</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-09-04</td>
+              <td>0921HO004</td>
+              <td>Other impacts</td>
+              <td>12454</td>
+              <td>0</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-09-07</td>
+              <td>0921HO007</td>
+              <td>Other impacts</td>
+              <td>4273</td>
+              <td>0</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-09-07</td>
+              <td>0921HO007</td>
+              <td>Other impacts</td>
+              <td>20124</td>
+              <td>0</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-09-08</td>
+              <td>0921HO013</td>
+              <td>Hwy-rail crossing</td>
+              <td>0</td>
+              <td>NA</td>
+              <td>Highway user inattentiveness</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-09-08</td>
+              <td>21090802</td>
+              <td>Hwy-rail crossing</td>
+              <td>16626</td>
+              <td>0</td>
+              <td>Highway user inattentiveness</td>
+              <td>0</td>
+              <td>1</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-10-02</td>
+              <td>RD1021102</td>
+              <td>Derailment</td>
+              <td>78310</td>
+              <td>300</td>
+              <td>Defective or missing crossties (use code T110 if results in wide gage)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-10-24</td>
+              <td>1021HO021</td>
+              <td>Other impacts</td>
+              <td>4271</td>
+              <td>0</td>
+              <td>Shoving movement, absence of man on or at leading end of movement</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-10-24</td>
+              <td>1021HO021</td>
+              <td>Other impacts</td>
+              <td>342224</td>
+              <td>3520</td>
+              <td>Shoving movement, absence of man on or at leading end of movement</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-10-28</td>
+              <td>1021HO025</td>
+              <td>Other impacts</td>
+              <td>274</td>
+              <td>30</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-10-28</td>
+              <td>1021HO025</td>
+              <td>Other impacts</td>
+              <td>351</td>
+              <td>0</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-10-31</td>
+              <td>1021HO026</td>
+              <td>Derailment</td>
+              <td>61578</td>
+              <td>701</td>
+              <td>Switch previously run through</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-10-31</td>
+              <td>1021HO027</td>
+              <td>Derailment</td>
+              <td>19</td>
+              <td>0</td>
+              <td>Guard rail loose/broken or mislocated</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-10-31</td>
+              <td>1021HO027</td>
+              <td>Derailment</td>
+              <td>13460</td>
+              <td>200</td>
+              <td>Guard rail loose/broken or mislocated</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-11-04</td>
+              <td>1121HO003</td>
+              <td>Other impacts</td>
+              <td>22823</td>
+              <td>0</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-11-04</td>
+              <td>1121HO003</td>
+              <td>Other impacts</td>
+              <td>45588</td>
+              <td>0</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-11-04</td>
+              <td>1121HO004</td>
+              <td>Derailment</td>
+              <td>1915</td>
+              <td>15</td>
+              <td>Wide gage (due to defective or missing crossties)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-11-07</td>
+              <td>1121HO010</td>
+              <td>Other (describe in narrative)</td>
+              <td>40381</td>
+              <td>0</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-11-13</td>
+              <td>1121HO019</td>
+              <td>Hwy-rail crossing</td>
+              <td>0</td>
+              <td>NA</td>
+              <td>Highway user cited for violation of highway-rail grade crossing traffic laws</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-11-17</td>
+              <td>RD1121110</td>
+              <td>Derailment</td>
+              <td>15000</td>
+              <td>120</td>
+              <td>Derail, failure to apply or remove</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-11-18</td>
+              <td>1121HO020</td>
+              <td>Derailment</td>
+              <td>8049</td>
+              <td>35</td>
+              <td>Wide gage (due to defective or missing crossties)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-11-25</td>
+              <td>1121HO027</td>
+              <td>Derailment</td>
+              <td>6414</td>
+              <td>66</td>
+              <td>Other coupler and draft system defects, (CAR) (Provide detailed description in narrative)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-12-02</td>
+              <td>211202001</td>
+              <td>Hwy-rail crossing</td>
+              <td>40000</td>
+              <td>0</td>
+              <td>Highway user deliberately disregarded crossing warning devices</td>
+              <td>1</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-12-08</td>
+              <td>1221HO004</td>
+              <td>Derailment</td>
+              <td>0</td>
+              <td>NA</td>
+              <td>Buffing or slack action excessive, train handling</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-12-08</td>
+              <td>RD1221107</td>
+              <td>Derailment</td>
+              <td>19043</td>
+              <td>0</td>
+              <td>Buffing or slack action excessive, train handling</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-12-12</td>
+              <td>1221HO012</td>
+              <td>Derailment</td>
+              <td>168654</td>
+              <td>3154</td>
+              <td>Broken Rail - Detail fracture from shelling or head check</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2021-12-13</td>
+              <td>1221HO017</td>
+              <td>Other (describe in narrative)</td>
+              <td>29373</td>
+              <td>0</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-01-18</td>
+              <td>0122HO021</td>
+              <td>Other impacts</td>
+              <td>11386</td>
+              <td>898</td>
+              <td>Classification yard automatic control system retarder failure</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-01-18</td>
+              <td>0122HO021</td>
+              <td>Other impacts</td>
+              <td>18113</td>
+              <td>0</td>
+              <td>Classification yard automatic control system retarder failure</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-01-24</td>
+              <td>RD0122126</td>
+              <td>Other impacts</td>
+              <td>55904</td>
+              <td>0</td>
+              <td>Kicking or dropping cars, inadequate precautions</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-01-27</td>
+              <td>0122HO026</td>
+              <td>Other impacts</td>
+              <td>8276</td>
+              <td>0</td>
+              <td>Object or equipment on or fouling track - other than above (for  vandalism, see code M503)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-01-27</td>
+              <td>0122HO026</td>
+              <td>Other impacts</td>
+              <td>11875</td>
+              <td>198</td>
+              <td>Object or equipment on or fouling track - other than above (for  vandalism, see code M503)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-01-31</td>
+              <td>RD0122135</td>
+              <td>Derailment</td>
+              <td>68161</td>
+              <td>0</td>
+              <td>Buffing or slack action excessive, train handling</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-02-22</td>
+              <td>0222HO030</td>
+              <td>Other impacts</td>
+              <td>5268</td>
+              <td>0</td>
+              <td>Cars left foul</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-02-22</td>
+              <td>0222HO030</td>
+              <td>Other impacts</td>
+              <td>71392</td>
+              <td>132</td>
+              <td>Cars left foul</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-02-26</td>
+              <td>0222HO035</td>
+              <td>Derailment</td>
+              <td>51324</td>
+              <td>831</td>
+              <td>Broken Rail - Detail fracture from shelling or head check</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-03-01</td>
+              <td>0322HO001</td>
+              <td>Other impacts</td>
+              <td>11633</td>
+              <td>419</td>
+              <td>Shoving movement, absence of man on or at leading end of movement</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-03-01</td>
+              <td>2022000010</td>
+              <td>Other impacts</td>
+              <td>15500</td>
+              <td>0</td>
+              <td>Shoving movement, absence of man on or at leading end of movement</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-03-02</td>
+              <td>2022000011</td>
+              <td>Derailment</td>
+              <td>115000</td>
+              <td>2500</td>
+              <td>Derail, failure to apply or remove</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-03-02</td>
+              <td>0322HO002</td>
+              <td>Derailment</td>
+              <td>2242</td>
+              <td>16</td>
+              <td>Switch improperly lined</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-03-14</td>
+              <td>0322HO020</td>
+              <td>Other impacts</td>
+              <td>6381</td>
+              <td>0</td>
+              <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-03-14</td>
+              <td>0322HO020</td>
+              <td>Other impacts</td>
+              <td>33244</td>
+              <td>100</td>
+              <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-03-15</td>
+              <td>0322HO021</td>
+              <td>Derailment</td>
+              <td>80696</td>
+              <td>50</td>
+              <td>Other body defects, (CAR) (Provide detailed description in  narrative)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-03-19</td>
+              <td>RD0322118</td>
+              <td>Derailment</td>
+              <td>201823</td>
+              <td>8265</td>
+              <td>Vandalism of track or track appliances, e.g., objects  placed on track, switch thrown, etc.</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-04-16</td>
+              <td>0422HO011</td>
+              <td>Other impacts</td>
+              <td>33148</td>
+              <td>0</td>
+              <td>Kicking or dropping cars, inadequate precautions</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-04-16</td>
+              <td>0422HO011</td>
+              <td>Other impacts</td>
+              <td>132268</td>
+              <td>200</td>
+              <td>Kicking or dropping cars, inadequate precautions</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-04-20</td>
+              <td>0422HO013</td>
+              <td>Hwy-rail crossing</td>
+              <td>10429</td>
+              <td>289</td>
+              <td>Highway user cited for violation of highway-rail grade crossing traffic laws</td>
+              <td>2</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-04-28</td>
+              <td>0422HO028</td>
+              <td>Derailment</td>
+              <td>24119</td>
+              <td>377</td>
+              <td>Other communication equipment failure</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-05-18</td>
+              <td>RD0522120</td>
+              <td>Derailment</td>
+              <td>5400</td>
+              <td>82</td>
+              <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-05-21</td>
+              <td>0522HO024</td>
+              <td>Hwy-rail crossing</td>
+              <td>5753</td>
+              <td>11</td>
+              <td>Highway user cited for violation of highway-rail grade crossing traffic laws</td>
+              <td>2</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-05-23</td>
+              <td>0522HO027</td>
+              <td>Derailment</td>
+              <td>42540</td>
+              <td>129</td>
+              <td>Instruction to train/yard crew improper</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-06-09</td>
+              <td>0622HO012</td>
+              <td>Derailment</td>
+              <td>166590</td>
+              <td>8650</td>
+              <td>Derail, failure to apply or remove</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-06-12</td>
+              <td>RD0622111</td>
+              <td>Derailment</td>
+              <td>72406</td>
+              <td>700</td>
+              <td>Worn flange</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-06-13</td>
+              <td>2022000027</td>
+              <td>Hwy-rail crossing</td>
+              <td>17076</td>
+              <td>0</td>
+              <td>Highway user inattentiveness</td>
+              <td>2</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-06-22</td>
+              <td>2022000028</td>
+              <td>Side collision</td>
+              <td>17076</td>
+              <td>0</td>
+              <td>Highway user inattentiveness</td>
+              <td>2</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-06-22</td>
+              <td>2022000028</td>
+              <td>Raking collision</td>
+              <td>50000</td>
+              <td>0</td>
+              <td>Failure to stop train in clear</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-06-27</td>
+              <td>0622HO026</td>
+              <td>Derailment</td>
+              <td>83711</td>
+              <td>110</td>
+              <td>Broken Rail - Detail fracture from shelling or head check</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-07-01</td>
+              <td>0722HO001</td>
+              <td>Derailment</td>
+              <td>72910</td>
+              <td>718</td>
+              <td>Brake valve malfunction (undesired emergency)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-07-02</td>
+              <td>0722HO002</td>
+              <td>Derailment</td>
+              <td>93303</td>
+              <td>119</td>
+              <td>.Broken Rail - Base</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-07-17</td>
+              <td>0722HO010</td>
+              <td>Other impacts</td>
+              <td>318</td>
+              <td>0</td>
+              <td>Shoving movement, man on or at leading end of movement, failure to control</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-07-17</td>
+              <td>2022000035</td>
+              <td>Side collision</td>
+              <td>48000</td>
+              <td>450</td>
+              <td>Shoving movement, man on or at leading end of movement, failure to control</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-07-18</td>
+              <td>0722HO014</td>
+              <td>Derailment</td>
+              <td>51980</td>
+              <td>216</td>
+              <td>Object or equipment on or fouling track - other than above (for  vandalism, see code M503)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-07-18</td>
+              <td>0722HO014</td>
+              <td>Derailment</td>
+              <td>52771</td>
+              <td>0</td>
+              <td>Object or equipment on or fouling track - other than above (for  vandalism, see code M503)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-07-30</td>
+              <td>RD0722128</td>
+              <td>Derailment</td>
+              <td>149804</td>
+              <td>3000</td>
+              <td>Shoving movement, man on or at leading end of movement, failure to control</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-07-31</td>
+              <td>220731001</td>
+              <td>Derailment</td>
+              <td>38500</td>
+              <td>125</td>
+              <td>Broken Rail - Head and web separation (outside joint bar limits)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-08-02</td>
+              <td>0822HO003</td>
+              <td>Derailment</td>
+              <td>136731</td>
+              <td>2706</td>
+              <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-08-06</td>
+              <td>0822HO008</td>
+              <td>Other impacts</td>
+              <td>0</td>
+              <td>NA</td>
+              <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-08-06</td>
+              <td>0822HO008</td>
+              <td>Other impacts</td>
+              <td>25873</td>
+              <td>66</td>
+              <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-08-12</td>
+              <td>0822HO017</td>
+              <td>Derailment</td>
+              <td>41435</td>
+              <td>333</td>
+              <td>Human Factor - track</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-08-28</td>
+              <td>0822HO038</td>
+              <td>Derailment</td>
+              <td>1641</td>
+              <td>12</td>
+              <td>Radio controlled switch not locked effectively</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-09-11</td>
+              <td>0922HO011</td>
+              <td>Derailment</td>
+              <td>130391</td>
+              <td>3874</td>
+              <td>Yard skate slid and failed to stop cars</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-09-14</td>
+              <td>0922HO021</td>
+              <td>Other impacts</td>
+              <td>27894</td>
+              <td>0</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-09-17</td>
+              <td>0922HO020</td>
+              <td>Other impacts</td>
+              <td>4806</td>
+              <td>31</td>
+              <td>Yard skate slid and failed to stop cars</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-09-17</td>
+              <td>0922HO020</td>
+              <td>Other impacts</td>
+              <td>25681</td>
+              <td>0</td>
+              <td>Yard skate slid and failed to stop cars</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-10-04</td>
+              <td>1022HO003</td>
+              <td>Derailment</td>
+              <td>145874</td>
+              <td>1608</td>
+              <td>Switch improperly lined</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-10-10</td>
+              <td>2022000048</td>
+              <td>Side collision</td>
+              <td>13100</td>
+              <td>0</td>
+              <td>Cars left foul</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-10-20</td>
+              <td>1022HO018</td>
+              <td>Derailment</td>
+              <td>289213</td>
+              <td>200</td>
+              <td>Failure to allow air brakes to fully release before proceeding (H005)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-10-24</td>
+              <td>1022HO022</td>
+              <td>Derailment</td>
+              <td>14247</td>
+              <td>198</td>
+              <td>Other coupler and draft system defects, (CAR) (Provide detailed description in narrative)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-11-08</td>
+              <td>1122HO004</td>
+              <td>Derailment</td>
+              <td>32691</td>
+              <td>155</td>
+              <td>Switch previously run through</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-11-11</td>
+              <td>1122HO007</td>
+              <td>Other impacts</td>
+              <td>12332</td>
+              <td>200</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-11-11</td>
+              <td>1122HO007</td>
+              <td>Other impacts</td>
+              <td>37056</td>
+              <td>0</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-11-13</td>
+              <td>1122HO013</td>
+              <td>Other impacts</td>
+              <td>25314</td>
+              <td>0</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-11-13</td>
+              <td>1122HO013</td>
+              <td>Other impacts</td>
+              <td>35860</td>
+              <td>200</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-11-17</td>
+              <td>RD1122120</td>
+              <td>Derailment</td>
+              <td>22000</td>
+              <td>250</td>
+              <td>Shoving movement, man on or at leading end of movement, failure to control</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-11-18</td>
+              <td>1122HO020</td>
+              <td>Other impacts</td>
+              <td>4197</td>
+              <td>0</td>
+              <td>Kicking or dropping cars, inadequate precautions</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-11-18</td>
+              <td>1122HO020</td>
+              <td>Other impacts</td>
+              <td>35927</td>
+              <td>0</td>
+              <td>Kicking or dropping cars, inadequate precautions</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-11-19</td>
+              <td>PTRA00003F</td>
+              <td>Raking collision</td>
+              <td>30000</td>
+              <td>100</td>
+              <td>Failure to apply hand brakes on car(s) (railroad employee)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-11-19</td>
+              <td>PTRA00003F</td>
+              <td>Raking collision</td>
+              <td>58200</td>
+              <td>250</td>
+              <td>Failure to apply hand brakes on car(s) (railroad employee)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-12-02</td>
+              <td>1222HO002</td>
+              <td>Derailment</td>
+              <td>1990</td>
+              <td>23</td>
+              <td>Worn flange</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-12-03</td>
+              <td>1222HO003</td>
+              <td>Derailment</td>
+              <td>35541</td>
+              <td>236</td>
+              <td>Failure to allow air brakes to fully release before proceeding (H005)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-12-12</td>
+              <td>1222HO011</td>
+              <td>Derailment</td>
+              <td>7883</td>
+              <td>38</td>
+              <td>Switch improperly lined</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-12-14</td>
+              <td>1222HO017</td>
+              <td>Other (describe in narrative)</td>
+              <td>13290</td>
+              <td>0</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-12-16</td>
+              <td>1222HO022</td>
+              <td>Other impacts</td>
+              <td>24607</td>
+              <td>0</td>
+              <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-12-16</td>
+              <td>1222HO022</td>
+              <td>Other impacts</td>
+              <td>27206</td>
+              <td>0</td>
+              <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-12-16</td>
+              <td>1222HO022</td>
+              <td>Other impacts</td>
+              <td>78457</td>
+              <td>0</td>
+              <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-12-24</td>
+              <td>1222HO030</td>
+              <td>Derailment</td>
+              <td>550</td>
+              <td>12</td>
+              <td>Classification yard automatic control system switch failure</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-12-26</td>
+              <td>1222HO029</td>
+              <td>Derailment</td>
+              <td>15748</td>
+              <td>0</td>
+              <td>Switch improperly lined, radio controlled</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-12-29</td>
+              <td>1222HO040</td>
+              <td>Other impacts</td>
+              <td>0</td>
+              <td>NA</td>
+              <td>Other body defects, (CAR) (Provide detailed description in  narrative)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2022-12-29</td>
+              <td>1222HO040</td>
+              <td>Other impacts</td>
+              <td>77202</td>
+              <td>99</td>
+              <td>Other body defects, (CAR) (Provide detailed description in  narrative)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-01-18</td>
+              <td>0123HO016</td>
+              <td>Obstruction</td>
+              <td>58904</td>
+              <td>0</td>
+              <td>Object or equipment on or fouling track (motor vehicle - other than highway-rail crossing)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-01-24</td>
+              <td>IT34290</td>
+              <td>Derailment</td>
+              <td>160000</td>
+              <td>0</td>
+              <td>Extreme environmental condition ‑ TORNADO</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-01-24</td>
+              <td>0123HO028</td>
+              <td>Other (describe in narrative)</td>
+              <td>330623</td>
+              <td>500</td>
+              <td>Extreme environmental condition ‑ TORNADO</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-01-27</td>
+              <td>0123HO038</td>
+              <td>Other (describe in narrative)</td>
+              <td>35604</td>
+              <td>0</td>
+              <td>Interference (other than vandalism) with railroad operations by nonrailroad employee</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-01-31</td>
+              <td>0123HO036</td>
+              <td>Derailment</td>
+              <td>148958</td>
+              <td>1122</td>
+              <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-02-02</td>
+              <td>0223HO003</td>
+              <td>Derailment</td>
+              <td>76381</td>
+              <td>500</td>
+              <td>Classification yard automatic control system - Inadequate or insufficient control  (e.g., automatic cycling, other software / programming deficiencies, etc.)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-02-04</td>
+              <td>0223HO007</td>
+              <td>Other impacts</td>
+              <td>0</td>
+              <td>NA</td>
+              <td>Classification yard automatic control system retarder failure</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-02-04</td>
+              <td>0223HO007</td>
+              <td>Other impacts</td>
+              <td>13277</td>
+              <td>0</td>
+              <td>Classification yard automatic control system retarder failure</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-02-18</td>
+              <td>0223HO021</td>
+              <td>Other impacts</td>
+              <td>0</td>
+              <td>NA</td>
+              <td>Classification yard automatic control system retarder failure</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-02-18</td>
+              <td>0223HO021</td>
+              <td>Other impacts</td>
+              <td>25022</td>
+              <td>0</td>
+              <td>Classification yard automatic control system retarder failure</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-02-25</td>
+              <td>0223HO031</td>
+              <td>Other impacts</td>
+              <td>1536</td>
+              <td>0</td>
+              <td>Classification yard automatic control system - Inadequate or insufficient control  (e.g., automatic cycling, other software / programming deficiencies, etc.)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-02-25</td>
+              <td>0223HO031</td>
+              <td>Other impacts</td>
+              <td>6566</td>
+              <td>0</td>
+              <td>Classification yard automatic control system - Inadequate or insufficient control  (e.g., automatic cycling, other software / programming deficiencies, etc.)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-02-25</td>
+              <td>0223HO031</td>
+              <td>Other impacts</td>
+              <td>110828</td>
+              <td>2880</td>
+              <td>Classification yard automatic control system - Inadequate or insufficient control  (e.g., automatic cycling, other software / programming deficiencies, etc.)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-02-27</td>
+              <td>PTRA00014F</td>
+              <td>Other (describe in narrative)</td>
+              <td>16700</td>
+              <td>0</td>
+              <td>Coupling speed excessive</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-02-28</td>
+              <td>0223HO037</td>
+              <td>Other impacts</td>
+              <td>108392</td>
+              <td>0</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-02-28</td>
+              <td>0223HO040</td>
+              <td>Other impacts</td>
+              <td>2663</td>
+              <td>0</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-02-28</td>
+              <td>0223HO040</td>
+              <td>Other impacts</td>
+              <td>11027</td>
+              <td>0</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-03-08</td>
+              <td>0323HO013</td>
+              <td>Other (describe in narrative)</td>
+              <td>14055</td>
+              <td>0</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-03-12</td>
+              <td>0323HO017</td>
+              <td>Other (describe in narrative)</td>
+              <td>23768</td>
+              <td>0</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-03-28</td>
+              <td>0323HO026</td>
+              <td>Derailment</td>
+              <td>2311</td>
+              <td>13</td>
+              <td>Wide gage (due to defective or missing crossties)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-03-30</td>
+              <td>0323HO027</td>
+              <td>Other impacts</td>
+              <td>167</td>
+              <td>0</td>
+              <td>Yard skate slid and failed to stop cars</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-03-30</td>
+              <td>0323HO027</td>
+              <td>Other impacts</td>
+              <td>43217</td>
+              <td>198</td>
+              <td>Yard skate slid and failed to stop cars</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-04-05</td>
+              <td>0423HO007</td>
+              <td>Obstruction</td>
+              <td>17340</td>
+              <td>257</td>
+              <td>Objects such as lading chains or straps fouling switches</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-04-05</td>
+              <td>0423HO011</td>
+              <td>Other (describe in narrative)</td>
+              <td>15344</td>
+              <td>0</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-05-16</td>
+              <td>0523HO017</td>
+              <td>Derailment</td>
+              <td>55894</td>
+              <td>250</td>
+              <td>Shoving movement, man on or at leading end of movement, failure to control</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-05-26</td>
+              <td>0523HO033</td>
+              <td>Derailment</td>
+              <td>69589</td>
+              <td>224</td>
+              <td>Buffing or slack action excessive, train handling</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-05-27</td>
+              <td>0523HO036</td>
+              <td>Derailment</td>
+              <td>10800</td>
+              <td>259</td>
+              <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-05-29</td>
+              <td>0523HO038</td>
+              <td>Derailment</td>
+              <td>0</td>
+              <td>NA</td>
+              <td>Shoving movement, man on or at leading end of movement, failure to control</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-05-29</td>
+              <td>RD0523127</td>
+              <td>Derailment</td>
+              <td>27731</td>
+              <td>0</td>
+              <td>Shoving movement, man on or at leading end of movement, failure to control</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-06-10</td>
+              <td>0623HO043</td>
+              <td>Other (describe in narrative)</td>
+              <td>0</td>
+              <td>NA</td>
+              <td>Switch improperly lined</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-06-10</td>
+              <td>PTRA00022F</td>
+              <td>Other (describe in narrative)</td>
+              <td>0</td>
+              <td>NA</td>
+              <td>Switch improperly lined</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-06-15</td>
+              <td>0623HO020</td>
+              <td>Derailment</td>
+              <td>14390</td>
+              <td>669</td>
+              <td>Broken Rail - Detail fracture from shelling or head check</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-07-05</td>
+              <td>0723HO006</td>
+              <td>Derailment</td>
+              <td>115052</td>
+              <td>7485</td>
+              <td>Throttle (power), too rapid adjustment (H015)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-07-10</td>
+              <td>0723HO013</td>
+              <td>Derailment</td>
+              <td>5173</td>
+              <td>11</td>
+              <td>Wide gage (due to defective or missing crossties)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-07-21</td>
+              <td>RD0723119</td>
+              <td>Derailment</td>
+              <td>4459</td>
+              <td>85</td>
+              <td>Shoving movement, absence of man on or at leading end of movement</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-08-04</td>
+              <td>0823HO006</td>
+              <td>Derailment</td>
+              <td>18630</td>
+              <td>962</td>
+              <td>Buffing or slack action excessive, train handling</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-08-26</td>
+              <td>0823HO029</td>
+              <td>Derailment</td>
+              <td>99534</td>
+              <td>831</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-08-31</td>
+              <td>0823HO034</td>
+              <td>Hwy-rail crossing</td>
+              <td>9024</td>
+              <td>185</td>
+              <td>Highway user misjudgment under normal weather and traffic conditions</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-09-15</td>
+              <td>RD0923125</td>
+              <td>Derailment</td>
+              <td>128939</td>
+              <td>4090</td>
+              <td>Shoving movement, man on or at leading end of movement, failure to control</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-09-20</td>
+              <td>RD0923133</td>
+              <td>Derailment</td>
+              <td>26903</td>
+              <td>250</td>
+              <td>Shoving movement, absence of man on or at leading end of movement</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-09-21</td>
+              <td>0923HO026</td>
+              <td>Derailment</td>
+              <td>168417</td>
+              <td>0</td>
+              <td>Yard skate slid and failed to stop cars</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-10-02</td>
+              <td>RD1023106</td>
+              <td>Derailment</td>
+              <td>12987</td>
+              <td>250</td>
+              <td>Shoving movement, man on or at leading end of movement, failure to control</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-10-03</td>
+              <td>1023HO002</td>
+              <td>Derailment</td>
+              <td>4810</td>
+              <td>98</td>
+              <td>Other brake defects, cars (Provide detailed description in  narrative)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-10-04</td>
+              <td>1023HO007</td>
+              <td>Derailment</td>
+              <td>25686</td>
+              <td>120</td>
+              <td>Switch previously run through</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-10-06</td>
+              <td>1023HO010</td>
+              <td>Derailment</td>
+              <td>11492</td>
+              <td>318</td>
+              <td>Traction motor failure (LOCOMOTIVE)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-10-20</td>
+              <td>1023HO029</td>
+              <td>Derailment</td>
+              <td>1367</td>
+              <td>19</td>
+              <td>Switch improperly lined</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-10-20</td>
+              <td>1023HO031</td>
+              <td>Derailment</td>
+              <td>187700</td>
+              <td>6855</td>
+              <td>.Broken Rail - Base</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-10-24</td>
+              <td>RD1023131</td>
+              <td>Derailment</td>
+              <td>600</td>
+              <td>13</td>
+              <td>Shoving movement, man on or at leading end of movement, failure to control</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-10-30</td>
+              <td>1023HO044</td>
+              <td>Derailment</td>
+              <td>464381</td>
+              <td>2646</td>
+              <td>Switch improperly lined</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-10-30</td>
+              <td>1023HO044</td>
+              <td>Derailment</td>
+              <td>508313</td>
+              <td>2646</td>
+              <td>Switch improperly lined</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-11-28</td>
+              <td>1123HO025</td>
+              <td>Hwy-rail crossing</td>
+              <td>14459</td>
+              <td>280</td>
+              <td>Highway user cited for violation of highway-rail grade crossing traffic laws</td>
+              <td>2</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-12-05</td>
+              <td>1223HO006</td>
+              <td>Derailment</td>
+              <td>12249</td>
+              <td>600</td>
+              <td>.Broken Rail - Base</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-12-06</td>
+              <td>1223HO007</td>
+              <td>Derailment</td>
+              <td>80393</td>
+              <td>710</td>
+              <td>Track alignment irregular (other than buckled/sunkink)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-12-19</td>
+              <td>1223HO050</td>
+              <td>Other (describe in narrative)</td>
+              <td>23804</td>
+              <td>0</td>
+              <td>Load fell from car</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-12-23</td>
+              <td>1223HO037</td>
+              <td>Other impacts</td>
+              <td>1242</td>
+              <td>0</td>
+              <td>Classification yard automatic control system - Inadequate or insufficient control  (e.g., automatic cycling, other software / programming deficiencies, etc.)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2023-12-23</td>
+              <td>1223HO037</td>
+              <td>Other impacts</td>
+              <td>55185</td>
+              <td>0</td>
+              <td>Classification yard automatic control system - Inadequate or insufficient control  (e.g., automatic cycling, other software / programming deficiencies, etc.)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-01-02</td>
+              <td>0124HO001</td>
+              <td>Other impacts</td>
+              <td>712</td>
+              <td>0</td>
+              <td>Other causes relating to train handling or makeup (Provide detailed description in narrative)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-01-02</td>
+              <td>0124HO001</td>
+              <td>Other impacts</td>
+              <td>74540</td>
+              <td>0</td>
+              <td>Other causes relating to train handling or makeup (Provide detailed description in narrative)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-01-25</td>
+              <td>0124HO031</td>
+              <td>Other (describe in narrative)</td>
+              <td>12344</td>
+              <td>704</td>
+              <td>Center sill broken or bent</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-02-18</td>
+              <td>0224HO024</td>
+              <td>Other impacts</td>
+              <td>42691</td>
+              <td>0</td>
+              <td>Yard skate slid and failed to stop cars</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-02-18</td>
+              <td>0224HO024</td>
+              <td>Other impacts</td>
+              <td>87810</td>
+              <td>200</td>
+              <td>Yard skate slid and failed to stop cars</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-02-22</td>
+              <td>0224HO030</td>
+              <td>Other impacts</td>
+              <td>268</td>
+              <td>0</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-02-22</td>
+              <td>0224HO030</td>
+              <td>Other impacts</td>
+              <td>2379</td>
+              <td>12</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-03-04</td>
+              <td>0324HO007</td>
+              <td>Derailment</td>
+              <td>26857</td>
+              <td>264</td>
+              <td>Shoving movement, absence of man on or at leading end of movement</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-03-19</td>
+              <td>0324HO024</td>
+              <td>Other impacts</td>
+              <td>2660</td>
+              <td>0</td>
+              <td>Cars left foul</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-03-19</td>
+              <td>0324HO024</td>
+              <td>Other impacts</td>
+              <td>38763</td>
+              <td>0</td>
+              <td>Cars left foul</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-03-20</td>
+              <td>0324HO025</td>
+              <td>Hwy-rail crossing</td>
+              <td>0</td>
+              <td>NA</td>
+              <td>Highway user cited for violation of highway-rail grade crossing traffic laws</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-03-27</td>
+              <td>PTRA00045F</td>
+              <td>Side collision</td>
+              <td>32000</td>
+              <td>0</td>
+              <td>Kicking or dropping cars, inadequate precautions</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-03-27</td>
+              <td>PTRA00045F</td>
+              <td>Side collision</td>
+              <td>77000</td>
+              <td>0</td>
+              <td>Kicking or dropping cars, inadequate precautions</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-04-10</td>
+              <td>0424HO026</td>
+              <td>Other impacts</td>
+              <td>26885</td>
+              <td>0</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-04-20</td>
+              <td>0424HO027</td>
+              <td>Other impacts</td>
+              <td>52850</td>
+              <td>901</td>
+              <td>Failure to apply hand brakes on car(s) (railroad employee)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-04-20</td>
+              <td>0424HO027</td>
+              <td>Other impacts</td>
+              <td>77547</td>
+              <td>0</td>
+              <td>Failure to apply hand brakes on car(s) (railroad employee)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-04-30</td>
+              <td>0424HO054</td>
+              <td>Obstruction</td>
+              <td>17720</td>
+              <td>0</td>
+              <td>Object or equipment on or fouling track - other than above (for  vandalism, see code M503)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-05-03</td>
+              <td>0524HO005</td>
+              <td>Derailment</td>
+              <td>23364</td>
+              <td>0</td>
+              <td>Defective or missing crossties (use code T110 if results in wide gage)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-05-16</td>
+              <td>0524HO025</td>
+              <td>Other impacts</td>
+              <td>78</td>
+              <td>0</td>
+              <td>Extreme environmental condition ‑ TORNADO</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-05-16</td>
+              <td>0524HO025</td>
+              <td>Other impacts</td>
+              <td>116511</td>
+              <td>0</td>
+              <td>Extreme environmental condition ‑ TORNADO</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-06-04</td>
+              <td>0624HO007</td>
+              <td>Hwy-rail crossing</td>
+              <td>5627</td>
+              <td>28</td>
+              <td>Highway user cited for violation of highway-rail grade crossing traffic laws</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-06-06</td>
+              <td>RD0624102</td>
+              <td>Derailment</td>
+              <td>15500</td>
+              <td>0</td>
+              <td>Stock rail worn, broken or disconnected</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-06-10</td>
+              <td>0624HO012</td>
+              <td>Derailment</td>
+              <td>13006</td>
+              <td>200</td>
+              <td>Buffing or slack action excessive, train handling</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-06-13</td>
+              <td>0624HO017</td>
+              <td>Other impacts</td>
+              <td>45627</td>
+              <td>0</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-06-22</td>
+              <td>240622001</td>
+              <td>Other impacts</td>
+              <td>10000</td>
+              <td>0</td>
+              <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-06-22</td>
+              <td>240622001</td>
+              <td>Other impacts</td>
+              <td>43065</td>
+              <td>0</td>
+              <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-06-23</td>
+              <td>0624HO028</td>
+              <td>Derailment</td>
+              <td>16291</td>
+              <td>867</td>
+              <td>Automatic block or interlocking signal displaying a stop indication - failure to comply.*</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-07-03</td>
+              <td>0724HO005</td>
+              <td>Other impacts</td>
+              <td>625</td>
+              <td>2</td>
+              <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-07-03</td>
+              <td>0724HO005</td>
+              <td>Other impacts</td>
+              <td>48948</td>
+              <td>0</td>
+              <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-07-14</td>
+              <td>0724HO019</td>
+              <td>Other impacts</td>
+              <td>5592</td>
+              <td>300</td>
+              <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-07-14</td>
+              <td>0724HO019</td>
+              <td>Other impacts</td>
+              <td>16535</td>
+              <td>0</td>
+              <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-07-21</td>
+              <td>0724HO024</td>
+              <td>Other impacts</td>
+              <td>0</td>
+              <td>NA</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-07-21</td>
+              <td>0724HO024</td>
+              <td>Other impacts</td>
+              <td>54344</td>
+              <td>338</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-07-27</td>
+              <td>0724HO050</td>
+              <td>Other impacts</td>
+              <td>45146</td>
+              <td>0</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-08-02</td>
+              <td>0824HO003</td>
+              <td>Derailment</td>
+              <td>172826</td>
+              <td>6723</td>
+              <td>Broken Rail - Detail fracture from shelling or head check</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-08-03</td>
+              <td>0824HO004</td>
+              <td>Other impacts</td>
+              <td>0</td>
+              <td>NA</td>
+              <td>Classification yard automatic control system retarder failure</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-08-03</td>
+              <td>0824HO004</td>
+              <td>Other impacts</td>
+              <td>28752</td>
+              <td>0</td>
+              <td>Classification yard automatic control system retarder failure</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-08-11</td>
+              <td>2024012</td>
+              <td>Side collision</td>
+              <td>20000</td>
+              <td>0</td>
+              <td>Kicking or dropping cars, inadequate precautions</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-08-11</td>
+              <td>2024012</td>
+              <td>Side collision</td>
+              <td>43000</td>
+              <td>0</td>
+              <td>Kicking or dropping cars, inadequate precautions</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-08-24</td>
+              <td>2024014</td>
+              <td>Side collision</td>
+              <td>53970</td>
+              <td>0</td>
+              <td>Failure to properly secure hand brake on car(s) (railroad  employee)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-08-24</td>
+              <td>2024014</td>
+              <td>Side collision</td>
+              <td>135911</td>
+              <td>0</td>
+              <td>Failure to properly secure hand brake on car(s) (railroad  employee)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-08-26</td>
+              <td>0824HO050</td>
+              <td>Other (describe in narrative)</td>
+              <td>16309</td>
+              <td>0</td>
+              <td>Interference (other than vandalism) with railroad operations by nonrailroad employee</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-09-05</td>
+              <td>0924HO011</td>
+              <td>Other impacts</td>
+              <td>153</td>
+              <td>0</td>
+              <td>Yard skate slid and failed to stop cars</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-09-05</td>
+              <td>0924HO011</td>
+              <td>Other impacts</td>
+              <td>84092</td>
+              <td>300</td>
+              <td>Yard skate slid and failed to stop cars</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-09-12</td>
+              <td>2024017</td>
+              <td>Side collision</td>
+              <td>24000</td>
+              <td>0</td>
+              <td>Other brake components damaged, worn, broken, or disconnected</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-09-12</td>
+              <td>2024017</td>
+              <td>Side collision</td>
+              <td>35000</td>
+              <td>0</td>
+              <td>Other brake components damaged, worn, broken, or disconnected</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-10-04</td>
+              <td>2024018</td>
+              <td>Side collision</td>
+              <td>30500</td>
+              <td>135</td>
+              <td>Kicking or dropping cars, inadequate precautions</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-10-04</td>
+              <td>2024018</td>
+              <td>Side collision</td>
+              <td>205000</td>
+              <td>0</td>
+              <td>Kicking or dropping cars, inadequate precautions</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-10-07</td>
+              <td>1024HO011</td>
+              <td>Other (describe in narrative)</td>
+              <td>20884</td>
+              <td>0</td>
+              <td>Interference (other than vandalism) with railroad operations by nonrailroad employee</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-10-11</td>
+              <td>1024HO013</td>
+              <td>Other impacts</td>
+              <td>1</td>
+              <td>NA</td>
+              <td>Shoving movement, absence of man on or at leading end of movement</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-10-11</td>
+              <td>1024HO013</td>
+              <td>Other impacts</td>
+              <td>21041</td>
+              <td>178</td>
+              <td>Shoving movement, absence of man on or at leading end of movement</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-11-10</td>
+              <td>1124HO014</td>
+              <td>Other impacts</td>
+              <td>60189</td>
+              <td>0</td>
+              <td>Passed couplers (automated classification yard)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-11-28</td>
+              <td>2024024</td>
+              <td>Derailment</td>
+              <td>7618</td>
+              <td>19</td>
+              <td>Switch improperly lined</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-12-01</td>
+              <td>1224HO001</td>
+              <td>Derailment</td>
+              <td>0</td>
+              <td>NA</td>
+              <td>Switch point gapped (between switch point and stock rail)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-12-05</td>
+              <td>1224HO010</td>
+              <td>Other impacts</td>
+              <td>5492</td>
+              <td>0</td>
+              <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-12-05</td>
+              <td>1224HO010</td>
+              <td>Other impacts</td>
+              <td>14634</td>
+              <td>880</td>
+              <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-12-06</td>
+              <td>1224HO014</td>
+              <td>Rear end collision</td>
+              <td>426677</td>
+              <td>5568</td>
+              <td>Train on main track inside yard limits, excessive speed</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2024-12-06</td>
+              <td>1224HO014</td>
+              <td>Rear end collision</td>
+              <td>NA</td>
+              <td>NA</td>
+              <td>Train on main track inside yard limits, excessive speed</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2025-01-01</td>
+              <td>0125HO001</td>
+              <td>Derailment</td>
+              <td>170618</td>
+              <td>2200</td>
+              <td>Broken Rail - Detail fracture from shelling or head check</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2025-01-05</td>
+              <td>0125HO004</td>
+              <td>Derailment</td>
+              <td>9678</td>
+              <td>74</td>
+              <td>Independent (engine) brake, improper use (except actuation) (H023)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2025-01-15</td>
+              <td>0125HO025</td>
+              <td>Hwy-rail crossing</td>
+              <td>4764</td>
+              <td>84</td>
+              <td>Highway user cited for violation of highway-rail grade crossing traffic laws</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2025-01-20</td>
+              <td>2025001</td>
+              <td>Derailment</td>
+              <td>72000</td>
+              <td>200</td>
+              <td>Lateral drawbar force on curve excessive, train make‑up</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2025-01-20</td>
+              <td>0125HO032</td>
+              <td>Derailment</td>
+              <td>0</td>
+              <td>NA</td>
+              <td>Other causes relating to train handling or makeup (Provide detailed description in narrative)</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+            <tr>
+              <td>HARRIS </td>
+              <td>2025-01-25</td>
+              <td>0125HO043</td>
+              <td>Hwy-rail crossing</td>
+              <td>0</td>
+              <td>NA</td>
+              <td>Highway user misjudgment under normal weather and traffic conditions</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </tbody>
+  </table>
+</div>
+<div class="col-md-2 col-lg-2">
+  <div class="card text-center mb-3" >
+    <div class="card-body">
+      <h5 class="card-title">Total Accidents</h5>
+      <p class="card-text fs-1">328 </p>
+    </div>
+  </div>
+  <div class="card text-center mb-3" >
+    <div class="card-body">
+      <h5 class="card-title">Total Equipment Damage ($)</h5>
+      <p class="card-text fs-1">16207050 </p>
+    </div>
+  </div>
+  <div class="card text-center mb-3" >
+    <div class="card-body">
+      <h5 class="card-title">Total Track Damage ($)</h5>
+      <p class="card-text fs-1">149732 </p>
+    </div>
+  </div>
+  <div class="card text-center mb-3" >
+    <div class="card-body">
+      <h5 class="card-title">Total Injuries </h5>
+      <p class="card-text fs-1">17 </p>
+    </div>
+  </div>
+  <div class="card text-center mb-3">
+    <div class="card-body">
+      <h5 class="card-title">Total Deaths</h5>
+      <p class="card-text fs-1">2 </p>
+    </div>
+  </div>
+</div>
+</div>
+
 
     <footer>
-      <p id="legal" class="center-block text-center">
-        <small>&copy;</small> <span class="copyright-year"></span>
-        A class project by Karina Kumar.
-      </p>
-    </footer>
+<p id="legal" class="center-block text-center">
+  <small>&copy;</small> <span class="copyright-year"></span>
+  A class project by Karina Kumar.
+</p>
+</footer>
+
 
     <script src="../js/jquery.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>

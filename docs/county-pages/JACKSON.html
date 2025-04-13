@@ -1,662 +1,3375 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <!-- A Intro to Coding for Journalists class project -->
   <head>
     <title>Train Accidents | JACKSON</title>
-    <meta name="description" content="DESCRIPTION" />
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1"
-    />
-    <link rel="stylesheet" href="../css/main.css" />
+    <meta name="description" content="DESCRIPTION">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="../css/main.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html">Train Accidents</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Texas Counties
-              </a>
-              <ul
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <li>
-                  <a class="dropdown-item" href="..//ANDERSON.html">ANDERSON</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//ANGELINA.html">ANGELINA</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//ATASCOSA.html">ATASCOSA</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//AUSTIN.html">AUSTIN</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//BAILEY.html">BAILEY</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//BASTROP.html">BASTROP</a>
-                </li>
-
-                <li><a class="dropdown-item" href="..//BELL.html">BELL</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//BEXAR.html">BEXAR</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//BOSQUE.html">BOSQUE</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//BOWIE.html">BOWIE</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//BRAZORIA.html">BRAZORIA</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//BRAZOS.html">BRAZOS</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//BREWSTER.html">BREWSTER</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//BROWN.html">BROWN</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//BURLESON.html">BURLESON</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//BURNET.html">BURNET</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//CALDWELL.html">CALDWELL</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//CAMERON.html">CAMERON</a>
-                </li>
-
-                <li><a class="dropdown-item" href="..//CAMP.html">CAMP</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//CARSON.html">CARSON</a>
-                </li>
-
-                <li><a class="dropdown-item" href="..//CASS.html">CASS</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//CHAMBERS.html">CHAMBERS</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//CHEROKEE.html">CHEROKEE</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//CHILDRESS.html"
-                    >CHILDRESS</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//COLLIN.html">COLLIN</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//COLORADO.html">COLORADO</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//COMAL.html">COMAL</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//COMANCHE.html">COMANCHE</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//COOKE.html">COOKE</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//CRANE.html">CRANE</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//CULBERSON.html"
-                    >CULBERSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//DALLAM.html">DALLAM</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//DALLAS.html">DALLAS</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//DEAF SMITH.html"
-                    >DEAF SMITH</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//DENTON.html">DENTON</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//DONLEY.html">DONLEY</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//DUVAL.html">DUVAL</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//EASTLAND.html">EASTLAND</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//ECTOR.html">ECTOR</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//EL PASO.html">EL PASO</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//ELLIS.html">ELLIS</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//ERATH.html">ERATH</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//FALLS.html">FALLS</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//FAYETTE.html">FAYETTE</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//FORT BEND.html"
-                    >FORT BEND</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//FREESTONE.html"
-                    >FREESTONE</a
-                  >
-                </li>
-
-                <li><a class="dropdown-item" href="..//FRIO.html">FRIO</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//GALVESTON.html"
-                    >GALVESTON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//GARZA.html">GARZA</a>
-                </li>
-
-                <li><a class="dropdown-item" href="..//GRAY.html">GRAY</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//GRAYSON.html">GRAYSON</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//GREGG.html">GREGG</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//GRIMES.html">GRIMES</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//GUADALUPE.html"
-                    >GUADALUPE</a
-                  >
-                </li>
-
-                <li><a class="dropdown-item" href="..//HALE.html">HALE</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//HARDEMAN.html">HARDEMAN</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//HARDIN.html">HARDIN</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//HARRIS.html">HARRIS</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//HARRISON.html">HARRISON</a>
-                </li>
-
-                <li><a class="dropdown-item" href="..//HAYS.html">HAYS</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//HEMPHILL.html">HEMPHILL</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//HENDERSON.html"
-                    >HENDERSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//HIDALGO.html">HIDALGO</a>
-                </li>
-
-                <li><a class="dropdown-item" href="..//HILL.html">HILL</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//HOCKLEY.html">HOCKLEY</a>
-                </li>
-
-                <li><a class="dropdown-item" href="..//HOOD.html">HOOD</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//HOUSTON.html">HOUSTON</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//HOWARD.html">HOWARD</a>
-                </li>
-
-                <li><a class="dropdown-item" href="..//HUNT.html">HUNT</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//HUTCHINSON.html"
-                    >HUTCHINSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//IRION.html">IRION</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//JACKSON.html">JACKSON</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//JASPER.html">JASPER</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//JEFF DAVIS.html"
-                    >JEFF DAVIS</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//JEFFERSON.html"
-                    >JEFFERSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//JIM HOGG.html">JIM HOGG</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//JOHNSON.html">JOHNSON</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//KAUFMAN.html">KAUFMAN</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//KINNEY.html">KINNEY</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//LA SALLE.html">LA SALLE</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//LAMAR.html">LAMAR</a>
-                </li>
-
-                <li><a class="dropdown-item" href="..//LAMB.html">LAMB</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//LAVACA.html">LAVACA</a>
-                </li>
-
-                <li><a class="dropdown-item" href="..//LEE.html">LEE</a></li>
-
-                <li><a class="dropdown-item" href="..//LEON.html">LEON</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//LIBERTY.html">LIBERTY</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//LIMESTONE.html"
-                    >LIMESTONE</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//LIVE OAK.html">LIVE OAK</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//LUBBOCK.html">LUBBOCK</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//MARION.html">MARION</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//MARTIN.html">MARTIN</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//MATAGORDA.html"
-                    >MATAGORDA</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//MAVERICK.html">MAVERICK</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//MCLENNAN.html">MCLENNAN</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//MEDINA.html">MEDINA</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//MIDLAND.html">MIDLAND</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//MILAM.html">MILAM</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//MILLS.html">MILLS</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//MITCHELL.html">MITCHELL</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//MONTAGUE.html">MONTAGUE</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//MONTGOMERY.html"
-                    >MONTGOMERY</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//MOORE.html">MOORE</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//MORRIS.html">MORRIS</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//NACOGDOCHES.html"
-                    >NACOGDOCHES</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//NAVARRO.html">NAVARRO</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//NEWTON.html">NEWTON</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//NOLAN.html">NOLAN</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//NUECES.html">NUECES</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//ORANGE.html">ORANGE</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//PALO PINTO.html"
-                    >PALO PINTO</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//PANOLA.html">PANOLA</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//PARKER.html">PARKER</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//PARMER.html">PARMER</a>
-                </li>
-
-                <li><a class="dropdown-item" href="..//POLK.html">POLK</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//POTTER.html">POTTER</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//RANDALL.html">RANDALL</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//REEVES.html">REEVES</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//REFUGIO.html">REFUGIO</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//ROBERTS.html">ROBERTS</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//ROBERTSON.html"
-                    >ROBERTSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//RUNNELS.html">RUNNELS</a>
-                </li>
-
-                <li><a class="dropdown-item" href="..//RUSK.html">RUSK</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//SAN JACINTO.html"
-                    >SAN JACINTO</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//SAN PATRICIO.html"
-                    >SAN PATRICIO</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//SCURRY.html">SCURRY</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//SHELBY.html">SHELBY</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//TARRANT.html">TARRANT</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//TAYLOR.html">TAYLOR</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//TITUS.html">TITUS</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//TRAVIS.html">TRAVIS</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//UPSHUR.html">UPSHUR</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//UVALDE.html">UVALDE</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//VAL VERDE.html"
-                    >VAL VERDE</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//VAN ZANDT.html"
-                    >VAN ZANDT</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//VICTORIA.html">VICTORIA</a>
-                </li>
-
-                <li><a class="dropdown-item" href="..//WARD.html">WARD</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//WASHINGTON.html"
-                    >WASHINGTON</a
-                  >
-                </li>
-
-                <li><a class="dropdown-item" href="..//WEBB.html">WEBB</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//WHARTON.html">WHARTON</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//WICHITA.html">WICHITA</a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//WILBARGER.html"
-                    >WILBARGER</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//WILLIAMSON.html"
-                    >WILLIAMSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//WINKLER.html">WINKLER</a>
-                </li>
-
-                <li><a class="dropdown-item" href="..//WISE.html">WISE</a></li>
-
-                <li><a class="dropdown-item" href="..//WOOD.html">WOOD</a></li>
-
-                <li>
-                  <a class="dropdown-item" href="..//Not Specified.html"
-                    >Not Specified</a
-                  >
-                </li>
-              </ul>
-            </li>
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html">Train Accidents</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Texas Counties
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            
+            <li><a class="dropdown-item" href="..//county-pages/ANDERSON.html">ANDERSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ANGELINA.html">ANGELINA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ATASCOSA.html">ATASCOSA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/AUSTIN.html">AUSTIN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BAILEY.html">BAILEY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BASTROP.html">BASTROP</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BELL.html">BELL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BEXAR.html">BEXAR</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BOSQUE.html">BOSQUE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BOWIE.html">BOWIE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BRAZORIA.html">BRAZORIA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BRAZOS.html">BRAZOS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BREWSTER.html">BREWSTER</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BROWN.html">BROWN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BURLESON.html">BURLESON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BURNET.html">BURNET</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CALDWELL.html">CALDWELL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CAMERON.html">CAMERON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CAMP.html">CAMP</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CARSON.html">CARSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CASS.html">CASS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CHAMBERS.html">CHAMBERS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CHEROKEE.html">CHEROKEE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CHILDRESS.html">CHILDRESS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/COLLIN.html">COLLIN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/COLORADO.html">COLORADO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/COMAL.html">COMAL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/COMANCHE.html">COMANCHE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/COOKE.html">COOKE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CRANE.html">CRANE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CULBERSON.html">CULBERSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/DALLAM.html">DALLAM</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/DALLAS.html">DALLAS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/DEAF SMITH.html">DEAF SMITH</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/DENTON.html">DENTON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/DONLEY.html">DONLEY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/DUVAL.html">DUVAL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/EASTLAND.html">EASTLAND</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ECTOR.html">ECTOR</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/EL PASO.html">EL PASO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ELLIS.html">ELLIS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ERATH.html">ERATH</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/FALLS.html">FALLS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/FAYETTE.html">FAYETTE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/FORT BEND.html">FORT BEND</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/FREESTONE.html">FREESTONE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/FRIO.html">FRIO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/GALVESTON.html">GALVESTON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/GARZA.html">GARZA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/GRAY.html">GRAY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/GRAYSON.html">GRAYSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/GREGG.html">GREGG</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/GRIMES.html">GRIMES</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/GUADALUPE.html">GUADALUPE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HALE.html">HALE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HARDEMAN.html">HARDEMAN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HARDIN.html">HARDIN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HARRIS.html">HARRIS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HARRISON.html">HARRISON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HAYS.html">HAYS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HEMPHILL.html">HEMPHILL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HENDERSON.html">HENDERSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HIDALGO.html">HIDALGO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HILL.html">HILL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HOCKLEY.html">HOCKLEY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HOOD.html">HOOD</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HOUSTON.html">HOUSTON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HOWARD.html">HOWARD</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HUNT.html">HUNT</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HUTCHINSON.html">HUTCHINSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/IRION.html">IRION</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/JACKSON.html">JACKSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/JASPER.html">JASPER</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/JEFF DAVIS.html">JEFF DAVIS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/JEFFERSON.html">JEFFERSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/JIM HOGG.html">JIM HOGG</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/JOHNSON.html">JOHNSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/KAUFMAN.html">KAUFMAN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/KINNEY.html">KINNEY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LA SALLE.html">LA SALLE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LAMAR.html">LAMAR</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LAMB.html">LAMB</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LAVACA.html">LAVACA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LEE.html">LEE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LEON.html">LEON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LIBERTY.html">LIBERTY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LIMESTONE.html">LIMESTONE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LIVE OAK.html">LIVE OAK</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LUBBOCK.html">LUBBOCK</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MARION.html">MARION</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MARTIN.html">MARTIN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MATAGORDA.html">MATAGORDA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MAVERICK.html">MAVERICK</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MCLENNAN.html">MCLENNAN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MEDINA.html">MEDINA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MIDLAND.html">MIDLAND</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MILAM.html">MILAM</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MILLS.html">MILLS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MITCHELL.html">MITCHELL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MONTAGUE.html">MONTAGUE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MONTGOMERY.html">MONTGOMERY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MOORE.html">MOORE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MORRIS.html">MORRIS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/NACOGDOCHES.html">NACOGDOCHES</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/NAVARRO.html">NAVARRO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/NEWTON.html">NEWTON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/NOLAN.html">NOLAN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/NUECES.html">NUECES</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ORANGE.html">ORANGE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/PALO PINTO.html">PALO PINTO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/PANOLA.html">PANOLA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/PARKER.html">PARKER</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/PARMER.html">PARMER</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/POLK.html">POLK</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/POTTER.html">POTTER</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/RANDALL.html">RANDALL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/REEVES.html">REEVES</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/REFUGIO.html">REFUGIO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ROBERTS.html">ROBERTS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ROBERTSON.html">ROBERTSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/RUNNELS.html">RUNNELS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/RUSK.html">RUSK</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/SAN JACINTO.html">SAN JACINTO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/SAN PATRICIO.html">SAN PATRICIO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/SCURRY.html">SCURRY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/SHELBY.html">SHELBY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/TARRANT.html">TARRANT</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/TAYLOR.html">TAYLOR</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/TITUS.html">TITUS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/TRAVIS.html">TRAVIS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/UPSHUR.html">UPSHUR</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/UVALDE.html">UVALDE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/VAL VERDE.html">VAL VERDE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/VAN ZANDT.html">VAN ZANDT</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/VICTORIA.html">VICTORIA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WARD.html">WARD</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WASHINGTON.html">WASHINGTON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WEBB.html">WEBB</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WHARTON.html">WHARTON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WICHITA.html">WICHITA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WILBARGER.html">WILBARGER</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WILLIAMSON.html">WILLIAMSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WINKLER.html">WINKLER</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WISE.html">WISE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WOOD.html">WOOD</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/Not Specified.html">Not Specified</a></li>
+            
           </ul>
-        </div>
-      </div>
-    </nav>
-
-    <h1>JACKSON</h1>
-    <div class="col-md-6">
-      <table class="table table-striped"></table>
+        <li class="nav-item">
+          <a class="nav-link" href="../nationwide-data.html">U.S. Statistics </a>
+        </li>
+      </ul>
     </div>
+  </div>
+</nav>
+
+    
+<div class="container">
+<h1>JACKSON</h1>
+<p>DESCRIPTION HERE</p>
+<div class = "col-md-6 col-lg-8">
+  <table class="table table-striped table-hover table-bordered table-sm">
+      <thead>
+        <tr>
+          
+          <th scope="col">County Name</th>
+          <th scope="col">Accident Date</th>
+          <th scope="col">Accident Number</th>
+          <th scope="col">Accident Type</th>
+          <th scope="col">Equipment Damage($)</th>
+          <th scope="col">Track Damage($)</th>
+          <th scope="col">Desc of Cause</th>
+          <th scope="col"># Injured</th>
+          <th scope="col"># Killed</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>JACKSON </td>
+              <td>2021-01-22</td>
+              <td>0121GC019</td>
+              <td>Side collision</td>
+              <td>795</td>
+              <td>65</td>
+              <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+            <tr>
+              <td>JACKSON </td>
+              <td>2021-01-22</td>
+              <td>RD0121121</td>
+              <td>Side collision</td>
+              <td>158891</td>
+              <td>0</td>
+              <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
+              <td>2</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <tr>
+              <td>JACKSON </td>
+              <td>2021-09-09</td>
+              <td>21090901</td>
+              <td>Derailment</td>
+              <td>5603</td>
+              <td>20</td>
+              <td>Roadbed settled or soft</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </tbody>
+  </table>
+</div>
+<div class="col-md-2 col-lg-2">
+  <div class="card text-center mb-3" >
+    <div class="card-body">
+      <h5 class="card-title">Total Accidents</h5>
+      <p class="card-text fs-1">3 </p>
+    </div>
+  </div>
+  <div class="card text-center mb-3" >
+    <div class="card-body">
+      <h5 class="card-title">Total Equipment Damage ($)</h5>
+      <p class="card-text fs-1">165289 </p>
+    </div>
+  </div>
+  <div class="card text-center mb-3" >
+    <div class="card-body">
+      <h5 class="card-title">Total Track Damage ($)</h5>
+      <p class="card-text fs-1">85 </p>
+    </div>
+  </div>
+  <div class="card text-center mb-3" >
+    <div class="card-body">
+      <h5 class="card-title">Total Injuries </h5>
+      <p class="card-text fs-1">2 </p>
+    </div>
+  </div>
+  <div class="card text-center mb-3">
+    <div class="card-body">
+      <h5 class="card-title">Total Deaths</h5>
+      <p class="card-text fs-1">0 </p>
+    </div>
+  </div>
+</div>
+</div>
+
 
     <footer>
-      <p id="legal" class="center-block text-center">
-        <small>&copy;</small> <span class="copyright-year"></span>
-        A class project by Karina Kumar.
-      </p>
-    </footer>
+<p id="legal" class="center-block text-center">
+  <small>&copy;</small> <span class="copyright-year"></span>
+  A class project by Karina Kumar.
+</p>
+</footer>
+
 
     <script src="../js/jquery.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>

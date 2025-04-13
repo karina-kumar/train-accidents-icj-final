@@ -5,26 +5,26 @@
 {% block page_description %}The index search description for this page goes here.{% endblock %}
 
 {% block content %}
+<div id="jumbo" class="p-5 mb-4 bg-dark">
+  <div class="container-fluid py-5 text-center">
+    <h1 class="display-5 fw-bold text-light">Train Accident Statistics</h1>
+    <p class= "text-light">A class project by Karina Kumar.</p>
+  </div>
+</div>
 <div class="container">
-  <h1>Main headline here</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in facilisis velit, aliquam congue dui. Mauris id mi quam. Nam enim leo, bibendum vel efficitur id, elementum malesuada est. Pellentesque interdum tempus eros nec iaculis. Quisque ac est dictum, vehicula nulla quis, condimentum dui.</p>
-  <h2>Library books loop</h2>
-  <p>This loops through data that came from a Google Docs example.</p>
+  <h1>Train Accident Statistics for Texas and Nation-wide</h1>
+  <p>The data that supports this website is from the U.S. Department of Transportation and can be found <a href="https://data.transportation.gov/stories/s/wjun-6kqb" target="_blank">here</a>.</p>
+  <h2>Counties in Texas with Train Accidents</h2>
+  <p>These are the counties in Texas that have train accidents reported since 2020. Click on the county name to navigate to that county's individual statistics page.</p>
   <div class="row">
-    {% for book in library.books %}
-      <div class="col">
-        <img src="img/{{ book.slug }}.jpg" alt="" class="img-fluid">
-        <h3><a href="books/{{ book.slug }}.html">{{ book.title }}</a></h3>
+    {% for county in accidents.counties %}
+      <div class="col-2">
+        <h3><a href="county-pages/{{ county.county_name }}.html">{{ county.county_name }}</a></h3>
       </div>
     {% endfor %}
   </div>
-  <h2>Bookstores loop</h2>
-  <p>This loops through data that came from a Google Sheet example.</p>
-  <hr>
-  {% for store in bookstores.stores %}
-    <h3><a href="{{ store.url }}" target="_blank">{{ store.name }}</a></h3>
-    <p>{{ store.address}}, {{ store.city }}, {{ store.state }} {{ store.zip }}</p>
-    <hr>
-  {% endfor %}
+  <h2>Nationwide Data</h2>
+  <p>Navigate to the nationwide page to learn statistics about train accidents in every state.</p>
+  <button type="button" class="btn btn-dark" href="nationwide-data.html">Nationwide Data</button>
 </div>
 {% endblock %}
