@@ -2,13 +2,9 @@
 
 {% block page_title %}Home{% endblock %}
 
-{% block content %}
-<div id="jumbo" class="p-5 mb-4 bg-dark">
-  <div class="container-fluid py-5 text-center">
-    <h1 class="display-5 fw-bold text-light">Train Accident Statistics</h1>
-    <p class= "text-light">A class project by Karina Kumar.</p>
-  </div>
-</div>
+{% include "_includes/jumbotron.njk" %}
+
+{% block content %
 <div class="container">
   <h1>Train Accident Statistics for Texas and Nation-wide</h1>
   <p>The data that supports this website is from the U.S. Department of Transportation and can be found <a href="https://data.transportation.gov/stories/s/wjun-6kqb" target="_blank">here</a>.</p>

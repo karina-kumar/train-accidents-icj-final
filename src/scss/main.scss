@@ -21,6 +21,19 @@
 // Import partials
 @import 'nav';
 
+p {
+  font-family:'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+}
+
 h3 {
   font-size: 1.5rem;
+}
+
+p.card-text {
+  font-size: 2.8rem;
+}
+
+h1, h2, h5 {
+  font-family: "DM Serif Text", serif;
 }
