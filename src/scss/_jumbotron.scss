@@ -2,9 +2,22 @@
     background: url(../img/jumbo_train.jpeg) no-repeat center;
     background-size: cover;
     color: white;
-    padding-top: 12rem
+    padding-top: 12rem;
   }
   
   #jumbo {
     margin-bottom: 30px;
+  }
+
+  #photo-cred {
+    font-size: 8px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  a-hover {
+    text-decoration: underline;
   }
