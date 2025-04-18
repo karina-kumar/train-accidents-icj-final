@@ -3,21 +3,21 @@
     background-size: cover;
     color: white;
     padding-top: 12rem;
+    margin-bottom: 30px;
+    
   }
   
-  #jumbo {
-    margin-bottom: 30px;
+  #jumbo h1{
+    color: #f9ad1b;
   }
 
   #photo-cred {
     font-size: 8px;
   }
 
-  a {
+  #photo-cred a {
     text-decoration: none;
     color: black;
   }
 
-  a-hover {
-    text-decoration: underline;
-  }
+

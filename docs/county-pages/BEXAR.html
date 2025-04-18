@@ -1,1060 +1,452 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <!-- A Intro to Coding for Journalists class project -->
   <head>
     <title>Train Accidents | BEXAR</title>
-    <meta name="description" content="DESCRIPTION" />
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1"
-    />
-    <link rel="stylesheet" href="../css/main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Pirata+One&display=swap"
-      rel="stylesheet"
-    />
+    <meta name="description" content="DESCRIPTION">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Pirata+One&display=swap" rel="stylesheet">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html">Train Accidents</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href=""
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Texas Counties
-              </a>
-              <ul
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/ANDERSON.html"
-                    >ANDERSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/ANGELINA.html"
-                    >ANGELINA</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/ATASCOSA.html"
-                    >ATASCOSA</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/AUSTIN.html"
-                    >AUSTIN</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/BAILEY.html"
-                    >BAILEY</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/BASTROP.html"
-                    >BASTROP</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/BELL.html"
-                    >BELL</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/BEXAR.html"
-                    >BEXAR</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/BOSQUE.html"
-                    >BOSQUE</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/BOWIE.html"
-                    >BOWIE</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/BRAZORIA.html"
-                    >BRAZORIA</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/BRAZOS.html"
-                    >BRAZOS</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/BREWSTER.html"
-                    >BREWSTER</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/BROWN.html"
-                    >BROWN</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/BURLESON.html"
-                    >BURLESON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/BURNET.html"
-                    >BURNET</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/CALDWELL.html"
-                    >CALDWELL</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/CAMERON.html"
-                    >CAMERON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/CAMP.html"
-                    >CAMP</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/CARSON.html"
-                    >CARSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/CASS.html"
-                    >CASS</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/CHAMBERS.html"
-                    >CHAMBERS</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/CHEROKEE.html"
-                    >CHEROKEE</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/CHILDRESS.html"
-                    >CHILDRESS</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/COLLIN.html"
-                    >COLLIN</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/COLORADO.html"
-                    >COLORADO</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/COMAL.html"
-                    >COMAL</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/COMANCHE.html"
-                    >COMANCHE</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/COOKE.html"
-                    >COOKE</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/CRANE.html"
-                    >CRANE</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/CULBERSON.html"
-                    >CULBERSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/DALLAM.html"
-                    >DALLAM</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/DALLAS.html"
-                    >DALLAS</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/DEAF SMITH.html"
-                    >DEAF SMITH</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/DENTON.html"
-                    >DENTON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/DONLEY.html"
-                    >DONLEY</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/DUVAL.html"
-                    >DUVAL</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/EASTLAND.html"
-                    >EASTLAND</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/ECTOR.html"
-                    >ECTOR</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/EL PASO.html"
-                    >EL PASO</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/ELLIS.html"
-                    >ELLIS</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/ERATH.html"
-                    >ERATH</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/FALLS.html"
-                    >FALLS</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/FAYETTE.html"
-                    >FAYETTE</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/FORT BEND.html"
-                    >FORT BEND</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/FREESTONE.html"
-                    >FREESTONE</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/FRIO.html"
-                    >FRIO</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/GALVESTON.html"
-                    >GALVESTON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/GARZA.html"
-                    >GARZA</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/GRAY.html"
-                    >GRAY</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/GRAYSON.html"
-                    >GRAYSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/GREGG.html"
-                    >GREGG</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/GRIMES.html"
-                    >GRIMES</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/GUADALUPE.html"
-                    >GUADALUPE</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/HALE.html"
-                    >HALE</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/HARDEMAN.html"
-                    >HARDEMAN</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/HARDIN.html"
-                    >HARDIN</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/HARRIS.html"
-                    >HARRIS</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/HARRISON.html"
-                    >HARRISON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/HAYS.html"
-                    >HAYS</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/HEMPHILL.html"
-                    >HEMPHILL</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/HENDERSON.html"
-                    >HENDERSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/HIDALGO.html"
-                    >HIDALGO</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/HILL.html"
-                    >HILL</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/HOCKLEY.html"
-                    >HOCKLEY</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/HOOD.html"
-                    >HOOD</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/HOUSTON.html"
-                    >HOUSTON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/HOWARD.html"
-                    >HOWARD</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/HUNT.html"
-                    >HUNT</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/HUTCHINSON.html"
-                    >HUTCHINSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/IRION.html"
-                    >IRION</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/JACKSON.html"
-                    >JACKSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/JASPER.html"
-                    >JASPER</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/JEFF DAVIS.html"
-                    >JEFF DAVIS</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/JEFFERSON.html"
-                    >JEFFERSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/JIM HOGG.html"
-                    >JIM HOGG</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/JOHNSON.html"
-                    >JOHNSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/KAUFMAN.html"
-                    >KAUFMAN</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/KINNEY.html"
-                    >KINNEY</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/LA SALLE.html"
-                    >LA SALLE</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/LAMAR.html"
-                    >LAMAR</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/LAMB.html"
-                    >LAMB</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/LAVACA.html"
-                    >LAVACA</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/LEE.html"
-                    >LEE</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/LEON.html"
-                    >LEON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/LIBERTY.html"
-                    >LIBERTY</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/LIMESTONE.html"
-                    >LIMESTONE</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/LIVE OAK.html"
-                    >LIVE OAK</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/LUBBOCK.html"
-                    >LUBBOCK</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/MARION.html"
-                    >MARION</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/MARTIN.html"
-                    >MARTIN</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/MATAGORDA.html"
-                    >MATAGORDA</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/MAVERICK.html"
-                    >MAVERICK</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/MCLENNAN.html"
-                    >MCLENNAN</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/MEDINA.html"
-                    >MEDINA</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/MIDLAND.html"
-                    >MIDLAND</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/MILAM.html"
-                    >MILAM</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/MILLS.html"
-                    >MILLS</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/MITCHELL.html"
-                    >MITCHELL</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/MONTAGUE.html"
-                    >MONTAGUE</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/MONTGOMERY.html"
-                    >MONTGOMERY</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/MOORE.html"
-                    >MOORE</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/MORRIS.html"
-                    >MORRIS</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/NACOGDOCHES.html"
-                    >NACOGDOCHES</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/NAVARRO.html"
-                    >NAVARRO</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/NEWTON.html"
-                    >NEWTON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/NOLAN.html"
-                    >NOLAN</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/NUECES.html"
-                    >NUECES</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/ORANGE.html"
-                    >ORANGE</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/PALO PINTO.html"
-                    >PALO PINTO</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/PANOLA.html"
-                    >PANOLA</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/PARKER.html"
-                    >PARKER</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/PARMER.html"
-                    >PARMER</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/POLK.html"
-                    >POLK</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/POTTER.html"
-                    >POTTER</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/RANDALL.html"
-                    >RANDALL</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/REEVES.html"
-                    >REEVES</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/REFUGIO.html"
-                    >REFUGIO</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/ROBERTS.html"
-                    >ROBERTS</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/ROBERTSON.html"
-                    >ROBERTSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/RUNNELS.html"
-                    >RUNNELS</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/RUSK.html"
-                    >RUSK</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/SAN JACINTO.html"
-                    >SAN JACINTO</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/SAN PATRICIO.html"
-                    >SAN PATRICIO</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/SCURRY.html"
-                    >SCURRY</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/SHELBY.html"
-                    >SHELBY</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/TARRANT.html"
-                    >TARRANT</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/TAYLOR.html"
-                    >TAYLOR</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/TITUS.html"
-                    >TITUS</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/TRAVIS.html"
-                    >TRAVIS</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/UPSHUR.html"
-                    >UPSHUR</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/UVALDE.html"
-                    >UVALDE</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/VAL VERDE.html"
-                    >VAL VERDE</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/VAN ZANDT.html"
-                    >VAN ZANDT</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/VICTORIA.html"
-                    >VICTORIA</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/WARD.html"
-                    >WARD</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/WASHINGTON.html"
-                    >WASHINGTON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/WEBB.html"
-                    >WEBB</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/WHARTON.html"
-                    >WHARTON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/WICHITA.html"
-                    >WICHITA</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/WILBARGER.html"
-                    >WILBARGER</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/WILLIAMSON.html"
-                    >WILLIAMSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/WINKLER.html"
-                    >WINKLER</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/WISE.html"
-                    >WISE</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/WOOD.html"
-                    >WOOD</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/Not Specified.html"
-                    >Not Specified</a
-                  >
-                </li>
-              </ul>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="../nationwide-data.html"
-                >U.S. Statistics
-              </a>
-            </li>
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html">Train Accidents</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Texas Counties
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            
+            <li><a class="dropdown-item" href="..//county-pages/ANDERSON.html">ANDERSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ANGELINA.html">ANGELINA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ATASCOSA.html">ATASCOSA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/AUSTIN.html">AUSTIN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BAILEY.html">BAILEY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BASTROP.html">BASTROP</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BELL.html">BELL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BEXAR.html">BEXAR</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BOSQUE.html">BOSQUE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BOWIE.html">BOWIE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BRAZORIA.html">BRAZORIA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BRAZOS.html">BRAZOS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BREWSTER.html">BREWSTER</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BROWN.html">BROWN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BURLESON.html">BURLESON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BURNET.html">BURNET</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CALDWELL.html">CALDWELL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CAMERON.html">CAMERON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CAMP.html">CAMP</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CARSON.html">CARSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CASS.html">CASS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CHAMBERS.html">CHAMBERS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CHEROKEE.html">CHEROKEE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CHILDRESS.html">CHILDRESS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/COLLIN.html">COLLIN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/COLORADO.html">COLORADO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/COMAL.html">COMAL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/COMANCHE.html">COMANCHE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/COOKE.html">COOKE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CRANE.html">CRANE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CULBERSON.html">CULBERSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/DALLAM.html">DALLAM</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/DALLAS.html">DALLAS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/DEAF SMITH.html">DEAF SMITH</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/DENTON.html">DENTON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/DONLEY.html">DONLEY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/DUVAL.html">DUVAL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/EASTLAND.html">EASTLAND</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ECTOR.html">ECTOR</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/EL PASO.html">EL PASO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ELLIS.html">ELLIS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ERATH.html">ERATH</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/FALLS.html">FALLS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/FAYETTE.html">FAYETTE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/FORT BEND.html">FORT BEND</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/FREESTONE.html">FREESTONE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/FRIO.html">FRIO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/GALVESTON.html">GALVESTON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/GARZA.html">GARZA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/GRAY.html">GRAY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/GRAYSON.html">GRAYSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/GREGG.html">GREGG</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/GRIMES.html">GRIMES</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/GUADALUPE.html">GUADALUPE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HALE.html">HALE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HARDEMAN.html">HARDEMAN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HARDIN.html">HARDIN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HARRIS.html">HARRIS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HARRISON.html">HARRISON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HAYS.html">HAYS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HEMPHILL.html">HEMPHILL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HENDERSON.html">HENDERSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HIDALGO.html">HIDALGO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HILL.html">HILL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HOCKLEY.html">HOCKLEY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HOOD.html">HOOD</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HOUSTON.html">HOUSTON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HOWARD.html">HOWARD</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HUNT.html">HUNT</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HUTCHINSON.html">HUTCHINSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/IRION.html">IRION</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/JACKSON.html">JACKSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/JASPER.html">JASPER</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/JEFF DAVIS.html">JEFF DAVIS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/JEFFERSON.html">JEFFERSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/JIM HOGG.html">JIM HOGG</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/JOHNSON.html">JOHNSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/KAUFMAN.html">KAUFMAN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/KINNEY.html">KINNEY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LA SALLE.html">LA SALLE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LAMAR.html">LAMAR</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LAMB.html">LAMB</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LAVACA.html">LAVACA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LEE.html">LEE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LEON.html">LEON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LIBERTY.html">LIBERTY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LIMESTONE.html">LIMESTONE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LIVE OAK.html">LIVE OAK</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LUBBOCK.html">LUBBOCK</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MARION.html">MARION</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MARTIN.html">MARTIN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MATAGORDA.html">MATAGORDA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MAVERICK.html">MAVERICK</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MCLENNAN.html">MCLENNAN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MEDINA.html">MEDINA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MIDLAND.html">MIDLAND</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MILAM.html">MILAM</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MILLS.html">MILLS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MITCHELL.html">MITCHELL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MONTAGUE.html">MONTAGUE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MONTGOMERY.html">MONTGOMERY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MOORE.html">MOORE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MORRIS.html">MORRIS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/NACOGDOCHES.html">NACOGDOCHES</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/NAVARRO.html">NAVARRO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/NEWTON.html">NEWTON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/NOLAN.html">NOLAN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/NUECES.html">NUECES</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ORANGE.html">ORANGE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/PALO PINTO.html">PALO PINTO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/PANOLA.html">PANOLA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/PARKER.html">PARKER</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/PARMER.html">PARMER</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/POLK.html">POLK</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/POTTER.html">POTTER</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/RANDALL.html">RANDALL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/REEVES.html">REEVES</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/REFUGIO.html">REFUGIO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ROBERTS.html">ROBERTS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ROBERTSON.html">ROBERTSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/RUNNELS.html">RUNNELS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/RUSK.html">RUSK</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/SAN JACINTO.html">SAN JACINTO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/SAN PATRICIO.html">SAN PATRICIO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/SCURRY.html">SCURRY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/SHELBY.html">SHELBY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/TARRANT.html">TARRANT</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/TAYLOR.html">TAYLOR</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/TITUS.html">TITUS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/TRAVIS.html">TRAVIS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/UPSHUR.html">UPSHUR</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/UVALDE.html">UVALDE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/VAL VERDE.html">VAL VERDE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/VAN ZANDT.html">VAN ZANDT</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/VICTORIA.html">VICTORIA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WARD.html">WARD</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WASHINGTON.html">WASHINGTON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WEBB.html">WEBB</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WHARTON.html">WHARTON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WICHITA.html">WICHITA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WILBARGER.html">WILBARGER</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WILLIAMSON.html">WILLIAMSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WINKLER.html">WINKLER</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WISE.html">WISE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WOOD.html">WOOD</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/Not Specified.html">Not Specified</a></li>
+            
           </ul>
-        </div>
-      </div>
-    </nav>
+        <li class="nav-item">
+          <a class="nav-link" href="../nationwide-data.html">U.S. Statistics </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-    <div class="container">
-      <h1>BEXAR</h1>
-      <p>DESCRIPTION HERE</p>
+    
+<div class="container">
+<h1>BEXAR</h1>
+<p>Below are statistics about BEXAR county in Texas and a table that includes all reported train accidents in this county.</p>
 
-      <div
-        class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 mb-3 g-4"
-      >
-        <div class="col">
-          <div class="card text-center" style="height: 10rem">
-            <div class="card-body">
-              <h5 class="card-title">Total Accidents</h5>
-              <p class="card-text">117</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card text-center" style="height: 10rem">
-            <div class="card-body">
-              <h5 class="card-title">Total Equipment Damage ($)</h5>
-              <p class="card-text">4328293</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card text-center" style="height: 10rem">
-            <div class="card-body">
-              <h5 class="card-title">Total Track Damage ($)</h5>
-              <p class="card-text">45997</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card text-center" style="height: 10rem">
-            <div class="card-body">
-              <h5 class="card-title">Total Injuries</h5>
-              <p class="card-text">3</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card text-center" style="height: 10rem">
-            <div class="card-body">
-              <h5 class="card-title">Total Deaths</h5>
-              <p class="card-text">0</p>
-            </div>
-          </div>
-        </div>
-      </div>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 mb-3 g-4">
+  <div class="col">
+  <div class="card text-center" style="height: 10rem;" >
+    <div class="card-body">
+      <h5 class="card-title ">Total Accidents</h5>
+      <p class="card-text">117 </p>
+    </div>
+  </div>
+  </div>
+  <div class="col">
+  <div class="card text-center" style="height: 10rem;" >
+    <div class="card-body">
+      <h5 class="card-title">Total Equipment Damage ($)</h5>
+      <p class="card-text">4328293 </p>
+    </div>
+  </div>
+  </div>
+  <div class="col">
+  <div class="card text-center" style="height: 10rem;" >
+    <div class="card-body">
+      <h5 class="card-title">Total Track Damage ($)</h5>
+      <p class="card-text">45997 </p>
+    </div>
+  </div>
+  </div>
+  <div class="col">
+  <div class="card text-center" style="height: 10rem;" >
+    <div class="card-body">
+      <h5 class="card-title">Total Injuries </h5>
+      <p class="card-text">3 </p>
+    </div>
+  </div>
+  </div>
+  <div class="col">
+  <div class="card text-center" style="height: 10rem;">
+    <div class="card-body">
+      <h5 class="card-title">Total Deaths</h5>
+      <p class="card-text">0 </p>
+    </div>
+  </div>
+  </div>
+</div>
 
-      <div class="col">
-        <table class="table table-striped table-hover table-bordered table-sm">
-          <thead>
+<div class = "col">
+  <table class="table table-striped table-hover table-bordered table-sm">
+      <thead>
+        <tr>
+          
+          <th scope="col">County Name</th>
+          <th scope="col">Accident Date</th>
+          <th scope="col">Accident Number</th>
+          <th scope="col">Accident Type</th>
+          <th scope="col">Equipment Damage($)</th>
+          <th scope="col">Track Damage($)</th>
+          <th scope="col">Desc of Cause</th>
+          <th scope="col"># Injured</th>
+          <th scope="col"># Killed</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <th scope="col">County Name</th>
-              <th scope="col">Accident Date</th>
-              <th scope="col">Accident Number</th>
-              <th scope="col">Accident Type</th>
-              <th scope="col">Equipment Damage($)</th>
-              <th scope="col">Track Damage($)</th>
-              <th scope="col">Desc of Cause</th>
-              <th scope="col"># Injured</th>
-              <th scope="col"># Killed</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2020-02-07</td>
               <td>0220SX005</td>
               <td>Derailment</td>
@@ -1064,9 +456,129 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2020-04-01</td>
               <td>0420SX001</td>
               <td>Derailment</td>
@@ -1076,9 +588,53 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2020-05-06</td>
               <td>0520SX006</td>
               <td>Other (describe in narrative)</td>
@@ -1088,37 +644,79 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2020-05-10</td>
               <td>0520SX008</td>
               <td>Other impacts</td>
               <td>108</td>
               <td>0</td>
-              <td>
-                Passed couplers (other than automated classification yard)
-              </td>
+              <td>Passed couplers (other than automated classification yard)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2020-05-10</td>
               <td>0520SX008</td>
               <td>Other impacts</td>
               <td>29425</td>
               <td>99</td>
-              <td>
-                Passed couplers (other than automated classification yard)
-              </td>
+              <td>Passed couplers (other than automated classification yard)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2020-06-13</td>
               <td>0620SX022</td>
               <td>Other impacts</td>
@@ -1128,9 +726,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2020-06-13</td>
               <td>0620SX022</td>
               <td>Other impacts</td>
@@ -1140,9 +740,123 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2020-08-26</td>
               <td>RD0820126</td>
               <td>Derailment</td>
@@ -1152,9 +866,39 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2020-09-18</td>
               <td>0920SX025</td>
               <td>Other impacts</td>
@@ -1164,9 +908,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2020-09-18</td>
               <td>0920SX025</td>
               <td>Other impacts</td>
@@ -1176,9 +922,47 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2020-10-09</td>
               <td>RD1020105</td>
               <td>Derailment</td>
@@ -1188,9 +972,35 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2020-11-16</td>
               <td>RD1120111</td>
               <td>Derailment</td>
@@ -1200,9 +1010,135 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2021-02-21</td>
               <td>0221SX021</td>
               <td>Derailment</td>
@@ -1212,9 +1148,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2021-02-21</td>
               <td>RD0221119</td>
               <td>Derailment</td>
@@ -1224,9 +1162,27 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2021-03-04</td>
               <td>0321SX003</td>
               <td>Derailment</td>
@@ -1236,9 +1192,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2021-03-04</td>
               <td>0321SX004</td>
               <td>Derailment</td>
@@ -1248,9 +1206,51 @@
               <td>1</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2021-03-28</td>
               <td>0321SX023</td>
               <td>Derailment</td>
@@ -1260,9 +1260,17 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2021-04-13</td>
               <td>0421SX011</td>
               <td>Other (describe in narrative)</td>
@@ -1272,9 +1280,33 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2021-04-24</td>
               <td>0421SX017</td>
               <td>Derailment</td>
@@ -1284,9 +1316,101 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2021-06-25</td>
               <td>0621SX029</td>
               <td>Derailment</td>
@@ -1296,9 +1420,39 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2021-07-07</td>
               <td>0721SX005</td>
               <td>Derailment</td>
@@ -1308,9 +1462,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2021-07-07</td>
               <td>0721SX005</td>
               <td>Derailment</td>
@@ -1320,9 +1476,51 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2021-07-27</td>
               <td>0721SX033</td>
               <td>Derailment</td>
@@ -1332,9 +1530,31 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2021-08-09</td>
               <td>0821SX013</td>
               <td>Derailment</td>
@@ -1344,9 +1564,19 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2021-08-17</td>
               <td>0821SX021</td>
               <td>Derailment</td>
@@ -1356,24 +1586,89 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2021-09-02</td>
               <td>0921SX002</td>
               <td>Hwy-rail crossing</td>
               <td>0</td>
               <td>NA</td>
-              <td>
-                Highway user misjudgment under normal weather and traffic
-                conditions
-              </td>
+              <td>Highway user misjudgment under normal weather and traffic conditions</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2021-09-23</td>
               <td>0921ES041</td>
               <td>Obstruction</td>
@@ -1383,24 +1678,37 @@
               <td>1</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2021-09-23</td>
               <td>RD0921128</td>
               <td>Obstruction</td>
               <td>3900</td>
               <td>0</td>
-              <td>
-                Motor car or other on-track equipment rules (other than main
-                track authority) - Failure to Comply.
-              </td>
+              <td>Motor car or other on-track equipment rules (other than main track authority) - Failure to Comply.</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2021-10-05</td>
               <td>1021SX005</td>
               <td>Derailment</td>
@@ -1410,9 +1718,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2021-10-16</td>
               <td>1021SX018</td>
               <td>Derailment</td>
@@ -1422,9 +1732,59 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2021-11-13</td>
               <td>1121SX011</td>
               <td>Derailment</td>
@@ -1434,9 +1794,77 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-01-03</td>
               <td>0122SX001</td>
               <td>Derailment</td>
@@ -1446,9 +1874,25 @@
               <td>1</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-01-14</td>
               <td>0122SX007</td>
               <td>Other impacts</td>
@@ -1458,9 +1902,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-01-14</td>
               <td>0122SX007</td>
               <td>Other impacts</td>
@@ -1470,9 +1916,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-01-14</td>
               <td>0122SX010</td>
               <td>Other impacts</td>
@@ -1482,9 +1930,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-01-14</td>
               <td>0122SX010</td>
               <td>Other impacts</td>
@@ -1494,9 +1944,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-01-16</td>
               <td>0122SX012</td>
               <td>Derailment</td>
@@ -1506,39 +1958,141 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-03-26</td>
               <td>0322SX022</td>
               <td>Other impacts</td>
               <td>11645</td>
               <td>0</td>
-              <td>
-                Shoving movement, absence of man on or at leading end of
-                movement
-              </td>
+              <td>Shoving movement, absence of man on or at leading end of movement</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-03-26</td>
               <td>0322SX022</td>
               <td>Other impacts</td>
               <td>40067</td>
               <td>130</td>
-              <td>
-                Shoving movement, absence of man on or at leading end of
-                movement
-              </td>
+              <td>Shoving movement, absence of man on or at leading end of movement</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-04-13</td>
               <td>0422SX009</td>
               <td>Derailment</td>
@@ -1548,9 +2102,23 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-04-27</td>
               <td>0422SX029</td>
               <td>Other impacts</td>
@@ -1560,9 +2128,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-04-27</td>
               <td>0422SX029</td>
               <td>Other impacts</td>
@@ -1572,9 +2142,21 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-04-29</td>
               <td>RD0422125</td>
               <td>Derailment</td>
@@ -1584,38 +2166,139 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-06-22</td>
               <td>0622SX018</td>
               <td>Obstruction</td>
               <td>12080</td>
               <td>266</td>
-              <td>
-                Object or equipment on or fouling track (motor vehicle - other
-                than highway-rail crossing)
-              </td>
+              <td>Object or equipment on or fouling track (motor vehicle - other than highway-rail crossing)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-06-27</td>
               <td>0622SX027</td>
               <td>Other (describe in narrative)</td>
               <td>12020</td>
               <td>66</td>
-              <td>
-                Passed couplers (other than automated classification yard)
-              </td>
+              <td>Passed couplers (other than automated classification yard)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-07-04</td>
               <td>0722SX006</td>
               <td>Other impacts</td>
@@ -1625,9 +2308,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-07-04</td>
               <td>0722SX006</td>
               <td>Other impacts</td>
@@ -1637,9 +2322,51 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-07-22</td>
               <td>0722SX021</td>
               <td>Broken train collision</td>
@@ -1649,9 +2376,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-07-22</td>
               <td>0722SX021</td>
               <td>Broken train collision</td>
@@ -1661,23 +2390,85 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-08-10</td>
               <td>0822SX013</td>
               <td>Other (describe in narrative)</td>
               <td>35110</td>
               <td>150</td>
-              <td>
-                Passed couplers (other than automated classification yard)
-              </td>
+              <td>Passed couplers (other than automated classification yard)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-08-15</td>
               <td>0822SX009</td>
               <td>Derailment</td>
@@ -1687,9 +2478,25 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-08-24</td>
               <td>0822SX020</td>
               <td>Derailment</td>
@@ -1699,9 +2506,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-08-24</td>
               <td>0822SX020</td>
               <td>Derailment</td>
@@ -1711,125 +2520,223 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-08-30</td>
               <td>0822SX025</td>
               <td>Other impacts</td>
               <td>7366</td>
               <td>299</td>
-              <td>
-                Failure to properly secure hand brake on car(s) (railroad
-                employee)
-              </td>
+              <td>Failure to properly secure hand brake on car(s) (railroad  employee)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-08-30</td>
               <td>0822SX025</td>
               <td>Other impacts</td>
               <td>29811</td>
               <td>0</td>
-              <td>
-                Failure to properly secure hand brake on car(s) (railroad
-                employee)
-              </td>
+              <td>Failure to properly secure hand brake on car(s) (railroad  employee)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-09-13</td>
               <td>0922SX012</td>
               <td>Other impacts</td>
               <td>2770</td>
               <td>38</td>
-              <td>
-                Passed couplers (other than automated classification yard)
-              </td>
+              <td>Passed couplers (other than automated classification yard)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-09-13</td>
               <td>0922SX012</td>
               <td>Other impacts</td>
               <td>33163</td>
               <td>0</td>
-              <td>
-                Passed couplers (other than automated classification yard)
-              </td>
+              <td>Passed couplers (other than automated classification yard)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-10-13</td>
               <td>1022SX010</td>
               <td>Other impacts</td>
               <td>1190</td>
               <td>0</td>
-              <td>
-                Failure to properly secure engine(s) or car(s) (non railroad
-                employee)
-              </td>
+              <td>Failure to properly secure engine(s) or car(s) (non railroad employee)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-10-13</td>
               <td>1022SX010</td>
               <td>Other impacts</td>
               <td>20087</td>
               <td>233</td>
-              <td>
-                Failure to properly secure engine(s) or car(s) (non railroad
-                employee)
-              </td>
+              <td>Failure to properly secure engine(s) or car(s) (non railroad employee)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-10-22</td>
               <td>1022SX020</td>
               <td>Other impacts</td>
               <td>14158</td>
               <td>0</td>
-              <td>
-                Passed couplers (other than automated classification yard)
-              </td>
+              <td>Passed couplers (other than automated classification yard)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-10-22</td>
               <td>1022SX020</td>
               <td>Other impacts</td>
               <td>15298</td>
               <td>132</td>
-              <td>
-                Passed couplers (other than automated classification yard)
-              </td>
+              <td>Passed couplers (other than automated classification yard)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-10-23</td>
               <td>1022SX021</td>
               <td>Other impacts</td>
@@ -1839,9 +2746,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-10-23</td>
               <td>1022SX021</td>
               <td>Other impacts</td>
@@ -1851,37 +2760,69 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-11-02</td>
               <td>1122SX001</td>
               <td>Other impacts</td>
               <td>6312</td>
               <td>0</td>
-              <td>
-                Passed couplers (other than automated classification yard)
-              </td>
+              <td>Passed couplers (other than automated classification yard)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-11-02</td>
               <td>1122SX001</td>
               <td>Other impacts</td>
               <td>17597</td>
               <td>538</td>
-              <td>
-                Passed couplers (other than automated classification yard)
-              </td>
+              <td>Passed couplers (other than automated classification yard)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-11-11</td>
               <td>1122SX015</td>
               <td>Derailment</td>
@@ -1891,9 +2832,21 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-11-17</td>
               <td>1122SX022</td>
               <td>Derailment</td>
@@ -1903,9 +2856,89 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2022-12-30</td>
               <td>RD1222129</td>
               <td>Other impacts</td>
@@ -1915,9 +2948,59 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2023-01-26</td>
               <td>0123SX022</td>
               <td>Other impacts</td>
@@ -1927,9 +3010,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2023-01-26</td>
               <td>0123SX022</td>
               <td>Other impacts</td>
@@ -1939,9 +3024,19 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2023-02-01</td>
               <td>20230201</td>
               <td>Derailment</td>
@@ -1951,9 +3046,21 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2023-02-04</td>
               <td>0223SX003</td>
               <td>Other impacts</td>
@@ -1963,9 +3070,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2023-02-04</td>
               <td>0223SX003</td>
               <td>Other impacts</td>
@@ -1975,9 +3084,15 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2023-02-10</td>
               <td>0223SX005</td>
               <td>Derailment</td>
@@ -1987,9 +3102,53 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2023-03-05</td>
               <td>0323SX004</td>
               <td>Other impacts</td>
@@ -1999,9 +3158,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2023-03-05</td>
               <td>0323SX004</td>
               <td>Other impacts</td>
@@ -2011,9 +3172,39 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2023-04-03</td>
               <td>0423SX001</td>
               <td>Derailment</td>
@@ -2023,9 +3214,17 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2023-04-06</td>
               <td>0423SX005</td>
               <td>Derailment</td>
@@ -2035,9 +3234,65 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2023-05-16</td>
               <td>0523SX028</td>
               <td>Fire/violent rupture</td>
@@ -2047,9 +3302,21 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2023-05-20</td>
               <td>0523SX023</td>
               <td>Derailment</td>
@@ -2059,9 +3326,23 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2023-05-25</td>
               <td>0523SX032</td>
               <td>Derailment</td>
@@ -2071,24 +3352,159 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2023-07-25</td>
               <td>0723SX019</td>
               <td>Other (describe in narrative)</td>
               <td>0</td>
               <td>NA</td>
-              <td>
-                Shoving movement, man on or at leading end of movement, failure
-                to control
-              </td>
+              <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2023-08-17</td>
               <td>0823SX028</td>
               <td>Derailment</td>
@@ -2098,9 +3514,53 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2023-09-09</td>
               <td>0923SX005</td>
               <td>Other impacts</td>
@@ -2110,9 +3570,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2023-09-09</td>
               <td>0923SX005</td>
               <td>Other impacts</td>
@@ -2122,9 +3584,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2023-09-10</td>
               <td>0923SX006</td>
               <td>Derailment</td>
@@ -2134,54 +3598,111 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2023-09-26</td>
               <td>0923SX024</td>
               <td>Other impacts</td>
               <td>2500</td>
               <td>0</td>
-              <td>
-                Shoving movement, absence of man on or at leading end of
-                movement
-              </td>
+              <td>Shoving movement, absence of man on or at leading end of movement</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2023-09-26</td>
               <td>0923SX024</td>
               <td>Other impacts</td>
               <td>16593</td>
               <td>0</td>
-              <td>
-                Shoving movement, absence of man on or at leading end of
-                movement
-              </td>
+              <td>Shoving movement, absence of man on or at leading end of movement</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2023-10-13</td>
               <td>1023SX017</td>
               <td>Derailment</td>
               <td>250</td>
               <td>14</td>
-              <td>
-                Failure to comply with restricted speed or its equivalent not in
-                connection with a block or interlocking signal.
-              </td>
+              <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2023-10-16</td>
               <td>1023SX018</td>
               <td>Other impacts</td>
@@ -2191,9 +3712,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2023-10-16</td>
               <td>1023SX018</td>
               <td>Other impacts</td>
@@ -2203,9 +3726,71 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2023-11-09</td>
               <td>1123SX009</td>
               <td>Derailment</td>
@@ -2215,9 +3800,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2023-11-09</td>
               <td>1123SX009</td>
               <td>Derailment</td>
@@ -2227,9 +3814,59 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2023-12-21</td>
               <td>1223SX014</td>
               <td>Derailment</td>
@@ -2239,37 +3876,61 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2023-12-25</td>
               <td>1223SX018</td>
               <td>Other impacts</td>
               <td>156</td>
               <td>52</td>
-              <td>
-                Passed couplers (other than automated classification yard)
-              </td>
+              <td>Passed couplers (other than automated classification yard)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2023-12-25</td>
               <td>1223SX018</td>
               <td>Other impacts</td>
               <td>101889</td>
               <td>0</td>
-              <td>
-                Passed couplers (other than automated classification yard)
-              </td>
+              <td>Passed couplers (other than automated classification yard)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2024-01-05</td>
               <td>0124ES002</td>
               <td>Other (describe in narrative)</td>
@@ -2279,39 +3940,163 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2024-03-12</td>
               <td>0324ES020</td>
               <td>Obstruction</td>
               <td>679</td>
               <td>0</td>
-              <td>
-                Failure to control speed of car using hand brake (railroad
-                employee)
-              </td>
+              <td>Failure to control speed of car using hand brake (railroad employee)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2024-03-12</td>
               <td>0324ES020</td>
               <td>Obstruction</td>
               <td>7085</td>
               <td>0</td>
-              <td>
-                Failure to control speed of car using hand brake (railroad
-                employee)
-              </td>
+              <td>Failure to control speed of car using hand brake (railroad employee)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2024-04-14</td>
               <td>0424SX012</td>
               <td>Obstruction</td>
@@ -2321,9 +4106,115 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2024-06-30</td>
               <td>0624SX036</td>
               <td>Derailment</td>
@@ -2333,9 +4224,13 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2024-07-02</td>
               <td>0724SX003</td>
               <td>Derailment</td>
@@ -2345,9 +4240,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2024-07-02</td>
               <td>0724SX003</td>
               <td>Derailment</td>
@@ -2357,9 +4254,57 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2024-07-27</td>
               <td>0724SX025</td>
               <td>Derailment</td>
@@ -2369,24 +4314,49 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2024-08-18</td>
               <td>0824SX020</td>
               <td>Derailment</td>
               <td>1837</td>
               <td>12</td>
-              <td>
-                Shoving movement, man on or at leading end of movement, failure
-                to control
-              </td>
+              <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2024-08-23</td>
               <td>0824ME033</td>
               <td>Derailment</td>
@@ -2396,25 +4366,65 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2024-08-29</td>
               <td>0824SX033</td>
               <td>Derailment</td>
               <td>11308</td>
               <td>795</td>
-              <td>
-                Cause under active investigation by reporting railroad (Amended
-                report will be forwarded when reporting railroad’s active
-                investigation has been completed.)
-              </td>
+              <td>Cause under active investigation by reporting railroad  (Amended report will be forwarded when reporting railroad’s active investigation has been completed.)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2024-09-06</td>
               <td>0924SX005</td>
               <td>Derailment</td>
@@ -2424,24 +4434,89 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2024-10-08</td>
               <td>1024SX011</td>
               <td>Derailment</td>
               <td>123568</td>
               <td>9010</td>
-              <td>
-                Independent (engine) brake, improper use (except actuation)
-                (H023)
-              </td>
+              <td>Independent (engine) brake, improper use (except actuation) (H023)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2024-10-18</td>
               <td>1024SX027</td>
               <td>Other impacts</td>
@@ -2451,9 +4526,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2024-10-18</td>
               <td>1024SX027</td>
               <td>Other impacts</td>
@@ -2463,24 +4540,95 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2024-11-01</td>
               <td>1124SX001</td>
               <td>Derailment</td>
               <td>28826</td>
               <td>196</td>
-              <td>
-                Failure to allow air brakes to fully release before proceeding
-                (H005)
-              </td>
+              <td>Failure to allow air brakes to fully release before proceeding (H005)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2024-12-07</td>
               <td>1224SX001</td>
               <td>Derailment</td>
@@ -2490,9 +4638,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2024-12-11</td>
               <td>1224SX007</td>
               <td>Derailment</td>
@@ -2502,24 +4652,65 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2024-12-27</td>
               <td>1224SX020</td>
               <td>Derailment</td>
               <td>151444</td>
               <td>1019</td>
-              <td>
-                Other coupler and draft system defects, (CAR) (Provide detailed
-                description in narrative)
-              </td>
+              <td>Other coupler and draft system defects, (CAR) (Provide detailed description in narrative)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2025-01-29</td>
               <td>95612925</td>
               <td>Derailment</td>
@@ -2529,32 +4720,51 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>BEXAR</td>
+              <td>BEXAR </td>
               <td>2025-01-30</td>
               <td>0125SX021</td>
               <td>Derailment</td>
               <td>42249</td>
               <td>956</td>
-              <td>
-                Object or equipment on or fouling track - other than above (for
-                vandalism, see code M503)
-              </td>
+              <td>Object or equipment on or fouling track - other than above (for  vandalism, see code M503)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
+          
+        
+      </tbody>
+  </table>
+</div>
+</div>
+
+
+    <div class="container">
+<div class="alert alert-primary d-flex align-items-center my-3" role="alert">
+  <svg xmlns="http://www.w3.org/2000/svg" class="bi flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:" 
+  style="width: 1.5rem; height: 1.5rem;">
+    <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+  </svg>
+  <div>
+    All data on this site came from the U.S. Department of Transportation' FRA Safety Data. Specifically the <a href="https://data.transportation.gov/stories/s/Accident-Detail-Listing-3-18-/vq2r-5pm7/">Train Accident Detail Listing data.</a>
+  </div>
+</div>
+</div>
 
     <footer>
-      <p id="legal" class="center-block text-center">
-        <small>&copy;</small> <span class="copyright-year"></span>
-        A class project by Karina Kumar.
-      </p>
-    </footer>
+<p id="legal" class="center-block text-center">
+  <small>&copy;</small> <span class="copyright-year"></span>
+  A class project by Karina Kumar.
+</p>
+</footer>
+
 
     <script src="../js/jquery.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>

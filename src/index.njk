@@ -3,23 +3,28 @@
 {% block page_title %}Home{% endblock %}
 
 
-
 {% block content %}
 {% include "_includes/jumbotron.njk" %}
 <div class="container">
-  <h1>Train Accident Statistics for Texas and Nation-wide</h1>
+  <h1>Train Accident Statistics for Texas and Nationwide</h1>
   <p>The data that supports this website is from the U.S. Department of Transportation and can be found <a href="https://data.transportation.gov/stories/s/wjun-6kqb" target="_blank">here</a>.</p>
   <h2>Counties in Texas with Train Accidents</h2>
   <p>These are the counties in Texas that have train accidents reported since 2020. Click on the county name to navigate to that county's individual statistics page.</p>
-  <div class="row">
+  <div class="row row-cols-2 row-cols-md-4 row-cols-lg-5 mb-3">
     {% for county in accidents.counties %}
-      <div class="col-2">
+      <div class="col">
         <h3><a href="county-pages/{{ county.county_name }}.html">{{ county.county_name }}</a></h3>
       </div>
     {% endfor %}
   </div>
-  <h2>Nationwide Data</h2>
-  <p>Navigate to the nationwide page to learn statistics about train accidents in every state.</p>
-  <button type="button" class="btn btn-dark" href="nationwide-data.html">Nationwide Data</button>
+  <div class="row row-cols-2">
+    <div class="col-lg-8">
+      <h2>Nationwide Data</h2>
+      <p>Navigate to the nationwide page to learn statistics about train accidents in every state.</p>
+    </div>
+    <div class="col-lg-2 position-relative">  
+      <button type="button" class="btn btn-dark col-lg-12 position-absolute top-50 start-50 translate-middle" href="nationwide-data.html">Nationwide Data</button>
+    </div>
+  </div>
 </div>
 {% endblock %}

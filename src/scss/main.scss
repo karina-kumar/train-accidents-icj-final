@@ -20,6 +20,8 @@
 
 // Import partials
 @import 'nav';
+@import "jumbotron";
+@import 'data-origin';
 
 p {
   font-family:'Times New Roman', Times, serif;
@@ -38,4 +40,3 @@ h1, h2, h5 {
   font-family: "DM Serif Text", serif;
 }
 
-@import "jumbotron";

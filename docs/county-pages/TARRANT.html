@@ -1,1060 +1,414 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <!-- A Intro to Coding for Journalists class project -->
   <head>
     <title>Train Accidents | TARRANT</title>
-    <meta name="description" content="DESCRIPTION" />
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1"
-    />
-    <link rel="stylesheet" href="../css/main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Pirata+One&display=swap"
-      rel="stylesheet"
-    />
+    <meta name="description" content="DESCRIPTION">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Pirata+One&display=swap" rel="stylesheet">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html">Train Accidents</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href=""
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Texas Counties
-              </a>
-              <ul
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/ANDERSON.html"
-                    >ANDERSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/ANGELINA.html"
-                    >ANGELINA</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/ATASCOSA.html"
-                    >ATASCOSA</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/AUSTIN.html"
-                    >AUSTIN</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/BAILEY.html"
-                    >BAILEY</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/BASTROP.html"
-                    >BASTROP</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/BELL.html"
-                    >BELL</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/BEXAR.html"
-                    >BEXAR</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/BOSQUE.html"
-                    >BOSQUE</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/BOWIE.html"
-                    >BOWIE</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/BRAZORIA.html"
-                    >BRAZORIA</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/BRAZOS.html"
-                    >BRAZOS</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/BREWSTER.html"
-                    >BREWSTER</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/BROWN.html"
-                    >BROWN</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/BURLESON.html"
-                    >BURLESON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/BURNET.html"
-                    >BURNET</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/CALDWELL.html"
-                    >CALDWELL</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/CAMERON.html"
-                    >CAMERON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/CAMP.html"
-                    >CAMP</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/CARSON.html"
-                    >CARSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/CASS.html"
-                    >CASS</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/CHAMBERS.html"
-                    >CHAMBERS</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/CHEROKEE.html"
-                    >CHEROKEE</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/CHILDRESS.html"
-                    >CHILDRESS</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/COLLIN.html"
-                    >COLLIN</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/COLORADO.html"
-                    >COLORADO</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/COMAL.html"
-                    >COMAL</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/COMANCHE.html"
-                    >COMANCHE</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/COOKE.html"
-                    >COOKE</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/CRANE.html"
-                    >CRANE</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/CULBERSON.html"
-                    >CULBERSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/DALLAM.html"
-                    >DALLAM</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/DALLAS.html"
-                    >DALLAS</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/DEAF SMITH.html"
-                    >DEAF SMITH</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/DENTON.html"
-                    >DENTON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/DONLEY.html"
-                    >DONLEY</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/DUVAL.html"
-                    >DUVAL</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/EASTLAND.html"
-                    >EASTLAND</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/ECTOR.html"
-                    >ECTOR</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/EL PASO.html"
-                    >EL PASO</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/ELLIS.html"
-                    >ELLIS</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/ERATH.html"
-                    >ERATH</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/FALLS.html"
-                    >FALLS</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/FAYETTE.html"
-                    >FAYETTE</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/FORT BEND.html"
-                    >FORT BEND</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/FREESTONE.html"
-                    >FREESTONE</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/FRIO.html"
-                    >FRIO</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/GALVESTON.html"
-                    >GALVESTON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/GARZA.html"
-                    >GARZA</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/GRAY.html"
-                    >GRAY</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/GRAYSON.html"
-                    >GRAYSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/GREGG.html"
-                    >GREGG</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/GRIMES.html"
-                    >GRIMES</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/GUADALUPE.html"
-                    >GUADALUPE</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/HALE.html"
-                    >HALE</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/HARDEMAN.html"
-                    >HARDEMAN</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/HARDIN.html"
-                    >HARDIN</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/HARRIS.html"
-                    >HARRIS</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/HARRISON.html"
-                    >HARRISON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/HAYS.html"
-                    >HAYS</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/HEMPHILL.html"
-                    >HEMPHILL</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/HENDERSON.html"
-                    >HENDERSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/HIDALGO.html"
-                    >HIDALGO</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/HILL.html"
-                    >HILL</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/HOCKLEY.html"
-                    >HOCKLEY</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/HOOD.html"
-                    >HOOD</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/HOUSTON.html"
-                    >HOUSTON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/HOWARD.html"
-                    >HOWARD</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/HUNT.html"
-                    >HUNT</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/HUTCHINSON.html"
-                    >HUTCHINSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/IRION.html"
-                    >IRION</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/JACKSON.html"
-                    >JACKSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/JASPER.html"
-                    >JASPER</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/JEFF DAVIS.html"
-                    >JEFF DAVIS</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/JEFFERSON.html"
-                    >JEFFERSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/JIM HOGG.html"
-                    >JIM HOGG</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/JOHNSON.html"
-                    >JOHNSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/KAUFMAN.html"
-                    >KAUFMAN</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/KINNEY.html"
-                    >KINNEY</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/LA SALLE.html"
-                    >LA SALLE</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/LAMAR.html"
-                    >LAMAR</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/LAMB.html"
-                    >LAMB</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/LAVACA.html"
-                    >LAVACA</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/LEE.html"
-                    >LEE</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/LEON.html"
-                    >LEON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/LIBERTY.html"
-                    >LIBERTY</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/LIMESTONE.html"
-                    >LIMESTONE</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/LIVE OAK.html"
-                    >LIVE OAK</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/LUBBOCK.html"
-                    >LUBBOCK</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/MARION.html"
-                    >MARION</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/MARTIN.html"
-                    >MARTIN</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/MATAGORDA.html"
-                    >MATAGORDA</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/MAVERICK.html"
-                    >MAVERICK</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/MCLENNAN.html"
-                    >MCLENNAN</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/MEDINA.html"
-                    >MEDINA</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/MIDLAND.html"
-                    >MIDLAND</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/MILAM.html"
-                    >MILAM</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/MILLS.html"
-                    >MILLS</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/MITCHELL.html"
-                    >MITCHELL</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/MONTAGUE.html"
-                    >MONTAGUE</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/MONTGOMERY.html"
-                    >MONTGOMERY</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/MOORE.html"
-                    >MOORE</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/MORRIS.html"
-                    >MORRIS</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/NACOGDOCHES.html"
-                    >NACOGDOCHES</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/NAVARRO.html"
-                    >NAVARRO</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/NEWTON.html"
-                    >NEWTON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/NOLAN.html"
-                    >NOLAN</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/NUECES.html"
-                    >NUECES</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/ORANGE.html"
-                    >ORANGE</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/PALO PINTO.html"
-                    >PALO PINTO</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/PANOLA.html"
-                    >PANOLA</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/PARKER.html"
-                    >PARKER</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/PARMER.html"
-                    >PARMER</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/POLK.html"
-                    >POLK</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/POTTER.html"
-                    >POTTER</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/RANDALL.html"
-                    >RANDALL</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/REEVES.html"
-                    >REEVES</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/REFUGIO.html"
-                    >REFUGIO</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/ROBERTS.html"
-                    >ROBERTS</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/ROBERTSON.html"
-                    >ROBERTSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/RUNNELS.html"
-                    >RUNNELS</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/RUSK.html"
-                    >RUSK</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/SAN JACINTO.html"
-                    >SAN JACINTO</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/SAN PATRICIO.html"
-                    >SAN PATRICIO</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/SCURRY.html"
-                    >SCURRY</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/SHELBY.html"
-                    >SHELBY</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/TARRANT.html"
-                    >TARRANT</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/TAYLOR.html"
-                    >TAYLOR</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/TITUS.html"
-                    >TITUS</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/TRAVIS.html"
-                    >TRAVIS</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/UPSHUR.html"
-                    >UPSHUR</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/UVALDE.html"
-                    >UVALDE</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/VAL VERDE.html"
-                    >VAL VERDE</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/VAN ZANDT.html"
-                    >VAN ZANDT</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/VICTORIA.html"
-                    >VICTORIA</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/WARD.html"
-                    >WARD</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/WASHINGTON.html"
-                    >WASHINGTON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/WEBB.html"
-                    >WEBB</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/WHARTON.html"
-                    >WHARTON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/WICHITA.html"
-                    >WICHITA</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/WILBARGER.html"
-                    >WILBARGER</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/WILLIAMSON.html"
-                    >WILLIAMSON</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/WINKLER.html"
-                    >WINKLER</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/WISE.html"
-                    >WISE</a
-                  >
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="..//county-pages/WOOD.html"
-                    >WOOD</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="..//county-pages/Not Specified.html"
-                    >Not Specified</a
-                  >
-                </li>
-              </ul>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="../nationwide-data.html"
-                >U.S. Statistics
-              </a>
-            </li>
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html">Train Accidents</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Texas Counties
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            
+            <li><a class="dropdown-item" href="..//county-pages/ANDERSON.html">ANDERSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ANGELINA.html">ANGELINA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ATASCOSA.html">ATASCOSA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/AUSTIN.html">AUSTIN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BAILEY.html">BAILEY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BASTROP.html">BASTROP</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BELL.html">BELL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BEXAR.html">BEXAR</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BOSQUE.html">BOSQUE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BOWIE.html">BOWIE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BRAZORIA.html">BRAZORIA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BRAZOS.html">BRAZOS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BREWSTER.html">BREWSTER</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BROWN.html">BROWN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BURLESON.html">BURLESON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/BURNET.html">BURNET</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CALDWELL.html">CALDWELL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CAMERON.html">CAMERON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CAMP.html">CAMP</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CARSON.html">CARSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CASS.html">CASS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CHAMBERS.html">CHAMBERS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CHEROKEE.html">CHEROKEE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CHILDRESS.html">CHILDRESS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/COLLIN.html">COLLIN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/COLORADO.html">COLORADO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/COMAL.html">COMAL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/COMANCHE.html">COMANCHE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/COOKE.html">COOKE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CRANE.html">CRANE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/CULBERSON.html">CULBERSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/DALLAM.html">DALLAM</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/DALLAS.html">DALLAS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/DEAF SMITH.html">DEAF SMITH</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/DENTON.html">DENTON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/DONLEY.html">DONLEY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/DUVAL.html">DUVAL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/EASTLAND.html">EASTLAND</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ECTOR.html">ECTOR</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/EL PASO.html">EL PASO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ELLIS.html">ELLIS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ERATH.html">ERATH</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/FALLS.html">FALLS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/FAYETTE.html">FAYETTE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/FORT BEND.html">FORT BEND</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/FREESTONE.html">FREESTONE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/FRIO.html">FRIO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/GALVESTON.html">GALVESTON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/GARZA.html">GARZA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/GRAY.html">GRAY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/GRAYSON.html">GRAYSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/GREGG.html">GREGG</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/GRIMES.html">GRIMES</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/GUADALUPE.html">GUADALUPE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HALE.html">HALE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HARDEMAN.html">HARDEMAN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HARDIN.html">HARDIN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HARRIS.html">HARRIS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HARRISON.html">HARRISON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HAYS.html">HAYS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HEMPHILL.html">HEMPHILL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HENDERSON.html">HENDERSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HIDALGO.html">HIDALGO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HILL.html">HILL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HOCKLEY.html">HOCKLEY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HOOD.html">HOOD</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HOUSTON.html">HOUSTON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HOWARD.html">HOWARD</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HUNT.html">HUNT</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/HUTCHINSON.html">HUTCHINSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/IRION.html">IRION</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/JACKSON.html">JACKSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/JASPER.html">JASPER</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/JEFF DAVIS.html">JEFF DAVIS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/JEFFERSON.html">JEFFERSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/JIM HOGG.html">JIM HOGG</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/JOHNSON.html">JOHNSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/KAUFMAN.html">KAUFMAN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/KINNEY.html">KINNEY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LA SALLE.html">LA SALLE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LAMAR.html">LAMAR</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LAMB.html">LAMB</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LAVACA.html">LAVACA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LEE.html">LEE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LEON.html">LEON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LIBERTY.html">LIBERTY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LIMESTONE.html">LIMESTONE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LIVE OAK.html">LIVE OAK</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/LUBBOCK.html">LUBBOCK</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MARION.html">MARION</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MARTIN.html">MARTIN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MATAGORDA.html">MATAGORDA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MAVERICK.html">MAVERICK</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MCLENNAN.html">MCLENNAN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MEDINA.html">MEDINA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MIDLAND.html">MIDLAND</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MILAM.html">MILAM</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MILLS.html">MILLS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MITCHELL.html">MITCHELL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MONTAGUE.html">MONTAGUE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MONTGOMERY.html">MONTGOMERY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MOORE.html">MOORE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/MORRIS.html">MORRIS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/NACOGDOCHES.html">NACOGDOCHES</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/NAVARRO.html">NAVARRO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/NEWTON.html">NEWTON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/NOLAN.html">NOLAN</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/NUECES.html">NUECES</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ORANGE.html">ORANGE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/PALO PINTO.html">PALO PINTO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/PANOLA.html">PANOLA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/PARKER.html">PARKER</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/PARMER.html">PARMER</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/POLK.html">POLK</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/POTTER.html">POTTER</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/RANDALL.html">RANDALL</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/REEVES.html">REEVES</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/REFUGIO.html">REFUGIO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ROBERTS.html">ROBERTS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/ROBERTSON.html">ROBERTSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/RUNNELS.html">RUNNELS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/RUSK.html">RUSK</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/SAN JACINTO.html">SAN JACINTO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/SAN PATRICIO.html">SAN PATRICIO</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/SCURRY.html">SCURRY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/SHELBY.html">SHELBY</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/TARRANT.html">TARRANT</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/TAYLOR.html">TAYLOR</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/TITUS.html">TITUS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/TRAVIS.html">TRAVIS</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/UPSHUR.html">UPSHUR</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/UVALDE.html">UVALDE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/VAL VERDE.html">VAL VERDE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/VAN ZANDT.html">VAN ZANDT</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/VICTORIA.html">VICTORIA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WARD.html">WARD</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WASHINGTON.html">WASHINGTON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WEBB.html">WEBB</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WHARTON.html">WHARTON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WICHITA.html">WICHITA</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WILBARGER.html">WILBARGER</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WILLIAMSON.html">WILLIAMSON</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WINKLER.html">WINKLER</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WISE.html">WISE</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/WOOD.html">WOOD</a></li>
+            
+            <li><a class="dropdown-item" href="..//county-pages/Not Specified.html">Not Specified</a></li>
+            
           </ul>
-        </div>
-      </div>
-    </nav>
+        <li class="nav-item">
+          <a class="nav-link" href="../nationwide-data.html">U.S. Statistics </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-    <div class="container">
-      <h1>TARRANT</h1>
-      <p>DESCRIPTION HERE</p>
+    
+<div class="container">
+<h1>TARRANT</h1>
+<p>Below are statistics about TARRANT county in Texas and a table that includes all reported train accidents in this county.</p>
 
-      <div
-        class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 mb-3 g-4"
-      >
-        <div class="col">
-          <div class="card text-center" style="height: 10rem">
-            <div class="card-body">
-              <h5 class="card-title">Total Accidents</h5>
-              <p class="card-text">172</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card text-center" style="height: 10rem">
-            <div class="card-body">
-              <h5 class="card-title">Total Equipment Damage ($)</h5>
-              <p class="card-text">6413817</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card text-center" style="height: 10rem">
-            <div class="card-body">
-              <h5 class="card-title">Total Track Damage ($)</h5>
-              <p class="card-text">57089</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card text-center" style="height: 10rem">
-            <div class="card-body">
-              <h5 class="card-title">Total Injuries</h5>
-              <p class="card-text">5</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card text-center" style="height: 10rem">
-            <div class="card-body">
-              <h5 class="card-title">Total Deaths</h5>
-              <p class="card-text">2</p>
-            </div>
-          </div>
-        </div>
-      </div>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 mb-3 g-4">
+  <div class="col">
+  <div class="card text-center" style="height: 10rem;" >
+    <div class="card-body">
+      <h5 class="card-title ">Total Accidents</h5>
+      <p class="card-text">172 </p>
+    </div>
+  </div>
+  </div>
+  <div class="col">
+  <div class="card text-center" style="height: 10rem;" >
+    <div class="card-body">
+      <h5 class="card-title">Total Equipment Damage ($)</h5>
+      <p class="card-text">6413817 </p>
+    </div>
+  </div>
+  </div>
+  <div class="col">
+  <div class="card text-center" style="height: 10rem;" >
+    <div class="card-body">
+      <h5 class="card-title">Total Track Damage ($)</h5>
+      <p class="card-text">57089 </p>
+    </div>
+  </div>
+  </div>
+  <div class="col">
+  <div class="card text-center" style="height: 10rem;" >
+    <div class="card-body">
+      <h5 class="card-title">Total Injuries </h5>
+      <p class="card-text">5 </p>
+    </div>
+  </div>
+  </div>
+  <div class="col">
+  <div class="card text-center" style="height: 10rem;">
+    <div class="card-body">
+      <h5 class="card-title">Total Deaths</h5>
+      <p class="card-text">2 </p>
+    </div>
+  </div>
+  </div>
+</div>
 
-      <div class="col">
-        <table class="table table-striped table-hover table-bordered table-sm">
-          <thead>
+<div class = "col">
+  <table class="table table-striped table-hover table-bordered table-sm">
+      <thead>
+        <tr>
+          
+          <th scope="col">County Name</th>
+          <th scope="col">Accident Date</th>
+          <th scope="col">Accident Number</th>
+          <th scope="col">Accident Type</th>
+          <th scope="col">Equipment Damage($)</th>
+          <th scope="col">Track Damage($)</th>
+          <th scope="col">Desc of Cause</th>
+          <th scope="col"># Injured</th>
+          <th scope="col"># Killed</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <th scope="col">County Name</th>
-              <th scope="col">Accident Date</th>
-              <th scope="col">Accident Number</th>
-              <th scope="col">Accident Type</th>
-              <th scope="col">Equipment Damage($)</th>
-              <th scope="col">Track Damage($)</th>
-              <th scope="col">Desc of Cause</th>
-              <th scope="col"># Injured</th>
-              <th scope="col"># Killed</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-01-13</td>
               <td>0120TO021</td>
               <td>Derailment</td>
@@ -1064,39 +418,61 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-01-24</td>
               <td>RD0120116</td>
               <td>Derailment</td>
               <td>31069</td>
               <td>0</td>
-              <td>
-                Wide gage (due to defective or missing spikes or other rail
-                fasteners)
-              </td>
+              <td>Wide gage (due to defective or missing spikes or other rail fasteners)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-01-28</td>
               <td>20002</td>
               <td>Hwy-rail crossing</td>
               <td>13878</td>
               <td>150</td>
-              <td>
-                Highway user cited for violation of highway-rail grade crossing
-                traffic laws
-              </td>
+              <td>Highway user cited for violation of highway-rail grade crossing traffic laws</td>
               <td>1</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-02-02</td>
               <td>0220TO001</td>
               <td>Other impacts</td>
@@ -1106,9 +482,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-02-02</td>
               <td>0220TO001</td>
               <td>Other impacts</td>
@@ -1118,9 +496,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-02-05</td>
               <td>0220TO003</td>
               <td>Derailment</td>
@@ -1130,24 +510,37 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-02-07</td>
               <td>RD0220105</td>
               <td>Derailment</td>
               <td>38000</td>
               <td>0</td>
-              <td>
-                Shoving movement, man on or at leading end of movement, failure
-                to control
-              </td>
+              <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-02-10</td>
               <td>0220TO010</td>
               <td>Other impacts</td>
@@ -1157,9 +550,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-02-10</td>
               <td>0220TO010</td>
               <td>Other impacts</td>
@@ -1169,54 +564,97 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-02-14</td>
               <td>20021402</td>
               <td>Side collision</td>
               <td>0</td>
               <td>NA</td>
-              <td>
-                Shoving movement, absence of man on or at leading end of
-                movement
-              </td>
+              <td>Shoving movement, absence of man on or at leading end of movement</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-02-14</td>
               <td>20021402</td>
               <td>Side collision</td>
               <td>43118</td>
               <td>0</td>
-              <td>
-                Shoving movement, absence of man on or at leading end of
-                movement
-              </td>
+              <td>Shoving movement, absence of man on or at leading end of movement</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-02-25</td>
               <td>20003</td>
               <td>Hwy-rail crossing</td>
               <td>50000</td>
               <td>0</td>
-              <td>
-                Highway user misjudgment under normal weather and traffic
-                conditions
-              </td>
+              <td>Highway user misjudgment under normal weather and traffic conditions</td>
               <td>1</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-03-04</td>
               <td>0320TO006</td>
               <td>Derailment</td>
@@ -1226,25 +664,61 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-03-05</td>
               <td>0320TO007</td>
               <td>Other (describe in narrative)</td>
               <td>14787</td>
               <td>0</td>
-              <td>
-                Investigation complete, cause could not be determined (When
-                using this code, the narrative must include the reason(s) why
-                the cause of the accident/incident could not be determined.)
-              </td>
+              <td>Investigation complete, cause could not be determined (When using this code, the narrative must include the reason(s) why the cause of the accident/incident could not be determined.)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-03-20</td>
               <td>0320TO024</td>
               <td>Derailment</td>
@@ -1254,40 +728,95 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-04-04</td>
               <td>0420TO006</td>
               <td>Derailment</td>
               <td>13516</td>
               <td>887</td>
-              <td>
-                Wide gage (due to defective or missing spikes or other rail
-                fasteners)
-              </td>
+              <td>Wide gage (due to defective or missing spikes or other rail fasteners)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-04-08</td>
               <td>0420TO011</td>
               <td>Derailment</td>
               <td>55841</td>
               <td>728</td>
-              <td>
-                Investigation complete, cause could not be determined (When
-                using this code, the narrative must include the reason(s) why
-                the cause of the accident/incident could not be determined.)
-              </td>
+              <td>Investigation complete, cause could not be determined (When using this code, the narrative must include the reason(s) why the cause of the accident/incident could not be determined.)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-05-07</td>
               <td>20005</td>
               <td>Hwy-rail crossing</td>
@@ -1297,24 +826,87 @@
               <td>1</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-06-14</td>
               <td>0620ES064</td>
               <td>Derailment</td>
               <td>41506</td>
               <td>33</td>
-              <td>
-                Other mechanical and electrical failures, (CAR) (Provide
-                detailed description in narrative)
-              </td>
+              <td>Other mechanical and electrical failures, (CAR) (Provide detailed description in narrative)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-06-22</td>
               <td>RD0620118</td>
               <td>Derailment</td>
@@ -1324,24 +916,67 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-07-17</td>
               <td>20071701</td>
               <td>Derailment</td>
               <td>13503</td>
               <td>120</td>
-              <td>
-                Wide gage (due to defective or missing spikes or other rail
-                fasteners)
-              </td>
+              <td>Wide gage (due to defective or missing spikes or other rail fasteners)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-07-30</td>
               <td>0720TO042</td>
               <td>Derailment</td>
@@ -1351,9 +986,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-07-30</td>
               <td>20073001</td>
               <td>Derailment</td>
@@ -1363,37 +1000,129 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-08-19</td>
               <td>0820TO022</td>
               <td>Other impacts</td>
               <td>2157</td>
               <td>0</td>
-              <td>
-                Passed couplers (other than automated classification yard)
-              </td>
+              <td>Passed couplers (other than automated classification yard)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-08-19</td>
               <td>0820TO022</td>
               <td>Other impacts</td>
               <td>25630</td>
               <td>0</td>
-              <td>
-                Passed couplers (other than automated classification yard)
-              </td>
+              <td>Passed couplers (other than automated classification yard)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-09-27</td>
               <td>0920TO038</td>
               <td>Other impacts</td>
@@ -1403,9 +1132,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-09-27</td>
               <td>0920TO038</td>
               <td>Other impacts</td>
@@ -1415,9 +1146,15 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-10-03</td>
               <td>1020TO001</td>
               <td>Other impacts</td>
@@ -1427,9 +1164,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-10-03</td>
               <td>1020TO001</td>
               <td>Other impacts</td>
@@ -1439,9 +1178,17 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-10-07</td>
               <td>1020ES013</td>
               <td>Derailment</td>
@@ -1451,54 +1198,137 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-11-24</td>
               <td>RD1120124</td>
               <td>Derailment</td>
               <td>5000</td>
               <td>10</td>
-              <td>
-                Failure to comply with restricted speed or its equivalent not in
-                connection with a block or interlocking signal.
-              </td>
+              <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-12-21</td>
               <td>1220TO026</td>
               <td>Other impacts</td>
               <td>5197</td>
               <td>0</td>
-              <td>
-                Shoving movement, man on or at leading end of movement, failure
-                to control
-              </td>
+              <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-12-21</td>
               <td>1220TO026</td>
               <td>Other impacts</td>
               <td>6842</td>
               <td>0</td>
-              <td>
-                Shoving movement, man on or at leading end of movement, failure
-                to control
-              </td>
+              <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2020-12-24</td>
               <td>2020012</td>
               <td>Hwy-rail crossing</td>
@@ -1508,38 +1338,107 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2021-01-08</td>
               <td>21010801</td>
               <td>Derailment</td>
               <td>9118</td>
               <td>84</td>
-              <td>
-                Broken Rail - Head and web separation (outside joint bar limits)
-              </td>
+              <td>Broken Rail - Head and web separation (outside joint bar limits)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2021-02-18</td>
               <td>0221TO020</td>
               <td>Derailment</td>
               <td>272357</td>
               <td>4341</td>
-              <td>
-                Interaction of lateral/vertical forces (includes harmonic rock
-                off)
-              </td>
+              <td>Interaction of lateral/vertical forces (includes harmonic rock off)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2021-02-26</td>
               <td>0221TO030</td>
               <td>Derailment</td>
@@ -1549,9 +1448,13 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2021-03-02</td>
               <td>0321TO002</td>
               <td>Other impacts</td>
@@ -1561,9 +1464,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2021-03-02</td>
               <td>0321TO002</td>
               <td>Other impacts</td>
@@ -1573,9 +1478,37 @@
               <td>1</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2021-03-16</td>
               <td>0321TO017</td>
               <td>Other impacts</td>
@@ -1585,9 +1518,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2021-03-16</td>
               <td>0321TO017</td>
               <td>Other impacts</td>
@@ -1597,9 +1532,19 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2021-03-26</td>
               <td>21032601</td>
               <td>Derailment</td>
@@ -1609,9 +1554,37 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2021-04-21</td>
               <td>0421TO012</td>
               <td>Derailment</td>
@@ -1621,9 +1594,15 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2021-04-23</td>
               <td>0421TO013</td>
               <td>Other impacts</td>
@@ -1633,9 +1612,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2021-04-23</td>
               <td>0421TO013</td>
               <td>Other impacts</td>
@@ -1645,52 +1626,115 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2021-05-08</td>
               <td>0521TO005</td>
               <td>Derailment</td>
               <td>250</td>
               <td>12</td>
-              <td>
-                Object or equipment on or fouling track - other than above (for
-                vandalism, see code M503)
-              </td>
+              <td>Object or equipment on or fouling track - other than above (for  vandalism, see code M503)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2021-05-09</td>
               <td>0521TO009</td>
               <td>Other impacts</td>
               <td>6068</td>
               <td>900</td>
-              <td>
-                Passed couplers (other than automated classification yard)
-              </td>
+              <td>Passed couplers (other than automated classification yard)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2021-05-09</td>
               <td>0521TO009</td>
               <td>Other impacts</td>
               <td>11240</td>
               <td>0</td>
-              <td>
-                Passed couplers (other than automated classification yard)
-              </td>
+              <td>Passed couplers (other than automated classification yard)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2021-06-06</td>
               <td>RD0621107</td>
               <td>Other impacts</td>
@@ -1700,24 +1744,81 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2021-07-01</td>
               <td>RD0721101</td>
               <td>Derailment</td>
               <td>3250</td>
               <td>10</td>
-              <td>
-                Shoving movement, man on or at leading end of movement, failure
-                to control
-              </td>
+              <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2021-07-07</td>
               <td>0721TO009</td>
               <td>Derailment</td>
@@ -1727,24 +1828,35 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2021-07-09</td>
               <td>0721TO012</td>
               <td>Derailment</td>
               <td>7432</td>
               <td>88</td>
-              <td>
-                Interaction of lateral/vertical forces (includes harmonic rock
-                off)
-              </td>
+              <td>Interaction of lateral/vertical forces (includes harmonic rock off)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2021-07-14</td>
               <td>RD0721115</td>
               <td>Derailment</td>
@@ -1754,54 +1866,127 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2021-08-16</td>
               <td>0821TO020</td>
               <td>Other (describe in narrative)</td>
               <td>40744</td>
               <td>0</td>
-              <td>
-                Other body defects, (CAR) (Provide detailed description in
-                narrative)
-              </td>
+              <td>Other body defects, (CAR) (Provide detailed description in  narrative)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2021-08-26</td>
               <td>RD0821122</td>
               <td>Derailment</td>
               <td>4900</td>
               <td>63</td>
-              <td>
-                Shoving movement, absence of man on or at leading end of
-                movement
-              </td>
+              <td>Shoving movement, absence of man on or at leading end of movement</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2021-08-26</td>
               <td>RD0821122</td>
               <td>Derailment</td>
               <td>6040</td>
               <td>0</td>
-              <td>
-                Shoving movement, absence of man on or at leading end of
-                movement
-              </td>
+              <td>Shoving movement, absence of man on or at leading end of movement</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2021-08-31</td>
               <td>0821TO033</td>
               <td>Other (describe in narrative)</td>
@@ -1811,9 +1996,47 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2021-09-19</td>
               <td>0921TO013</td>
               <td>Other impacts</td>
@@ -1823,9 +2046,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2021-09-19</td>
               <td>0921TO013</td>
               <td>Other impacts</td>
@@ -1835,9 +2060,67 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2021-11-11</td>
               <td>1121TO007</td>
               <td>Derailment</td>
@@ -1847,9 +2130,75 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2021-12-16</td>
               <td>1221TO030</td>
               <td>Other (describe in narrative)</td>
@@ -1859,24 +2208,129 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2022-02-08</td>
               <td>0222TO007</td>
               <td>Derailment</td>
               <td>32701</td>
               <td>0</td>
-              <td>
-                Other rail and joint bar defects (Provide detailed description
-                in narrative)
-              </td>
+              <td>Other rail and joint bar defects (Provide detailed description in narrative)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2022-03-12</td>
               <td>0322TO008</td>
               <td>Other impacts</td>
@@ -1886,9 +2340,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2022-03-12</td>
               <td>0322TO008</td>
               <td>Other impacts</td>
@@ -1898,24 +2354,67 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2022-04-02</td>
               <td>0422TO001</td>
               <td>Derailment</td>
               <td>113220</td>
               <td>405</td>
-              <td>
-                Other extreme environmental conditions (Provide detailed
-                description in narrative)
-              </td>
+              <td>Other extreme environmental conditions (Provide detailed description in narrative)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2022-04-21</td>
               <td>0422TO025</td>
               <td>Derailment</td>
@@ -1925,9 +2424,25 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2022-04-29</td>
               <td>0422TO039</td>
               <td>Other (describe in narrative)</td>
@@ -1937,9 +2452,19 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2022-05-01</td>
               <td>0522TO001</td>
               <td>Derailment</td>
@@ -1949,23 +2474,127 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2022-05-09</td>
               <td>RD0522109</td>
               <td>Derailment</td>
               <td>7500</td>
               <td>55</td>
-              <td>
-                Failure to release hand brakes on car(s) (railroad employee)
-              </td>
+              <td>Failure to release hand brakes on car(s) (railroad employee)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2022-07-05</td>
               <td>0722TO008</td>
               <td>Derailment</td>
@@ -1975,9 +2604,27 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2022-07-17</td>
               <td>0722TO042</td>
               <td>Derailment</td>
@@ -1987,24 +2634,35 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2022-07-18</td>
               <td>0722TO040</td>
               <td>Obstruction</td>
               <td>0</td>
               <td>NA</td>
-              <td>
-                Object or equipment on or fouling track - other than above (for
-                vandalism, see code M503)
-              </td>
+              <td>Object or equipment on or fouling track - other than above (for  vandalism, see code M503)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2022-07-21</td>
               <td>0722TO057</td>
               <td>Other impacts</td>
@@ -2014,9 +2672,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2022-07-21</td>
               <td>0722TO057</td>
               <td>Other impacts</td>
@@ -2026,69 +2686,83 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2022-07-25</td>
               <td>0722TO050</td>
               <td>Other impacts</td>
               <td>1015</td>
               <td>22</td>
-              <td>
-                Object or equipment on or fouling track - other than above (for
-                vandalism, see code M503)
-              </td>
+              <td>Object or equipment on or fouling track - other than above (for  vandalism, see code M503)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2022-07-25</td>
               <td>0722TO050</td>
               <td>Other impacts</td>
               <td>9395</td>
               <td>0</td>
-              <td>
-                Object or equipment on or fouling track - other than above (for
-                vandalism, see code M503)
-              </td>
+              <td>Object or equipment on or fouling track - other than above (for  vandalism, see code M503)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2022-07-25</td>
               <td>0722TO051</td>
               <td>Other impacts</td>
               <td>1850</td>
               <td>0</td>
-              <td>
-                Automatic hump retarder failed to sufficiently slow car due to
-                foreign material on wheels of car being humped
-              </td>
+              <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2022-07-25</td>
               <td>0722TO051</td>
               <td>Other impacts</td>
               <td>15391</td>
               <td>228</td>
-              <td>
-                Automatic hump retarder failed to sufficiently slow car due to
-                foreign material on wheels of car being humped
-              </td>
+              <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2022-07-29</td>
               <td>RD0722225</td>
               <td>Hwy-rail crossing</td>
@@ -2098,69 +2772,171 @@
               <td>1</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2022-08-05</td>
               <td>20028</td>
               <td>Hwy-rail crossing</td>
               <td>30000</td>
               <td>0</td>
-              <td>
-                Highway user impairment because of drug or alcohol usage (as
-                determined by local authorities, e.g., police)
-              </td>
+              <td>Highway user impairment because of drug or alcohol usage  (as determined by local authorities, e.g., police)</td>
               <td>0</td>
               <td>2</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2022-09-07</td>
               <td>0922TO010</td>
               <td>Hwy-rail crossing</td>
               <td>8936</td>
               <td>26</td>
-              <td>
-                Highway user misjudgment under normal weather and traffic
-                conditions
-              </td>
+              <td>Highway user misjudgment under normal weather and traffic conditions</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2022-09-19</td>
               <td>0922TO014</td>
               <td>Other impacts</td>
               <td>3391</td>
               <td>66</td>
-              <td>
-                Automatic hump retarder failed to sufficiently slow car due to
-                foreign material on wheels of car being humped
-              </td>
+              <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2022-09-19</td>
               <td>0922TO014</td>
               <td>Other impacts</td>
               <td>69785</td>
               <td>0</td>
-              <td>
-                Automatic hump retarder failed to sufficiently slow car due to
-                foreign material on wheels of car being humped
-              </td>
+              <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2022-09-19</td>
               <td>0922TO015</td>
               <td>Derailment</td>
@@ -2170,9 +2946,21 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2022-09-21</td>
               <td>0922TO025</td>
               <td>Other (describe in narrative)</td>
@@ -2182,39 +2970,193 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2022-10-20</td>
               <td>1022TO021</td>
               <td>Derailment</td>
               <td>54430</td>
               <td>128</td>
-              <td>
-                Other mechanical and electrical failures, (CAR) (Provide
-                detailed description in narrative)
-              </td>
+              <td>Other mechanical and electrical failures, (CAR) (Provide detailed description in narrative)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2022-11-23</td>
               <td>1122TO025</td>
               <td>Obstruction</td>
               <td>0</td>
               <td>NA</td>
-              <td>
-                Object or equipment on or fouling track - other than above (for
-                vandalism, see code M503)
-              </td>
+              <td>Object or equipment on or fouling track - other than above (for  vandalism, see code M503)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2022-12-13</td>
               <td>RD1222109</td>
               <td>Derailment</td>
@@ -2224,9 +3166,37 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2022-12-31</td>
               <td>1222TO038</td>
               <td>Other impacts</td>
@@ -2236,9 +3206,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2022-12-31</td>
               <td>1222TO038</td>
               <td>Other impacts</td>
@@ -2248,9 +3220,65 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-02-01</td>
               <td>0223TO003</td>
               <td>Derailment</td>
@@ -2260,41 +3288,109 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-03-04</td>
               <td>0323TO008</td>
               <td>Other impacts</td>
               <td>7848</td>
               <td>0</td>
-              <td>
-                Classification yard automatic control system - Inadequate or
-                insufficient control (e.g., automatic cycling, other software /
-                programming deficiencies, etc.)
-              </td>
+              <td>Classification yard automatic control system - Inadequate or insufficient control  (e.g., automatic cycling, other software / programming deficiencies, etc.)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-03-04</td>
               <td>0323TO008</td>
               <td>Other impacts</td>
               <td>139074</td>
               <td>0</td>
-              <td>
-                Classification yard automatic control system - Inadequate or
-                insufficient control (e.g., automatic cycling, other software /
-                programming deficiencies, etc.)
-              </td>
+              <td>Classification yard automatic control system - Inadequate or insufficient control  (e.g., automatic cycling, other software / programming deficiencies, etc.)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-03-20</td>
               <td>23032301</td>
               <td>Derailment</td>
@@ -2304,9 +3400,37 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-04-07</td>
               <td>0423TO014</td>
               <td>Other impacts</td>
@@ -2316,9 +3440,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-04-07</td>
               <td>0423TO014</td>
               <td>Other impacts</td>
@@ -2328,9 +3454,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-04-08</td>
               <td>0423TO013</td>
               <td>Derailment</td>
@@ -2340,39 +3468,53 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-04-08</td>
               <td>0423TO015</td>
               <td>Other impacts</td>
               <td>1069</td>
               <td>0</td>
-              <td>
-                Object or equipment on or fouling track - other than above (for
-                vandalism, see code M503)
-              </td>
+              <td>Object or equipment on or fouling track - other than above (for  vandalism, see code M503)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-04-08</td>
               <td>0423TO015</td>
               <td>Other impacts</td>
               <td>10722</td>
               <td>0</td>
-              <td>
-                Object or equipment on or fouling track - other than above (for
-                vandalism, see code M503)
-              </td>
+              <td>Object or equipment on or fouling track - other than above (for  vandalism, see code M503)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-04-17</td>
               <td>0423TO025</td>
               <td>Other (describe in narrative)</td>
@@ -2382,9 +3524,17 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-04-18</td>
               <td>0423TO024</td>
               <td>Derailment</td>
@@ -2394,9 +3544,21 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-05-01</td>
               <td>0523TO001</td>
               <td>Derailment</td>
@@ -2406,37 +3568,85 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-05-18</td>
               <td>0523TO029</td>
               <td>Other impacts</td>
               <td>4798</td>
               <td>0</td>
-              <td>
-                Classification yard automatic control system retarder failure
-              </td>
+              <td>Classification yard automatic control system retarder failure</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-05-18</td>
               <td>0523TO029</td>
               <td>Other impacts</td>
               <td>6881</td>
               <td>0</td>
-              <td>
-                Classification yard automatic control system retarder failure
-              </td>
+              <td>Classification yard automatic control system retarder failure</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-06-06</td>
               <td>0623TO012</td>
               <td>Other (describe in narrative)</td>
@@ -2446,9 +3656,17 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-06-09</td>
               <td>0623TO010</td>
               <td>Hwy-rail crossing</td>
@@ -2458,9 +3676,45 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-06-26</td>
               <td>0623TO027</td>
               <td>Other impacts</td>
@@ -2470,9 +3724,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-06-26</td>
               <td>0623TO027</td>
               <td>Other impacts</td>
@@ -2482,54 +3738,65 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-07-03</td>
               <td>0723TO004</td>
               <td>Other impacts</td>
               <td>75403</td>
               <td>0</td>
-              <td>
-                Failure to apply sufficient number of hand brakes on car(s)
-                (railroad employee)
-              </td>
+              <td>Failure to apply sufficient number of hand brakes on car(s) (railroad employee)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-07-03</td>
               <td>0723TO004</td>
               <td>Other impacts</td>
               <td>195012</td>
               <td>2625</td>
-              <td>
-                Failure to apply sufficient number of hand brakes on car(s)
-                (railroad employee)
-              </td>
+              <td>Failure to apply sufficient number of hand brakes on car(s) (railroad employee)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-07-05</td>
               <td>23070502</td>
               <td>Derailment</td>
               <td>11124</td>
               <td>447</td>
-              <td>
-                Failure to properly secure hand brake on car(s) (railroad
-                employee)
-              </td>
+              <td>Failure to properly secure hand brake on car(s) (railroad  employee)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-07-09</td>
               <td>0723TO012</td>
               <td>Derailment</td>
@@ -2539,41 +3806,49 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-07-10</td>
               <td>0723TO016</td>
               <td>Other impacts</td>
               <td>1640</td>
               <td>0</td>
-              <td>
-                Classification yard automatic control system - Inadequate or
-                insufficient control (e.g., automatic cycling, other software /
-                programming deficiencies, etc.)
-              </td>
+              <td>Classification yard automatic control system - Inadequate or insufficient control  (e.g., automatic cycling, other software / programming deficiencies, etc.)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-07-10</td>
               <td>0723TO016</td>
               <td>Other impacts</td>
               <td>37535</td>
               <td>159</td>
-              <td>
-                Classification yard automatic control system - Inadequate or
-                insufficient control (e.g., automatic cycling, other software /
-                programming deficiencies, etc.)
-              </td>
+              <td>Classification yard automatic control system - Inadequate or insufficient control  (e.g., automatic cycling, other software / programming deficiencies, etc.)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-07-19</td>
               <td>0723TO033</td>
               <td>Derailment</td>
@@ -2583,9 +3858,17 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-07-22</td>
               <td>0723TO038</td>
               <td>Derailment</td>
@@ -2595,9 +3878,27 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-08-06</td>
               <td>23080601</td>
               <td>Derailment</td>
@@ -2607,24 +3908,25 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-08-09</td>
               <td>RD0823116</td>
               <td>Other impacts</td>
               <td>15668</td>
               <td>0</td>
-              <td>
-                Shoving movement, man on or at leading end of movement, failure
-                to control
-              </td>
+              <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-08-12</td>
               <td>0823TO019</td>
               <td>Derailment</td>
@@ -2634,9 +3936,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-08-13</td>
               <td>23081301</td>
               <td>Derailment</td>
@@ -2646,9 +3950,15 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-08-16</td>
               <td>0823TO030</td>
               <td>Derailment</td>
@@ -2658,52 +3968,111 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-09-03</td>
               <td>0923TO004</td>
               <td>Derailment</td>
               <td>31591</td>
               <td>469</td>
-              <td>
-                Lateral drawbar force on curve excessive, car geometry (short
-                car/long car combination)
-              </td>
+              <td>Lateral drawbar force on curve excessive, car geometry (short car/long car combination)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-09-05</td>
               <td>0923TO011</td>
               <td>Derailment</td>
               <td>21368</td>
               <td>132</td>
-              <td>
-                Classification yard automatic control system retarder failure
-              </td>
+              <td>Classification yard automatic control system retarder failure</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-09-05</td>
               <td>0923TO011</td>
               <td>Derailment</td>
               <td>26736</td>
               <td>0</td>
-              <td>
-                Classification yard automatic control system retarder failure
-              </td>
+              <td>Classification yard automatic control system retarder failure</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-09-17</td>
               <td>0923TO029</td>
               <td>Derailment</td>
@@ -2713,9 +4082,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-09-17</td>
               <td>23091701</td>
               <td>Derailment</td>
@@ -2725,69 +4096,101 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-09-25</td>
               <td>RD0923137</td>
               <td>Derailment</td>
               <td>30671</td>
               <td>122</td>
-              <td>
-                Shoving movement, absence of man on or at leading end of
-                movement
-              </td>
+              <td>Shoving movement, absence of man on or at leading end of movement</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-09-26</td>
               <td>0923TO041</td>
               <td>Other impacts</td>
               <td>6059</td>
               <td>34</td>
-              <td>
-                Shoving movement, man on or at leading end of movement, failure
-                to control
-              </td>
+              <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-09-26</td>
               <td>0923TO041</td>
               <td>Other impacts</td>
               <td>157770</td>
               <td>0</td>
-              <td>
-                Shoving movement, man on or at leading end of movement, failure
-                to control
-              </td>
+              <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-10-15</td>
               <td>1023TO013</td>
               <td>Derailment</td>
               <td>27544</td>
               <td>726</td>
-              <td>
-                Other signal failures (Provide detailed description in
-                narrative)
-              </td>
+              <td>Other signal failures (Provide detailed description in narrative)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-10-15</td>
               <td>1023TO016</td>
               <td>Other impacts</td>
@@ -2797,9 +4200,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-10-15</td>
               <td>1023TO016</td>
               <td>Other impacts</td>
@@ -2809,9 +4214,33 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-10-22</td>
               <td>1023TO022</td>
               <td>Derailment</td>
@@ -2821,39 +4250,57 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-10-23</td>
               <td>RD1023127</td>
               <td>Derailment</td>
               <td>224024</td>
               <td>6201</td>
-              <td>
-                Shoving movement, man on or at leading end of movement, failure
-                to control
-              </td>
+              <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-10-24</td>
               <td>1023TO023</td>
               <td>Derailment</td>
               <td>250</td>
               <td>11</td>
-              <td>
-                Shoving movement, man on or at leading end of movement, failure
-                to control
-              </td>
+              <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-10-31</td>
               <td>1023TO032</td>
               <td>Other impacts</td>
@@ -2863,9 +4310,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-10-31</td>
               <td>1023TO032</td>
               <td>Other impacts</td>
@@ -2875,9 +4324,29 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-11-09</td>
               <td>1123TO014</td>
               <td>Derailment</td>
@@ -2887,52 +4356,83 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-11-10</td>
               <td>1123TO018</td>
               <td>Other impacts</td>
               <td>100</td>
               <td>1</td>
-              <td>
-                Classification yard automatic control system retarder failure
-              </td>
+              <td>Classification yard automatic control system retarder failure</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-11-10</td>
               <td>1123TO018</td>
               <td>Other impacts</td>
               <td>51796</td>
               <td>0</td>
-              <td>
-                Classification yard automatic control system retarder failure
-              </td>
+              <td>Classification yard automatic control system retarder failure</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-11-21</td>
               <td>RD1123121</td>
               <td>Other (describe in narrative)</td>
               <td>0</td>
               <td>NA</td>
-              <td>
-                Automatic block or interlocking signal displaying a stop
-                indication - failure to comply.*
-              </td>
+              <td>Automatic block or interlocking signal displaying a stop indication - failure to comply.*</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-12-17</td>
               <td>1223TO014</td>
               <td>Derailment</td>
@@ -2942,9 +4442,23 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2023-12-21</td>
               <td>1223TO019</td>
               <td>Derailment</td>
@@ -2954,69 +4468,111 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2024-01-30</td>
               <td>0124TO034</td>
               <td>Other impacts</td>
               <td>0</td>
               <td>NA</td>
-              <td>
-                Humping or cutting off in motion equipment susceptible to
-                damage, or to cause damage to other equipment
-              </td>
+              <td>Humping or cutting off in motion equipment susceptible to damage, or to cause damage to other equipment</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2024-01-30</td>
               <td>0124TO034</td>
               <td>Other impacts</td>
               <td>40168</td>
               <td>0</td>
-              <td>
-                Humping or cutting off in motion equipment susceptible to
-                damage, or to cause damage to other equipment
-              </td>
+              <td>Humping or cutting off in motion equipment susceptible to damage, or to cause damage to other equipment</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2024-01-31</td>
               <td>RD0124126</td>
               <td>Derailment</td>
               <td>31750</td>
               <td>150</td>
-              <td>
-                Failure to properly secure hand brake on car(s) (railroad
-                employee)
-              </td>
+              <td>Failure to properly secure hand brake on car(s) (railroad  employee)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2024-02-03</td>
               <td>0224TO002</td>
               <td>Derailment</td>
               <td>5738</td>
               <td>150</td>
-              <td>
-                Interaction of lateral/vertical forces (includes harmonic rock
-                off)
-              </td>
+              <td>Interaction of lateral/vertical forces (includes harmonic rock off)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2024-02-08</td>
               <td>0224TO012</td>
               <td>Other impacts</td>
@@ -3026,9 +4582,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2024-02-08</td>
               <td>0224TO012</td>
               <td>Other impacts</td>
@@ -3038,24 +4596,71 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2024-03-07</td>
               <td>RD0324108</td>
               <td>Derailment</td>
               <td>28000</td>
               <td>137</td>
-              <td>
-                Failure to comply with restricted speed or its equivalent not in
-                connection with a block or interlocking signal.
-              </td>
+              <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2024-03-11</td>
               <td>RD0324111</td>
               <td>Derailment</td>
@@ -3065,9 +4670,31 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2024-03-26</td>
               <td>0324TO046</td>
               <td>Other impacts</td>
@@ -3077,9 +4704,33 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2024-04-11</td>
               <td>24041101</td>
               <td>Derailment</td>
@@ -3089,9 +4740,47 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2024-05-12</td>
               <td>24051201</td>
               <td>Derailment</td>
@@ -3101,9 +4790,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2024-05-14</td>
               <td>RD0524113</td>
               <td>Derailment</td>
@@ -3113,9 +4804,25 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2024-05-22</td>
               <td>0524TO026</td>
               <td>Derailment</td>
@@ -3125,9 +4832,57 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2024-06-29</td>
               <td>0624TO038</td>
               <td>Derailment</td>
@@ -3137,39 +4892,137 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2024-07-14</td>
               <td>0724TO017</td>
               <td>Obstruction</td>
               <td>13578</td>
               <td>137</td>
-              <td>
-                Object or equipment on or fouling track - other than above (for
-                vandalism, see code M503)
-              </td>
+              <td>Object or equipment on or fouling track - other than above (for  vandalism, see code M503)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2024-07-14</td>
               <td>0724TO017</td>
               <td>Obstruction</td>
               <td>32252</td>
               <td>0</td>
-              <td>
-                Object or equipment on or fouling track - other than above (for
-                vandalism, see code M503)
-              </td>
+              <td>Object or equipment on or fouling track - other than above (for  vandalism, see code M503)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2024-08-29</td>
               <td>0824TO036</td>
               <td>Derailment</td>
@@ -3179,24 +5032,67 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2024-08-30</td>
               <td>2024XAAL01</td>
               <td>Derailment</td>
               <td>145555</td>
               <td>2234</td>
-              <td>
-                Shoving movement, man on or at leading end of movement, failure
-                to control
-              </td>
+              <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2024-09-21</td>
               <td>0924TO023</td>
               <td>Other impacts</td>
@@ -3206,9 +5102,11 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2024-09-21</td>
               <td>0924TO023</td>
               <td>Other impacts</td>
@@ -3218,9 +5116,29 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2024-10-03</td>
               <td>1024TO005</td>
               <td>Derailment</td>
@@ -3230,24 +5148,31 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2024-10-04</td>
               <td>24100401</td>
               <td>Derailment</td>
               <td>NA</td>
               <td>NA</td>
-              <td>
-                Wide gage (due to defective or missing spikes or other rail
-                fasteners)
-              </td>
+              <td>Wide gage (due to defective or missing spikes or other rail fasteners)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2024-10-05</td>
               <td>24100501</td>
               <td>Derailment</td>
@@ -3257,23 +5182,91 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2024-10-10</td>
               <td>RD1024109</td>
               <td>Derailment</td>
               <td>25267</td>
               <td>387</td>
-              <td>
-                Broken Rail - Head and web separation (outside joint bar limits)
-              </td>
+              <td>Broken Rail - Head and web separation (outside joint bar limits)</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2024-12-02</td>
               <td>1224TO005</td>
               <td>Derailment</td>
@@ -3283,54 +5276,73 @@
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2024-12-02</td>
               <td>RD1224103</td>
               <td>Derailment</td>
               <td>0</td>
               <td>NA</td>
-              <td>
-                Shoving movement, man on or at leading end of movement, failure
-                to control
-              </td>
+              <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2024-12-07</td>
               <td>1224TO015</td>
               <td>Other impacts</td>
               <td>0</td>
               <td>NA</td>
-              <td>
-                Shoving movement, absence of man on or at leading end of
-                movement
-              </td>
+              <td>Shoving movement, absence of man on or at leading end of movement</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2024-12-07</td>
               <td>1224TO015</td>
               <td>Other impacts</td>
               <td>146520</td>
               <td>0</td>
-              <td>
-                Shoving movement, absence of man on or at leading end of
-                movement
-              </td>
+              <td>Shoving movement, absence of man on or at leading end of movement</td>
               <td>0</td>
               <td>0</td>
             </tr>
-
+          
+        
+          
+        
+          
+        
+          
+        
+          
             <tr>
-              <td>TARRANT</td>
+              <td>TARRANT </td>
               <td>2024-12-14</td>
               <td>24121401</td>
               <td>Derailment</td>
@@ -3340,17 +5352,79 @@
               <td>0</td>
               <td>0</td>
             </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </tbody>
+  </table>
+</div>
+</div>
+
+
+    <div class="container">
+<div class="alert alert-primary d-flex align-items-center my-3" role="alert">
+  <svg xmlns="http://www.w3.org/2000/svg" class="bi flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:" 
+  style="width: 1.5rem; height: 1.5rem;">
+    <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+  </svg>
+  <div>
+    All data on this site came from the U.S. Department of Transportation' FRA Safety Data. Specifically the <a href="https://data.transportation.gov/stories/s/Accident-Detail-Listing-3-18-/vq2r-5pm7/">Train Accident Detail Listing data.</a>
+  </div>
+</div>
+</div>
 
     <footer>
-      <p id="legal" class="center-block text-center">
-        <small>&copy;</small> <span class="copyright-year"></span>
-        A class project by Karina Kumar.
-      </p>
-    </footer>
+<p id="legal" class="center-block text-center">
+  <small>&copy;</small> <span class="copyright-year"></span>
+  A class project by Karina Kumar.
+</p>
+</footer>
+
 
     <script src="../js/jquery.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>
