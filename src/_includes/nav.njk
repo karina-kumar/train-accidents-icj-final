@@ -12,7 +12,7 @@
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             {% for county in accidents.counties %}
-            <li><a class="dropdown-item" href="{{ relative_path }}/county-pages/{{ county.county_name }}.html">{{ county.county_name }}</a></li>
+            <li><a class="dropdown-item" href="{{ relative_path }}county-pages/{{ county.county_name }}.html">{{ county.county_name }}</a></li>
             {% endfor %}
           </ul>
         <li class="nav-item">
