@@ -19,7 +19,7 @@
   }
   .container-fluid {
     padding: 5px;
-    width: 60%;
+    width: clamp(10rem, 60%, 30rem);
   }
 
   }
