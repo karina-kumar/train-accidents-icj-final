@@ -13,9 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Pirata+One&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html">Train Accidents</a>
+    <a class="navbar-brand text-dark" href="../index.html">Train Accidents</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -336,15 +336,15 @@
     <p>Below are statistics about FREESTONE county in Texas and a table that includes all reported train accidents in this county since 2020.</p>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mb-3 g-4">
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
-      <h5 class="card-title ">Total Accidents</h5>
+      <h5 class="card-title">Total Accidents</h5>
       <p class="card-text">9 </p>
     </div>
   </div>
   </div>
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
       <h5 class="card-title">Total Equipment Damage</h5>
       <p class="card-text">$311,032 </p>
@@ -352,7 +352,7 @@
   </div>
   </div>
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
       <h5 class="card-title">Total Track Damage</h5>
       <p class="card-text">$4,764 </p>
@@ -370,16 +370,15 @@
 
 <div class = "col">
   <table class="table table-striped table-hover table-bordered table-sm">
-      <thead>
+      <thead class="text-center">
         <tr>
-          
           <th scope="col">County Name</th>
           <th scope="col">Accident Date</th>
           <th scope="col">Accident Number</th>
           <th scope="col">Accident Type</th>
-          <th scope="col">Equipment Damage($)</th>
-          <th scope="col">Track Damage($)</th>
-          <th scope="col">Desc of Cause</th>
+          <th scope="col">Equipment Damage ($)</th>
+          <th scope="col">Track Damage ($)</th>
+          <th scope="col">Description of Cause</th>
           <th scope="col"># Injured</th>
           <th scope="col"># Killed</th>
         </tr>
@@ -1172,7 +1171,7 @@
               <td>2021-06-15</td>
               <td>RD0621113</td>
               <td>Derailment</td>
-              <td>16998</td>
+              <td>16,998</td>
               <td>0</td>
               <td>Roadbed settled or soft</td>
               <td>0</td>
@@ -1870,7 +1869,7 @@
               <td>2022-08-11</td>
               <td>RD0822112</td>
               <td>Derailment</td>
-              <td>26238</td>
+              <td>26,238</td>
               <td>422</td>
               <td>Spring/power switch mechanism malfunction</td>
               <td>0</td>
@@ -2022,8 +2021,8 @@
               <td>2022-10-17</td>
               <td>RD1022115</td>
               <td>Derailment</td>
-              <td>183979</td>
-              <td>4000</td>
+              <td>183,979</td>
+              <td>4,000</td>
               <td>Worn flange</td>
               <td>0</td>
               <td>0</td>
@@ -2834,7 +2833,7 @@
               <td>2024-01-15</td>
               <td>RD0124110</td>
               <td>Derailment</td>
-              <td>45000</td>
+              <td>45,000</td>
               <td>154</td>
               <td>Switch improperly lined</td>
               <td>0</td>
@@ -2922,7 +2921,7 @@
               <td>2024-03-09</td>
               <td>RD0324110</td>
               <td>Other (describe in narrative)</td>
-              <td>13493</td>
+              <td>13,493</td>
               <td>0</td>
               <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
@@ -3202,7 +3201,7 @@
               <td>2024-09-03</td>
               <td>RD0924102</td>
               <td>Other impacts</td>
-              <td>1509</td>
+              <td>1,509</td>
               <td>0</td>
               <td>Kicking or dropping cars, inadequate precautions</td>
               <td>0</td>
@@ -3216,7 +3215,7 @@
               <td>2024-09-03</td>
               <td>RD0924102</td>
               <td>Other impacts</td>
-              <td>22240</td>
+              <td>22,240</td>
               <td>154</td>
               <td>Kicking or dropping cars, inadequate precautions</td>
               <td>0</td>

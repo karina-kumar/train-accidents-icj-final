@@ -13,9 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Pirata+One&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html">Train Accidents</a>
+    <a class="navbar-brand text-dark" href="../index.html">Train Accidents</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -336,15 +336,15 @@
     <p>Below are statistics about MCLENNAN county in Texas and a table that includes all reported train accidents in this county since 2020.</p>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mb-3 g-4">
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
-      <h5 class="card-title ">Total Accidents</h5>
+      <h5 class="card-title">Total Accidents</h5>
       <p class="card-text">13 </p>
     </div>
   </div>
   </div>
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
       <h5 class="card-title">Total Equipment Damage</h5>
       <p class="card-text">$365,665 </p>
@@ -352,7 +352,7 @@
   </div>
   </div>
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
       <h5 class="card-title">Total Track Damage</h5>
       <p class="card-text">$4,322 </p>
@@ -370,16 +370,15 @@
 
 <div class = "col">
   <table class="table table-striped table-hover table-bordered table-sm">
-      <thead>
+      <thead class="text-center">
         <tr>
-          
           <th scope="col">County Name</th>
           <th scope="col">Accident Date</th>
           <th scope="col">Accident Number</th>
           <th scope="col">Accident Type</th>
-          <th scope="col">Equipment Damage($)</th>
-          <th scope="col">Track Damage($)</th>
-          <th scope="col">Desc of Cause</th>
+          <th scope="col">Equipment Damage ($)</th>
+          <th scope="col">Track Damage ($)</th>
+          <th scope="col">Description of Cause</th>
           <th scope="col"># Injured</th>
           <th scope="col"># Killed</th>
         </tr>
@@ -446,7 +445,7 @@
               <td>2020-02-08</td>
               <td>0220TO012</td>
               <td>Fire/violent rupture</td>
-              <td>38128</td>
+              <td>38,128</td>
               <td>0</td>
               <td>Oil or fuel fire (LOCOMOTIVE)</td>
               <td>0</td>
@@ -704,7 +703,7 @@
               <td>2020-07-06</td>
               <td>0720TO005</td>
               <td>Derailment</td>
-              <td>30125</td>
+              <td>30,125</td>
               <td>180</td>
               <td>Switch point worn or broken</td>
               <td>0</td>
@@ -916,7 +915,7 @@
               <td>2020-11-24</td>
               <td>1120TO024</td>
               <td>Other (describe in narrative)</td>
-              <td>18656</td>
+              <td>18,656</td>
               <td>0</td>
               <td>Load shifted</td>
               <td>0</td>
@@ -986,7 +985,7 @@
               <td>2021-01-14</td>
               <td>0121TO013</td>
               <td>Derailment</td>
-              <td>57989</td>
+              <td>57,989</td>
               <td>199</td>
               <td>Defective or missing crossties (use code T110 if results in wide gage)</td>
               <td>0</td>
@@ -1224,7 +1223,7 @@
               <td>2021-06-25</td>
               <td>RD0621206</td>
               <td>Hwy-rail crossing</td>
-              <td>1000</td>
+              <td>1,000</td>
               <td>35</td>
               <td>Highway user inattentiveness</td>
               <td>0</td>
@@ -1886,7 +1885,7 @@
               <td>2022-07-25</td>
               <td>0722TO052</td>
               <td>Other impacts</td>
-              <td>41708</td>
+              <td>41,708</td>
               <td>0</td>
               <td>Coupling speed excessive</td>
               <td>0</td>
@@ -2130,7 +2129,7 @@
               <td>2022-11-16</td>
               <td>172770</td>
               <td>Hwy-rail crossing</td>
-              <td>11795</td>
+              <td>11,795</td>
               <td>0</td>
               <td>Highway user inattentiveness</td>
               <td>0</td>
@@ -2208,7 +2207,7 @@
               <td>2022-12-06</td>
               <td>1222TO009</td>
               <td>Other impacts</td>
-              <td>27874</td>
+              <td>27,874</td>
               <td>445</td>
               <td>Coupling speed excessive</td>
               <td>0</td>
@@ -2446,7 +2445,7 @@
               <td>2023-04-18</td>
               <td>174433</td>
               <td>Hwy-rail crossing</td>
-              <td>37369</td>
+              <td>37,369</td>
               <td>0</td>
               <td>Highway user inattentiveness</td>
               <td>2</td>
@@ -3392,8 +3391,8 @@
               <td>2024-11-21</td>
               <td>1124TO023</td>
               <td>Derailment</td>
-              <td>101021</td>
-              <td>3463</td>
+              <td>101,021</td>
+              <td>3,463</td>
               <td>Improperly loaded car</td>
               <td>0</td>
               <td>0</td>

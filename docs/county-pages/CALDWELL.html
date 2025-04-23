@@ -13,9 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Pirata+One&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html">Train Accidents</a>
+    <a class="navbar-brand text-dark" href="../index.html">Train Accidents</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -336,15 +336,15 @@
     <p>Below are statistics about CALDWELL county in Texas and a table that includes all reported train accidents in this county since 2020.</p>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mb-3 g-4">
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
-      <h5 class="card-title ">Total Accidents</h5>
+      <h5 class="card-title">Total Accidents</h5>
       <p class="card-text">11 </p>
     </div>
   </div>
   </div>
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
       <h5 class="card-title">Total Equipment Damage</h5>
       <p class="card-text">$2,120,450 </p>
@@ -352,7 +352,7 @@
   </div>
   </div>
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
       <h5 class="card-title">Total Track Damage</h5>
       <p class="card-text">$902 </p>
@@ -370,16 +370,15 @@
 
 <div class = "col">
   <table class="table table-striped table-hover table-bordered table-sm">
-      <thead>
+      <thead class="text-center">
         <tr>
-          
           <th scope="col">County Name</th>
           <th scope="col">Accident Date</th>
           <th scope="col">Accident Number</th>
           <th scope="col">Accident Type</th>
-          <th scope="col">Equipment Damage($)</th>
-          <th scope="col">Track Damage($)</th>
-          <th scope="col">Desc of Cause</th>
+          <th scope="col">Equipment Damage ($)</th>
+          <th scope="col">Track Damage ($)</th>
+          <th scope="col">Description of Cause</th>
           <th scope="col"># Injured</th>
           <th scope="col"># Killed</th>
         </tr>
@@ -1306,7 +1305,7 @@
               <td>2021-08-29</td>
               <td>0821SX033</td>
               <td>Hwy-rail crossing</td>
-              <td>10038</td>
+              <td>10,038</td>
               <td>255</td>
               <td>Highway user misjudgment under normal weather and traffic conditions</td>
               <td>2</td>
@@ -1354,7 +1353,7 @@
               <td>2021-09-13</td>
               <td>0921SX012</td>
               <td>Derailment</td>
-              <td>32620</td>
+              <td>32,620</td>
               <td>622</td>
               <td>Traction motor failure (LOCOMOTIVE)</td>
               <td>0</td>
@@ -1502,7 +1501,7 @@
               <td>2021-12-14</td>
               <td>RD1221202</td>
               <td>Hwy-rail crossing</td>
-              <td>101250</td>
+              <td>101,250</td>
               <td>0</td>
               <td>Highway user inattentiveness</td>
               <td>0</td>
@@ -2324,7 +2323,7 @@
               <td>2023-03-23</td>
               <td>0323SX020</td>
               <td>Hwy-rail crossing</td>
-              <td>9307</td>
+              <td>9,307</td>
               <td>25</td>
               <td>Highway user inattentiveness</td>
               <td>0</td>
@@ -2592,7 +2591,7 @@
               <td>2023-08-20</td>
               <td>RD0823126</td>
               <td>Derailment</td>
-              <td>60154</td>
+              <td>60,154</td>
               <td>0</td>
               <td>Track alignment irregular (buckled/sunkink)</td>
               <td>0</td>
@@ -2778,7 +2777,7 @@
               <td>2023-11-01</td>
               <td>RD1123101</td>
               <td>Derailment</td>
-              <td>974778</td>
+              <td>974,778</td>
               <td>0</td>
               <td>.Broken Rail - Base</td>
               <td>0</td>
@@ -3450,7 +3449,7 @@
               <td>2025-01-30</td>
               <td>RD0125131</td>
               <td>Derailment</td>
-              <td>932303</td>
+              <td>932,303</td>
               <td>0</td>
               <td>Other miscellaneous causes (Provide detailed description in narrative)</td>
               <td>0</td>

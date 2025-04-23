@@ -13,9 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Pirata+One&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html">Train Accidents</a>
+    <a class="navbar-brand text-dark" href="../index.html">Train Accidents</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -336,15 +336,15 @@
     <p>Below are statistics about MAVERICK county in Texas and a table that includes all reported train accidents in this county since 2020.</p>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mb-3 g-4">
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
-      <h5 class="card-title ">Total Accidents</h5>
+      <h5 class="card-title">Total Accidents</h5>
       <p class="card-text">9 </p>
     </div>
   </div>
   </div>
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
       <h5 class="card-title">Total Equipment Damage</h5>
       <p class="card-text">$234,389 </p>
@@ -352,7 +352,7 @@
   </div>
   </div>
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
       <h5 class="card-title">Total Track Damage</h5>
       <p class="card-text">$806 </p>
@@ -370,16 +370,15 @@
 
 <div class = "col">
   <table class="table table-striped table-hover table-bordered table-sm">
-      <thead>
+      <thead class="text-center">
         <tr>
-          
           <th scope="col">County Name</th>
           <th scope="col">Accident Date</th>
           <th scope="col">Accident Number</th>
           <th scope="col">Accident Type</th>
-          <th scope="col">Equipment Damage($)</th>
-          <th scope="col">Track Damage($)</th>
-          <th scope="col">Desc of Cause</th>
+          <th scope="col">Equipment Damage ($)</th>
+          <th scope="col">Track Damage ($)</th>
+          <th scope="col">Description of Cause</th>
           <th scope="col"># Injured</th>
           <th scope="col"># Killed</th>
         </tr>
@@ -962,7 +961,7 @@
               <td>2021-01-31</td>
               <td>RD0121124</td>
               <td>Derailment</td>
-              <td>26910</td>
+              <td>26,910</td>
               <td>150</td>
               <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
@@ -1064,7 +1063,7 @@
               <td>2021-03-22</td>
               <td>0321SX019</td>
               <td>Other impacts</td>
-              <td>7428</td>
+              <td>7,428</td>
               <td>0</td>
               <td>Object or equipment on or fouling track - other than above (for  vandalism, see code M503)</td>
               <td>0</td>
@@ -1078,7 +1077,7 @@
               <td>2021-03-22</td>
               <td>0321SX019</td>
               <td>Other impacts</td>
-              <td>86719</td>
+              <td>86,719</td>
               <td>0</td>
               <td>Object or equipment on or fouling track - other than above (for  vandalism, see code M503)</td>
               <td>0</td>
@@ -1178,7 +1177,7 @@
               <td>2021-05-19</td>
               <td>0521SX016</td>
               <td>Derailment</td>
-              <td>22011</td>
+              <td>22,011</td>
               <td>111</td>
               <td>Buffing or slack action excessive, train make‑up</td>
               <td>0</td>
@@ -2224,7 +2223,7 @@
               <td>2023-01-12</td>
               <td>RD0123106</td>
               <td>Derailment</td>
-              <td>14025</td>
+              <td>14,025</td>
               <td>0</td>
               <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
@@ -2882,7 +2881,7 @@
               <td>2024-02-01</td>
               <td>0224SX001</td>
               <td>Derailment</td>
-              <td>17048</td>
+              <td>17,048</td>
               <td>306</td>
               <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
               <td>0</td>
@@ -2916,7 +2915,7 @@
               <td>2024-02-20</td>
               <td>0224SX016</td>
               <td>Derailment</td>
-              <td>60248</td>
+              <td>60,248</td>
               <td>239</td>
               <td>Excessive horsepower (H016)</td>
               <td>0</td>

@@ -13,9 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Pirata+One&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html">Train Accidents</a>
+    <a class="navbar-brand text-dark" href="../index.html">Train Accidents</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -336,15 +336,15 @@
     <p>Below are statistics about HARRIS county in Texas and a table that includes all reported train accidents in this county since 2020.</p>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mb-3 g-4">
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
-      <h5 class="card-title ">Total Accidents</h5>
+      <h5 class="card-title">Total Accidents</h5>
       <p class="card-text">328 </p>
     </div>
   </div>
   </div>
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
       <h5 class="card-title">Total Equipment Damage</h5>
       <p class="card-text">$16,207,050 </p>
@@ -352,7 +352,7 @@
   </div>
   </div>
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
       <h5 class="card-title">Total Track Damage</h5>
       <p class="card-text">$149,732 </p>
@@ -370,16 +370,15 @@
 
 <div class = "col">
   <table class="table table-striped table-hover table-bordered table-sm">
-      <thead>
+      <thead class="text-center">
         <tr>
-          
           <th scope="col">County Name</th>
           <th scope="col">Accident Date</th>
           <th scope="col">Accident Number</th>
           <th scope="col">Accident Type</th>
-          <th scope="col">Equipment Damage($)</th>
-          <th scope="col">Track Damage($)</th>
-          <th scope="col">Desc of Cause</th>
+          <th scope="col">Equipment Damage ($)</th>
+          <th scope="col">Track Damage ($)</th>
+          <th scope="col">Description of Cause</th>
           <th scope="col"># Injured</th>
           <th scope="col"># Killed</th>
         </tr>
@@ -394,7 +393,7 @@
               <td>2020-01-08</td>
               <td>0120HO002</td>
               <td>Other impacts</td>
-              <td>9459</td>
+              <td>9,459</td>
               <td>554</td>
               <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
@@ -408,7 +407,7 @@
               <td>2020-01-08</td>
               <td>0120HO002</td>
               <td>Other impacts</td>
-              <td>228792</td>
+              <td>228,792</td>
               <td>0</td>
               <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
@@ -442,7 +441,7 @@
               <td>2020-01-25</td>
               <td>0120HO024</td>
               <td>Other impacts</td>
-              <td>21272</td>
+              <td>21,272</td>
               <td>0</td>
               <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
               <td>0</td>
@@ -456,7 +455,7 @@
               <td>2020-01-25</td>
               <td>0120HO024</td>
               <td>Other impacts</td>
-              <td>93750</td>
+              <td>93,750</td>
               <td>132</td>
               <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
               <td>0</td>
@@ -492,7 +491,7 @@
               <td>2020-02-08</td>
               <td>0220HO008</td>
               <td>Derailment</td>
-              <td>8079</td>
+              <td>8,079</td>
               <td>77</td>
               <td>Objects such as lading chains or straps fouling switches</td>
               <td>0</td>
@@ -508,7 +507,7 @@
               <td>2020-02-09</td>
               <td>0220HO011</td>
               <td>Derailment</td>
-              <td>13181</td>
+              <td>13,181</td>
               <td>120</td>
               <td>Interaction of lateral/vertical forces (includes harmonic rock off)</td>
               <td>0</td>
@@ -528,7 +527,7 @@
               <td>2020-02-10</td>
               <td>0220HO014</td>
               <td>Derailment</td>
-              <td>2124</td>
+              <td>2,124</td>
               <td>10</td>
               <td>Wide gage (due to defective or missing crossties)</td>
               <td>0</td>
@@ -548,7 +547,7 @@
               <td>2020-02-17</td>
               <td>2020000003</td>
               <td>Derailment</td>
-              <td>40000</td>
+              <td>40,000</td>
               <td>150</td>
               <td>Switch improperly lined</td>
               <td>0</td>
@@ -562,7 +561,7 @@
               <td>2020-02-17</td>
               <td>0220HO019</td>
               <td>Derailment</td>
-              <td>5266</td>
+              <td>5,266</td>
               <td>74</td>
               <td>Radio controlled switch not locked effectively</td>
               <td>0</td>
@@ -606,7 +605,7 @@
               <td>2020-02-29</td>
               <td>RD0220131</td>
               <td>Side collision</td>
-              <td>22895</td>
+              <td>22,895</td>
               <td>650</td>
               <td>Shoving movement, absence of man on or at leading end of movement</td>
               <td>0</td>
@@ -620,7 +619,7 @@
               <td>2020-02-29</td>
               <td>RD0220131</td>
               <td>Side collision</td>
-              <td>37405</td>
+              <td>37,405</td>
               <td>0</td>
               <td>Shoving movement, absence of man on or at leading end of movement</td>
               <td>0</td>
@@ -656,7 +655,7 @@
               <td>2020-03-14</td>
               <td>0320HO011</td>
               <td>Other impacts</td>
-              <td>44044</td>
+              <td>44,044</td>
               <td>0</td>
               <td>Classification yard automatic control system retarder failure</td>
               <td>0</td>
@@ -670,8 +669,8 @@
               <td>2020-03-14</td>
               <td>0320HO011</td>
               <td>Other impacts</td>
-              <td>170597</td>
-              <td>1464</td>
+              <td>170,597</td>
+              <td>1,464</td>
               <td>Classification yard automatic control system retarder failure</td>
               <td>0</td>
               <td>0</td>
@@ -690,7 +689,7 @@
               <td>2020-03-18</td>
               <td>RD0320120</td>
               <td>Derailment</td>
-              <td>24064</td>
+              <td>24,064</td>
               <td>950</td>
               <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
               <td>0</td>
@@ -716,8 +715,8 @@
               <td>2020-03-21</td>
               <td>0320HO025</td>
               <td>Derailment</td>
-              <td>396106</td>
-              <td>1490</td>
+              <td>396,106</td>
+              <td>1,490</td>
               <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
               <td>0</td>
               <td>0</td>
@@ -744,7 +743,7 @@
               <td>2020-03-22</td>
               <td>0320HO026</td>
               <td>Other impacts</td>
-              <td>35780</td>
+              <td>35,780</td>
               <td>792</td>
               <td>Other miscellaneous causes (Provide detailed description in narrative)</td>
               <td>0</td>
@@ -774,7 +773,7 @@
               <td>2020-04-05</td>
               <td>0420HO005</td>
               <td>Other impacts</td>
-              <td>1289</td>
+              <td>1,289</td>
               <td>0</td>
               <td>Snow, ice, mud, gravel, coal, sand, etc. on track</td>
               <td>0</td>
@@ -788,7 +787,7 @@
               <td>2020-04-05</td>
               <td>0420HO005</td>
               <td>Other impacts</td>
-              <td>11081</td>
+              <td>11,081</td>
               <td>198</td>
               <td>Snow, ice, mud, gravel, coal, sand, etc. on track</td>
               <td>0</td>
@@ -816,7 +815,7 @@
               <td>2020-04-08</td>
               <td>0420HO006</td>
               <td>Other impacts</td>
-              <td>44019</td>
+              <td>44,019</td>
               <td>0</td>
               <td>Passed couplers (other than automated classification yard)</td>
               <td>0</td>
@@ -832,8 +831,8 @@
               <td>2020-04-10</td>
               <td>0420HO012</td>
               <td>Derailment</td>
-              <td>133573</td>
-              <td>3007</td>
+              <td>133,573</td>
+              <td>3,007</td>
               <td>Cross level of track irregular (at joints)</td>
               <td>0</td>
               <td>0</td>
@@ -856,7 +855,7 @@
               <td>2020-04-22</td>
               <td>RD0420111</td>
               <td>Derailment</td>
-              <td>8500</td>
+              <td>8,500</td>
               <td>12</td>
               <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
@@ -874,7 +873,7 @@
               <td>2020-04-30</td>
               <td>2020000007</td>
               <td>Derailment</td>
-              <td>4000</td>
+              <td>4,000</td>
               <td>21</td>
               <td>Independent (engine) brake, improper use (except actuation) (H023)</td>
               <td>0</td>
@@ -904,7 +903,7 @@
               <td>2020-05-06</td>
               <td>2020000009</td>
               <td>Derailment</td>
-              <td>7800</td>
+              <td>7,800</td>
               <td>65</td>
               <td>Truck bolster stiff, improper swiveling</td>
               <td>0</td>
@@ -948,8 +947,8 @@
               <td>2020-05-22</td>
               <td>0520HO016</td>
               <td>Raking collision</td>
-              <td>194564</td>
-              <td>4993</td>
+              <td>194,564</td>
+              <td>4,993</td>
               <td>Improper operation of train line air connections  (bottling the air)</td>
               <td>0</td>
               <td>0</td>
@@ -962,7 +961,7 @@
               <td>2020-05-22</td>
               <td>0520ME020</td>
               <td>Fire/violent rupture</td>
-              <td>38520</td>
+              <td>38,520</td>
               <td>0</td>
               <td>Oil or fuel fire (LOCOMOTIVE)</td>
               <td>0</td>
@@ -978,7 +977,7 @@
               <td>2020-05-25</td>
               <td>0520HO020</td>
               <td>Derailment</td>
-              <td>24030</td>
+              <td>24,030</td>
               <td>496</td>
               <td>Snow, ice, mud, gravel, coal, sand, etc. on track</td>
               <td>0</td>
@@ -994,7 +993,7 @@
               <td>2020-05-27</td>
               <td>0520HO024</td>
               <td>Derailment</td>
-              <td>15915</td>
+              <td>15,915</td>
               <td>414</td>
               <td>Defective or missing crossties (use code T110 if results in wide gage)</td>
               <td>0</td>
@@ -1028,7 +1027,7 @@
               <td>2020-06-03</td>
               <td>0620HO003</td>
               <td>Other impacts</td>
-              <td>14290</td>
+              <td>14,290</td>
               <td>396</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -1056,7 +1055,7 @@
               <td>2020-06-15</td>
               <td>RD0620113</td>
               <td>Derailment</td>
-              <td>20678</td>
+              <td>20,678</td>
               <td>700</td>
               <td>Buffing or slack action excessive, train handling</td>
               <td>0</td>
@@ -1078,7 +1077,7 @@
               <td>2020-06-19</td>
               <td>0620HO019</td>
               <td>Other impacts</td>
-              <td>18763</td>
+              <td>18,763</td>
               <td>0</td>
               <td>Classification yard automatic control system retarder failure</td>
               <td>0</td>
@@ -1092,7 +1091,7 @@
               <td>2020-06-19</td>
               <td>0620HO019</td>
               <td>Other impacts</td>
-              <td>36985</td>
+              <td>36,985</td>
               <td>0</td>
               <td>Classification yard automatic control system retarder failure</td>
               <td>0</td>
@@ -1114,7 +1113,7 @@
               <td>2020-06-25</td>
               <td>0620ES060</td>
               <td>Obstruction</td>
-              <td>14424</td>
+              <td>14,424</td>
               <td>0</td>
               <td>Human Factor - track</td>
               <td>0</td>
@@ -1138,7 +1137,7 @@
               <td>2020-07-06</td>
               <td>RD0720103</td>
               <td>Derailment</td>
-              <td>43200</td>
+              <td>43,200</td>
               <td>0</td>
               <td>Snow, ice, mud, gravel, coal, sand, etc. on track</td>
               <td>0</td>
@@ -1156,7 +1155,7 @@
               <td>2020-07-12</td>
               <td>0720HO009</td>
               <td>Other impacts</td>
-              <td>11228</td>
+              <td>11,228</td>
               <td>132</td>
               <td>Classification yard automatic control system - Inadequate or insufficient control  (e.g., automatic cycling, other software / programming deficiencies, etc.)</td>
               <td>0</td>
@@ -1170,7 +1169,7 @@
               <td>2020-07-12</td>
               <td>0720HO009</td>
               <td>Other impacts</td>
-              <td>28268</td>
+              <td>28,268</td>
               <td>0</td>
               <td>Classification yard automatic control system - Inadequate or insufficient control  (e.g., automatic cycling, other software / programming deficiencies, etc.)</td>
               <td>0</td>
@@ -1218,7 +1217,7 @@
               <td>2020-08-04</td>
               <td>0820HO001</td>
               <td>Derailment</td>
-              <td>15962</td>
+              <td>15,962</td>
               <td>132</td>
               <td>Kicking or dropping cars, inadequate precautions</td>
               <td>0</td>
@@ -1232,8 +1231,8 @@
               <td>2020-08-04</td>
               <td>0820HO002</td>
               <td>Derailment</td>
-              <td>272242</td>
-              <td>6441</td>
+              <td>272,242</td>
+              <td>6,441</td>
               <td>Wide gage (due to defective or missing spikes or other rail fasteners)</td>
               <td>0</td>
               <td>0</td>
@@ -1246,7 +1245,7 @@
               <td>2020-08-05</td>
               <td>0820HO003</td>
               <td>Derailment</td>
-              <td>7143</td>
+              <td>7,143</td>
               <td>14</td>
               <td>Snow, ice, mud, gravel, coal, sand, etc. on track</td>
               <td>0</td>
@@ -1260,7 +1259,7 @@
               <td>2020-08-07</td>
               <td>0820HO006</td>
               <td>Derailment</td>
-              <td>31279</td>
+              <td>31,279</td>
               <td>345</td>
               <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
               <td>0</td>
@@ -1278,7 +1277,7 @@
               <td>2020-08-16</td>
               <td>0820SX011</td>
               <td>Other impacts</td>
-              <td>34387</td>
+              <td>34,387</td>
               <td>0</td>
               <td>Cars left foul</td>
               <td>0</td>
@@ -1292,7 +1291,7 @@
               <td>2020-08-16</td>
               <td>0820SX011</td>
               <td>Other impacts</td>
-              <td>49203</td>
+              <td>49,203</td>
               <td>279</td>
               <td>Cars left foul</td>
               <td>0</td>
@@ -1334,7 +1333,7 @@
               <td>2020-09-02</td>
               <td>2020000016</td>
               <td>Derailment</td>
-              <td>2000</td>
+              <td>2,000</td>
               <td>20</td>
               <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
@@ -1354,7 +1353,7 @@
               <td>2020-09-11</td>
               <td>2020000019</td>
               <td>Raking collision</td>
-              <td>4000</td>
+              <td>4,000</td>
               <td>0</td>
               <td>Failure to properly secure hand brake on car(s) (railroad  employee)</td>
               <td>0</td>
@@ -1368,7 +1367,7 @@
               <td>2020-09-11</td>
               <td>2020000019</td>
               <td>Raking collision</td>
-              <td>35000</td>
+              <td>35,000</td>
               <td>0</td>
               <td>Failure to properly secure hand brake on car(s) (railroad  employee)</td>
               <td>0</td>
@@ -1384,7 +1383,7 @@
               <td>2020-09-18</td>
               <td>0920HO023</td>
               <td>Derailment</td>
-              <td>9470</td>
+              <td>9,470</td>
               <td>16</td>
               <td>Guard rail loose/broken or mislocated</td>
               <td>0</td>
@@ -1406,7 +1405,7 @@
               <td>2020-09-22</td>
               <td>0920HO028</td>
               <td>Derailment</td>
-              <td>3138</td>
+              <td>3,138</td>
               <td>0</td>
               <td>.Broken Rail - Base</td>
               <td>0</td>
@@ -1420,7 +1419,7 @@
               <td>2020-09-22</td>
               <td>0920HO028</td>
               <td>Derailment</td>
-              <td>21182</td>
+              <td>21,182</td>
               <td>145</td>
               <td>.Broken Rail - Base</td>
               <td>0</td>
@@ -1436,8 +1435,8 @@
               <td>2020-09-25</td>
               <td>0920HO032</td>
               <td>Derailment</td>
-              <td>203177</td>
-              <td>1132</td>
+              <td>203,177</td>
+              <td>1,132</td>
               <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
               <td>0</td>
               <td>0</td>
@@ -1468,7 +1467,7 @@
               <td>2020-10-05</td>
               <td>2020000020</td>
               <td>Other impacts</td>
-              <td>10000</td>
+              <td>10,000</td>
               <td>300</td>
               <td>Kicking or dropping cars, inadequate precautions</td>
               <td>1</td>
@@ -1482,7 +1481,7 @@
               <td>2020-10-06</td>
               <td>1020HO003</td>
               <td>Derailment</td>
-              <td>99146</td>
+              <td>99,146</td>
               <td>564</td>
               <td>Other wheel defects (CAR) (Provide detailed description in  narrative)</td>
               <td>0</td>
@@ -1504,7 +1503,7 @@
               <td>2020-10-22</td>
               <td>1020HO017</td>
               <td>Derailment</td>
-              <td>33892</td>
+              <td>33,892</td>
               <td>584</td>
               <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
               <td>0</td>
@@ -1520,7 +1519,7 @@
               <td>2020-10-27</td>
               <td>1020SX031</td>
               <td>Derailment</td>
-              <td>55036</td>
+              <td>55,036</td>
               <td>253</td>
               <td>Switch (hand operated) stand mechanism broken, loose, or worn</td>
               <td>0</td>
@@ -1540,7 +1539,7 @@
               <td>2020-11-08</td>
               <td>201108003</td>
               <td>Other impacts</td>
-              <td>12000</td>
+              <td>12,000</td>
               <td>0</td>
               <td>Switch improperly lined</td>
               <td>0</td>
@@ -1558,7 +1557,7 @@
               <td>2020-11-14</td>
               <td>RD1120110</td>
               <td>Derailment</td>
-              <td>91015</td>
+              <td>91,015</td>
               <td>226</td>
               <td>Worn flange</td>
               <td>0</td>
@@ -1582,8 +1581,8 @@
               <td>2020-11-18</td>
               <td>1120HO015</td>
               <td>Derailment</td>
-              <td>335446</td>
-              <td>1410</td>
+              <td>335,446</td>
+              <td>1,410</td>
               <td>Buffing or slack action excessive, train handling</td>
               <td>0</td>
               <td>0</td>
@@ -1598,7 +1597,7 @@
               <td>2020-11-23</td>
               <td>1120HO019</td>
               <td>Derailment</td>
-              <td>84136</td>
+              <td>84,136</td>
               <td>278</td>
               <td>Other brake defects, cars (Provide detailed description in  narrative)</td>
               <td>0</td>
@@ -1620,7 +1619,7 @@
               <td>2020-11-24</td>
               <td>1120HO024</td>
               <td>Other impacts</td>
-              <td>9871</td>
+              <td>9,871</td>
               <td>17</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -1634,7 +1633,7 @@
               <td>2020-11-24</td>
               <td>1120HO024</td>
               <td>Other impacts</td>
-              <td>15085</td>
+              <td>15,085</td>
               <td>0</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -1664,7 +1663,7 @@
               <td>2020-11-25</td>
               <td>165904</td>
               <td>Hwy-rail crossing</td>
-              <td>20127</td>
+              <td>20,127</td>
               <td>0</td>
               <td>Highway user cited for violation of highway-rail grade crossing traffic laws</td>
               <td>1</td>
@@ -1688,7 +1687,7 @@
               <td>2020-12-07</td>
               <td>1220HO004</td>
               <td>Other impacts</td>
-              <td>5194</td>
+              <td>5,194</td>
               <td>0</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -1702,7 +1701,7 @@
               <td>2020-12-07</td>
               <td>1220HO004</td>
               <td>Other impacts</td>
-              <td>51305</td>
+              <td>51,305</td>
               <td>216</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -1720,7 +1719,7 @@
               <td>2020-12-21</td>
               <td>1220HO015</td>
               <td>Derailment</td>
-              <td>3323</td>
+              <td>3,323</td>
               <td>10</td>
               <td>Classification yard automatic control system retarder failure</td>
               <td>0</td>
@@ -1738,7 +1737,7 @@
               <td>2020-12-22</td>
               <td>1220HO017</td>
               <td>Derailment</td>
-              <td>10363</td>
+              <td>10,363</td>
               <td>890</td>
               <td>Defective or missing crossties (use code T110 if results in wide gage)</td>
               <td>0</td>
@@ -1766,7 +1765,7 @@
               <td>2021-01-06</td>
               <td>0121HO004</td>
               <td>Other impacts</td>
-              <td>1308</td>
+              <td>1,308</td>
               <td>0</td>
               <td>Classification yard automatic control system retarder failure</td>
               <td>0</td>
@@ -1780,7 +1779,7 @@
               <td>2021-01-06</td>
               <td>0121HO004</td>
               <td>Other impacts</td>
-              <td>88816</td>
+              <td>88,816</td>
               <td>306</td>
               <td>Classification yard automatic control system retarder failure</td>
               <td>0</td>
@@ -1822,8 +1821,8 @@
               <td>2021-01-23</td>
               <td>210123005</td>
               <td>Derailment</td>
-              <td>372436</td>
-              <td>1731</td>
+              <td>372,436</td>
+              <td>1,731</td>
               <td>Broken Rail - Vertical split head</td>
               <td>0</td>
               <td>0</td>
@@ -1840,7 +1839,7 @@
               <td>2021-01-31</td>
               <td>0121HO036</td>
               <td>Other impacts</td>
-              <td>45904</td>
+              <td>45,904</td>
               <td>282</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -1854,7 +1853,7 @@
               <td>2021-01-31</td>
               <td>0121HO036</td>
               <td>Other impacts</td>
-              <td>48821</td>
+              <td>48,821</td>
               <td>0</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -1872,8 +1871,8 @@
               <td>2021-02-05</td>
               <td>0221HO005</td>
               <td>Derailment</td>
-              <td>285130</td>
-              <td>1584</td>
+              <td>285,130</td>
+              <td>1,584</td>
               <td>Shoving movement, absence of man on or at leading end of movement</td>
               <td>0</td>
               <td>0</td>
@@ -1902,7 +1901,7 @@
               <td>2021-02-11</td>
               <td>0221HO017</td>
               <td>Other impacts</td>
-              <td>18263</td>
+              <td>18,263</td>
               <td>428</td>
               <td>Classification yard automatic control system retarder failure</td>
               <td>0</td>
@@ -1916,7 +1915,7 @@
               <td>2021-02-11</td>
               <td>0221HO017</td>
               <td>Other impacts</td>
-              <td>52159</td>
+              <td>52,159</td>
               <td>0</td>
               <td>Classification yard automatic control system retarder failure</td>
               <td>0</td>
@@ -1930,7 +1929,7 @@
               <td>2021-02-12</td>
               <td>0221HO021</td>
               <td>Derailment</td>
-              <td>7644</td>
+              <td>7,644</td>
               <td>0</td>
               <td>Broken Rail - Detail fracture from shelling or head check</td>
               <td>0</td>
@@ -1944,8 +1943,8 @@
               <td>2021-02-12</td>
               <td>0221HO021</td>
               <td>Derailment</td>
-              <td>107626</td>
-              <td>1280</td>
+              <td>107,626</td>
+              <td>1,280</td>
               <td>Broken Rail - Detail fracture from shelling or head check</td>
               <td>0</td>
               <td>0</td>
@@ -2002,7 +2001,7 @@
               <td>2021-03-08</td>
               <td>0321HO011</td>
               <td>Other impacts</td>
-              <td>7316</td>
+              <td>7,316</td>
               <td>0</td>
               <td>Switching movement, excessive speed</td>
               <td>0</td>
@@ -2016,7 +2015,7 @@
               <td>2021-03-08</td>
               <td>0321HO011</td>
               <td>Other impacts</td>
-              <td>7779</td>
+              <td>7,779</td>
               <td>10</td>
               <td>Switching movement, excessive speed</td>
               <td>0</td>
@@ -2076,7 +2075,7 @@
               <td>2021-03-24</td>
               <td>0321HO028</td>
               <td>Other impacts</td>
-              <td>22513</td>
+              <td>22,513</td>
               <td>99</td>
               <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
               <td>0</td>
@@ -2090,7 +2089,7 @@
               <td>2021-03-24</td>
               <td>0321HO028</td>
               <td>Other impacts</td>
-              <td>46963</td>
+              <td>46,963</td>
               <td>0</td>
               <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
               <td>0</td>
@@ -2134,7 +2133,7 @@
               <td>2021-04-14</td>
               <td>RD0421105</td>
               <td>Derailment</td>
-              <td>81534</td>
+              <td>81,534</td>
               <td>420</td>
               <td>Failure to allow air brakes to fully release before proceeding (H005)</td>
               <td>0</td>
@@ -2148,8 +2147,8 @@
               <td>2021-04-15</td>
               <td>0421HO014</td>
               <td>Derailment</td>
-              <td>298704</td>
-              <td>3173</td>
+              <td>298,704</td>
+              <td>3,173</td>
               <td>Broken Rail - Detail fracture from shelling or head check</td>
               <td>0</td>
               <td>0</td>
@@ -2166,8 +2165,8 @@
               <td>2021-04-19</td>
               <td>0421HO017</td>
               <td>Derailment</td>
-              <td>110403</td>
-              <td>2530</td>
+              <td>110,403</td>
+              <td>2,530</td>
               <td>Emergency brake application to avoid accident</td>
               <td>0</td>
               <td>0</td>
@@ -2234,7 +2233,7 @@
               <td>2021-05-15</td>
               <td>2021000010</td>
               <td>Side collision</td>
-              <td>45000</td>
+              <td>45,000</td>
               <td>105</td>
               <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
@@ -2248,7 +2247,7 @@
               <td>2021-05-15</td>
               <td>RD0521115</td>
               <td>Side collision</td>
-              <td>33750</td>
+              <td>33,750</td>
               <td>0</td>
               <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
@@ -2290,7 +2289,7 @@
               <td>2021-06-04</td>
               <td>0621HO004</td>
               <td>Other impacts</td>
-              <td>29475</td>
+              <td>29,475</td>
               <td>656</td>
               <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
               <td>0</td>
@@ -2304,7 +2303,7 @@
               <td>2021-06-04</td>
               <td>0621HO004</td>
               <td>Other impacts</td>
-              <td>56219</td>
+              <td>56,219</td>
               <td>0</td>
               <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
               <td>0</td>
@@ -2338,7 +2337,7 @@
               <td>2021-06-07</td>
               <td>0621HO008</td>
               <td>Derailment</td>
-              <td>28928</td>
+              <td>28,928</td>
               <td>144</td>
               <td>Switch previously run through</td>
               <td>0</td>
@@ -2440,7 +2439,7 @@
               <td>2021-07-08</td>
               <td>0721HO005</td>
               <td>Derailment</td>
-              <td>18995</td>
+              <td>18,995</td>
               <td>472</td>
               <td>Other coupler and draft system defects, (CAR) (Provide detailed description in narrative)</td>
               <td>0</td>
@@ -2474,7 +2473,7 @@
               <td>2021-07-16</td>
               <td>0721HO015</td>
               <td>Derailment</td>
-              <td>17308</td>
+              <td>17,308</td>
               <td>359</td>
               <td>Rigging down or dragging</td>
               <td>0</td>
@@ -2532,7 +2531,7 @@
               <td>2021-08-09</td>
               <td>0821HO009</td>
               <td>Derailment</td>
-              <td>6717</td>
+              <td>6,717</td>
               <td>14</td>
               <td>Side bearing clearance insufficient</td>
               <td>0</td>
@@ -2564,7 +2563,7 @@
               <td>2021-08-10</td>
               <td>21081001</td>
               <td>Derailment</td>
-              <td>224175</td>
+              <td>224,175</td>
               <td>0</td>
               <td>Cross level of track irregular (not at joints)</td>
               <td>0</td>
@@ -2604,8 +2603,8 @@
               <td>2021-08-30</td>
               <td>0821HO040</td>
               <td>Derailment</td>
-              <td>385647</td>
-              <td>2805</td>
+              <td>385,647</td>
+              <td>2,805</td>
               <td>Buffing or slack action excessive, train handling</td>
               <td>0</td>
               <td>0</td>
@@ -2622,7 +2621,7 @@
               <td>2021-09-04</td>
               <td>0921HO004</td>
               <td>Other impacts</td>
-              <td>7130</td>
+              <td>7,130</td>
               <td>200</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -2636,7 +2635,7 @@
               <td>2021-09-04</td>
               <td>0921HO004</td>
               <td>Other impacts</td>
-              <td>12454</td>
+              <td>12,454</td>
               <td>0</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -2654,7 +2653,7 @@
               <td>2021-09-07</td>
               <td>0921HO007</td>
               <td>Other impacts</td>
-              <td>4273</td>
+              <td>4,273</td>
               <td>0</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -2668,7 +2667,7 @@
               <td>2021-09-07</td>
               <td>0921HO007</td>
               <td>Other impacts</td>
-              <td>20124</td>
+              <td>20,124</td>
               <td>0</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -2696,7 +2695,7 @@
               <td>2021-09-08</td>
               <td>21090802</td>
               <td>Hwy-rail crossing</td>
-              <td>16626</td>
+              <td>16,626</td>
               <td>0</td>
               <td>Highway user inattentiveness</td>
               <td>0</td>
@@ -2742,7 +2741,7 @@
               <td>2021-10-02</td>
               <td>RD1021102</td>
               <td>Derailment</td>
-              <td>78310</td>
+              <td>78,310</td>
               <td>300</td>
               <td>Defective or missing crossties (use code T110 if results in wide gage)</td>
               <td>0</td>
@@ -2772,7 +2771,7 @@
               <td>2021-10-24</td>
               <td>1021HO021</td>
               <td>Other impacts</td>
-              <td>4271</td>
+              <td>4,271</td>
               <td>0</td>
               <td>Shoving movement, absence of man on or at leading end of movement</td>
               <td>0</td>
@@ -2786,8 +2785,8 @@
               <td>2021-10-24</td>
               <td>1021HO021</td>
               <td>Other impacts</td>
-              <td>342224</td>
-              <td>3520</td>
+              <td>342,224</td>
+              <td>3,520</td>
               <td>Shoving movement, absence of man on or at leading end of movement</td>
               <td>0</td>
               <td>0</td>
@@ -2828,7 +2827,7 @@
               <td>2021-10-31</td>
               <td>1021HO026</td>
               <td>Derailment</td>
-              <td>61578</td>
+              <td>61,578</td>
               <td>701</td>
               <td>Switch previously run through</td>
               <td>0</td>
@@ -2856,7 +2855,7 @@
               <td>2021-10-31</td>
               <td>1021HO027</td>
               <td>Derailment</td>
-              <td>13460</td>
+              <td>13,460</td>
               <td>200</td>
               <td>Guard rail loose/broken or mislocated</td>
               <td>0</td>
@@ -2870,7 +2869,7 @@
               <td>2021-11-04</td>
               <td>1121HO003</td>
               <td>Other impacts</td>
-              <td>22823</td>
+              <td>22,823</td>
               <td>0</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -2884,7 +2883,7 @@
               <td>2021-11-04</td>
               <td>1121HO003</td>
               <td>Other impacts</td>
-              <td>45588</td>
+              <td>45,588</td>
               <td>0</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -2900,7 +2899,7 @@
               <td>2021-11-04</td>
               <td>1121HO004</td>
               <td>Derailment</td>
-              <td>1915</td>
+              <td>1,915</td>
               <td>15</td>
               <td>Wide gage (due to defective or missing crossties)</td>
               <td>0</td>
@@ -2916,7 +2915,7 @@
               <td>2021-11-07</td>
               <td>1121HO010</td>
               <td>Other (describe in narrative)</td>
-              <td>40381</td>
+              <td>40,381</td>
               <td>0</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -2962,7 +2961,7 @@
               <td>2021-11-17</td>
               <td>RD1121110</td>
               <td>Derailment</td>
-              <td>15000</td>
+              <td>15,000</td>
               <td>120</td>
               <td>Derail, failure to apply or remove</td>
               <td>0</td>
@@ -2976,7 +2975,7 @@
               <td>2021-11-18</td>
               <td>1121HO020</td>
               <td>Derailment</td>
-              <td>8049</td>
+              <td>8,049</td>
               <td>35</td>
               <td>Wide gage (due to defective or missing crossties)</td>
               <td>0</td>
@@ -2994,7 +2993,7 @@
               <td>2021-11-25</td>
               <td>1121HO027</td>
               <td>Derailment</td>
-              <td>6414</td>
+              <td>6,414</td>
               <td>66</td>
               <td>Other coupler and draft system defects, (CAR) (Provide detailed description in narrative)</td>
               <td>0</td>
@@ -3014,7 +3013,7 @@
               <td>2021-12-02</td>
               <td>211202001</td>
               <td>Hwy-rail crossing</td>
-              <td>40000</td>
+              <td>40,000</td>
               <td>0</td>
               <td>Highway user deliberately disregarded crossing warning devices</td>
               <td>1</td>
@@ -3048,7 +3047,7 @@
               <td>2021-12-08</td>
               <td>RD1221107</td>
               <td>Derailment</td>
-              <td>19043</td>
+              <td>19,043</td>
               <td>0</td>
               <td>Buffing or slack action excessive, train handling</td>
               <td>0</td>
@@ -3064,8 +3063,8 @@
               <td>2021-12-12</td>
               <td>1221HO012</td>
               <td>Derailment</td>
-              <td>168654</td>
-              <td>3154</td>
+              <td>168,654</td>
+              <td>3,154</td>
               <td>Broken Rail - Detail fracture from shelling or head check</td>
               <td>0</td>
               <td>0</td>
@@ -3080,7 +3079,7 @@
               <td>2021-12-13</td>
               <td>1221HO017</td>
               <td>Other (describe in narrative)</td>
-              <td>29373</td>
+              <td>29,373</td>
               <td>0</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -3150,7 +3149,7 @@
               <td>2022-01-18</td>
               <td>0122HO021</td>
               <td>Other impacts</td>
-              <td>11386</td>
+              <td>11,386</td>
               <td>898</td>
               <td>Classification yard automatic control system retarder failure</td>
               <td>0</td>
@@ -3164,7 +3163,7 @@
               <td>2022-01-18</td>
               <td>0122HO021</td>
               <td>Other impacts</td>
-              <td>18113</td>
+              <td>18,113</td>
               <td>0</td>
               <td>Classification yard automatic control system retarder failure</td>
               <td>0</td>
@@ -3178,7 +3177,7 @@
               <td>2022-01-24</td>
               <td>RD0122126</td>
               <td>Other impacts</td>
-              <td>55904</td>
+              <td>55,904</td>
               <td>0</td>
               <td>Kicking or dropping cars, inadequate precautions</td>
               <td>0</td>
@@ -3192,7 +3191,7 @@
               <td>2022-01-27</td>
               <td>0122HO026</td>
               <td>Other impacts</td>
-              <td>8276</td>
+              <td>8,276</td>
               <td>0</td>
               <td>Object or equipment on or fouling track - other than above (for  vandalism, see code M503)</td>
               <td>0</td>
@@ -3206,7 +3205,7 @@
               <td>2022-01-27</td>
               <td>0122HO026</td>
               <td>Other impacts</td>
-              <td>11875</td>
+              <td>11,875</td>
               <td>198</td>
               <td>Object or equipment on or fouling track - other than above (for  vandalism, see code M503)</td>
               <td>0</td>
@@ -3220,7 +3219,7 @@
               <td>2022-01-31</td>
               <td>RD0122135</td>
               <td>Derailment</td>
-              <td>68161</td>
+              <td>68,161</td>
               <td>0</td>
               <td>Buffing or slack action excessive, train handling</td>
               <td>0</td>
@@ -3252,7 +3251,7 @@
               <td>2022-02-22</td>
               <td>0222HO030</td>
               <td>Other impacts</td>
-              <td>5268</td>
+              <td>5,268</td>
               <td>0</td>
               <td>Cars left foul</td>
               <td>0</td>
@@ -3266,7 +3265,7 @@
               <td>2022-02-22</td>
               <td>0222HO030</td>
               <td>Other impacts</td>
-              <td>71392</td>
+              <td>71,392</td>
               <td>132</td>
               <td>Cars left foul</td>
               <td>0</td>
@@ -3284,7 +3283,7 @@
               <td>2022-02-26</td>
               <td>0222HO035</td>
               <td>Derailment</td>
-              <td>51324</td>
+              <td>51,324</td>
               <td>831</td>
               <td>Broken Rail - Detail fracture from shelling or head check</td>
               <td>0</td>
@@ -3298,7 +3297,7 @@
               <td>2022-03-01</td>
               <td>0322HO001</td>
               <td>Other impacts</td>
-              <td>11633</td>
+              <td>11,633</td>
               <td>419</td>
               <td>Shoving movement, absence of man on or at leading end of movement</td>
               <td>0</td>
@@ -3312,7 +3311,7 @@
               <td>2022-03-01</td>
               <td>2022000010</td>
               <td>Other impacts</td>
-              <td>15500</td>
+              <td>15,500</td>
               <td>0</td>
               <td>Shoving movement, absence of man on or at leading end of movement</td>
               <td>0</td>
@@ -3326,8 +3325,8 @@
               <td>2022-03-02</td>
               <td>2022000011</td>
               <td>Derailment</td>
-              <td>115000</td>
-              <td>2500</td>
+              <td>115,000</td>
+              <td>2,500</td>
               <td>Derail, failure to apply or remove</td>
               <td>0</td>
               <td>0</td>
@@ -3340,7 +3339,7 @@
               <td>2022-03-02</td>
               <td>0322HO002</td>
               <td>Derailment</td>
-              <td>2242</td>
+              <td>2,242</td>
               <td>16</td>
               <td>Switch improperly lined</td>
               <td>0</td>
@@ -3374,7 +3373,7 @@
               <td>2022-03-14</td>
               <td>0322HO020</td>
               <td>Other impacts</td>
-              <td>6381</td>
+              <td>6,381</td>
               <td>0</td>
               <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
               <td>0</td>
@@ -3388,7 +3387,7 @@
               <td>2022-03-14</td>
               <td>0322HO020</td>
               <td>Other impacts</td>
-              <td>33244</td>
+              <td>33,244</td>
               <td>100</td>
               <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
               <td>0</td>
@@ -3402,7 +3401,7 @@
               <td>2022-03-15</td>
               <td>0322HO021</td>
               <td>Derailment</td>
-              <td>80696</td>
+              <td>80,696</td>
               <td>50</td>
               <td>Other body defects, (CAR) (Provide detailed description in  narrative)</td>
               <td>0</td>
@@ -3420,8 +3419,8 @@
               <td>2022-03-19</td>
               <td>RD0322118</td>
               <td>Derailment</td>
-              <td>201823</td>
-              <td>8265</td>
+              <td>201,823</td>
+              <td>8,265</td>
               <td>Vandalism of track or track appliances, e.g., objects  placed on track, switch thrown, etc.</td>
               <td>0</td>
               <td>0</td>
@@ -3458,7 +3457,7 @@
               <td>2022-04-16</td>
               <td>0422HO011</td>
               <td>Other impacts</td>
-              <td>33148</td>
+              <td>33,148</td>
               <td>0</td>
               <td>Kicking or dropping cars, inadequate precautions</td>
               <td>0</td>
@@ -3472,7 +3471,7 @@
               <td>2022-04-16</td>
               <td>0422HO011</td>
               <td>Other impacts</td>
-              <td>132268</td>
+              <td>132,268</td>
               <td>200</td>
               <td>Kicking or dropping cars, inadequate precautions</td>
               <td>0</td>
@@ -3488,7 +3487,7 @@
               <td>2022-04-20</td>
               <td>0422HO013</td>
               <td>Hwy-rail crossing</td>
-              <td>10429</td>
+              <td>10,429</td>
               <td>289</td>
               <td>Highway user cited for violation of highway-rail grade crossing traffic laws</td>
               <td>2</td>
@@ -3516,7 +3515,7 @@
               <td>2022-04-28</td>
               <td>0422HO028</td>
               <td>Derailment</td>
-              <td>24119</td>
+              <td>24,119</td>
               <td>377</td>
               <td>Other communication equipment failure</td>
               <td>0</td>
@@ -3556,7 +3555,7 @@
               <td>2022-05-18</td>
               <td>RD0522120</td>
               <td>Derailment</td>
-              <td>5400</td>
+              <td>5,400</td>
               <td>82</td>
               <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
               <td>0</td>
@@ -3574,7 +3573,7 @@
               <td>2022-05-21</td>
               <td>0522HO024</td>
               <td>Hwy-rail crossing</td>
-              <td>5753</td>
+              <td>5,753</td>
               <td>11</td>
               <td>Highway user cited for violation of highway-rail grade crossing traffic laws</td>
               <td>2</td>
@@ -3592,7 +3591,7 @@
               <td>2022-05-23</td>
               <td>0522HO027</td>
               <td>Derailment</td>
-              <td>42540</td>
+              <td>42,540</td>
               <td>129</td>
               <td>Instruction to train/yard crew improper</td>
               <td>0</td>
@@ -3636,8 +3635,8 @@
               <td>2022-06-09</td>
               <td>0622HO012</td>
               <td>Derailment</td>
-              <td>166590</td>
-              <td>8650</td>
+              <td>166,590</td>
+              <td>8,650</td>
               <td>Derail, failure to apply or remove</td>
               <td>0</td>
               <td>0</td>
@@ -3650,7 +3649,7 @@
               <td>2022-06-12</td>
               <td>RD0622111</td>
               <td>Derailment</td>
-              <td>72406</td>
+              <td>72,406</td>
               <td>700</td>
               <td>Worn flange</td>
               <td>0</td>
@@ -3664,7 +3663,7 @@
               <td>2022-06-13</td>
               <td>2022000027</td>
               <td>Hwy-rail crossing</td>
-              <td>17076</td>
+              <td>17,076</td>
               <td>0</td>
               <td>Highway user inattentiveness</td>
               <td>2</td>
@@ -3682,7 +3681,7 @@
               <td>2022-06-22</td>
               <td>2022000028</td>
               <td>Side collision</td>
-              <td>17076</td>
+              <td>17,076</td>
               <td>0</td>
               <td>Highway user inattentiveness</td>
               <td>2</td>
@@ -3696,7 +3695,7 @@
               <td>2022-06-22</td>
               <td>2022000028</td>
               <td>Raking collision</td>
-              <td>50000</td>
+              <td>50,000</td>
               <td>0</td>
               <td>Failure to stop train in clear</td>
               <td>0</td>
@@ -3718,7 +3717,7 @@
               <td>2022-06-27</td>
               <td>0622HO026</td>
               <td>Derailment</td>
-              <td>83711</td>
+              <td>83,711</td>
               <td>110</td>
               <td>Broken Rail - Detail fracture from shelling or head check</td>
               <td>0</td>
@@ -3740,7 +3739,7 @@
               <td>2022-07-01</td>
               <td>0722HO001</td>
               <td>Derailment</td>
-              <td>72910</td>
+              <td>72,910</td>
               <td>718</td>
               <td>Brake valve malfunction (undesired emergency)</td>
               <td>0</td>
@@ -3754,7 +3753,7 @@
               <td>2022-07-02</td>
               <td>0722HO002</td>
               <td>Derailment</td>
-              <td>93303</td>
+              <td>93,303</td>
               <td>119</td>
               <td>.Broken Rail - Base</td>
               <td>0</td>
@@ -3806,7 +3805,7 @@
               <td>2022-07-17</td>
               <td>2022000035</td>
               <td>Side collision</td>
-              <td>48000</td>
+              <td>48,000</td>
               <td>450</td>
               <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
@@ -3824,7 +3823,7 @@
               <td>2022-07-18</td>
               <td>0722HO014</td>
               <td>Derailment</td>
-              <td>51980</td>
+              <td>51,980</td>
               <td>216</td>
               <td>Object or equipment on or fouling track - other than above (for  vandalism, see code M503)</td>
               <td>0</td>
@@ -3838,7 +3837,7 @@
               <td>2022-07-18</td>
               <td>0722HO014</td>
               <td>Derailment</td>
-              <td>52771</td>
+              <td>52,771</td>
               <td>0</td>
               <td>Object or equipment on or fouling track - other than above (for  vandalism, see code M503)</td>
               <td>0</td>
@@ -3892,8 +3891,8 @@
               <td>2022-07-30</td>
               <td>RD0722128</td>
               <td>Derailment</td>
-              <td>149804</td>
-              <td>3000</td>
+              <td>149,804</td>
+              <td>3,000</td>
               <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
               <td>0</td>
@@ -3908,7 +3907,7 @@
               <td>2022-07-31</td>
               <td>220731001</td>
               <td>Derailment</td>
-              <td>38500</td>
+              <td>38,500</td>
               <td>125</td>
               <td>Broken Rail - Head and web separation (outside joint bar limits)</td>
               <td>0</td>
@@ -3928,8 +3927,8 @@
               <td>2022-08-02</td>
               <td>0822HO003</td>
               <td>Derailment</td>
-              <td>136731</td>
-              <td>2706</td>
+              <td>136,731</td>
+              <td>2,706</td>
               <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
               <td>0</td>
               <td>0</td>
@@ -3960,7 +3959,7 @@
               <td>2022-08-06</td>
               <td>0822HO008</td>
               <td>Other impacts</td>
-              <td>25873</td>
+              <td>25,873</td>
               <td>66</td>
               <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
               <td>0</td>
@@ -3984,7 +3983,7 @@
               <td>2022-08-12</td>
               <td>0822HO017</td>
               <td>Derailment</td>
-              <td>41435</td>
+              <td>41,435</td>
               <td>333</td>
               <td>Human Factor - track</td>
               <td>0</td>
@@ -4020,7 +4019,7 @@
               <td>2022-08-28</td>
               <td>0822HO038</td>
               <td>Derailment</td>
-              <td>1641</td>
+              <td>1,641</td>
               <td>12</td>
               <td>Radio controlled switch not locked effectively</td>
               <td>0</td>
@@ -4062,8 +4061,8 @@
               <td>2022-09-11</td>
               <td>0922HO011</td>
               <td>Derailment</td>
-              <td>130391</td>
-              <td>3874</td>
+              <td>130,391</td>
+              <td>3,874</td>
               <td>Yard skate slid and failed to stop cars</td>
               <td>0</td>
               <td>0</td>
@@ -4082,7 +4081,7 @@
               <td>2022-09-14</td>
               <td>0922HO021</td>
               <td>Other impacts</td>
-              <td>27894</td>
+              <td>27,894</td>
               <td>0</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -4098,7 +4097,7 @@
               <td>2022-09-17</td>
               <td>0922HO020</td>
               <td>Other impacts</td>
-              <td>4806</td>
+              <td>4,806</td>
               <td>31</td>
               <td>Yard skate slid and failed to stop cars</td>
               <td>0</td>
@@ -4112,7 +4111,7 @@
               <td>2022-09-17</td>
               <td>0922HO020</td>
               <td>Other impacts</td>
-              <td>25681</td>
+              <td>25,681</td>
               <td>0</td>
               <td>Yard skate slid and failed to stop cars</td>
               <td>0</td>
@@ -4160,8 +4159,8 @@
               <td>2022-10-04</td>
               <td>1022HO003</td>
               <td>Derailment</td>
-              <td>145874</td>
-              <td>1608</td>
+              <td>145,874</td>
+              <td>1,608</td>
               <td>Switch improperly lined</td>
               <td>0</td>
               <td>0</td>
@@ -4178,7 +4177,7 @@
               <td>2022-10-10</td>
               <td>2022000048</td>
               <td>Side collision</td>
-              <td>13100</td>
+              <td>13,100</td>
               <td>0</td>
               <td>Cars left foul</td>
               <td>0</td>
@@ -4210,7 +4209,7 @@
               <td>2022-10-20</td>
               <td>1022HO018</td>
               <td>Derailment</td>
-              <td>289213</td>
+              <td>289,213</td>
               <td>200</td>
               <td>Failure to allow air brakes to fully release before proceeding (H005)</td>
               <td>0</td>
@@ -4238,7 +4237,7 @@
               <td>2022-10-24</td>
               <td>1022HO022</td>
               <td>Derailment</td>
-              <td>14247</td>
+              <td>14,247</td>
               <td>198</td>
               <td>Other coupler and draft system defects, (CAR) (Provide detailed description in narrative)</td>
               <td>0</td>
@@ -4270,7 +4269,7 @@
               <td>2022-11-08</td>
               <td>1122HO004</td>
               <td>Derailment</td>
-              <td>32691</td>
+              <td>32,691</td>
               <td>155</td>
               <td>Switch previously run through</td>
               <td>0</td>
@@ -4290,7 +4289,7 @@
               <td>2022-11-11</td>
               <td>1122HO007</td>
               <td>Other impacts</td>
-              <td>12332</td>
+              <td>12,332</td>
               <td>200</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -4304,7 +4303,7 @@
               <td>2022-11-11</td>
               <td>1122HO007</td>
               <td>Other impacts</td>
-              <td>37056</td>
+              <td>37,056</td>
               <td>0</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -4320,7 +4319,7 @@
               <td>2022-11-13</td>
               <td>1122HO013</td>
               <td>Other impacts</td>
-              <td>25314</td>
+              <td>25,314</td>
               <td>0</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -4334,7 +4333,7 @@
               <td>2022-11-13</td>
               <td>1122HO013</td>
               <td>Other impacts</td>
-              <td>35860</td>
+              <td>35,860</td>
               <td>200</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -4352,7 +4351,7 @@
               <td>2022-11-17</td>
               <td>RD1122120</td>
               <td>Derailment</td>
-              <td>22000</td>
+              <td>22,000</td>
               <td>250</td>
               <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
@@ -4368,7 +4367,7 @@
               <td>2022-11-18</td>
               <td>1122HO020</td>
               <td>Other impacts</td>
-              <td>4197</td>
+              <td>4,197</td>
               <td>0</td>
               <td>Kicking or dropping cars, inadequate precautions</td>
               <td>0</td>
@@ -4382,7 +4381,7 @@
               <td>2022-11-18</td>
               <td>1122HO020</td>
               <td>Other impacts</td>
-              <td>35927</td>
+              <td>35,927</td>
               <td>0</td>
               <td>Kicking or dropping cars, inadequate precautions</td>
               <td>0</td>
@@ -4396,7 +4395,7 @@
               <td>2022-11-19</td>
               <td>PTRA00003F</td>
               <td>Raking collision</td>
-              <td>30000</td>
+              <td>30,000</td>
               <td>100</td>
               <td>Failure to apply hand brakes on car(s) (railroad employee)</td>
               <td>0</td>
@@ -4410,7 +4409,7 @@
               <td>2022-11-19</td>
               <td>PTRA00003F</td>
               <td>Raking collision</td>
-              <td>58200</td>
+              <td>58,200</td>
               <td>250</td>
               <td>Failure to apply hand brakes on car(s) (railroad employee)</td>
               <td>0</td>
@@ -4446,7 +4445,7 @@
               <td>2022-12-02</td>
               <td>1222HO002</td>
               <td>Derailment</td>
-              <td>1990</td>
+              <td>1,990</td>
               <td>23</td>
               <td>Worn flange</td>
               <td>0</td>
@@ -4460,7 +4459,7 @@
               <td>2022-12-03</td>
               <td>1222HO003</td>
               <td>Derailment</td>
-              <td>35541</td>
+              <td>35,541</td>
               <td>236</td>
               <td>Failure to allow air brakes to fully release before proceeding (H005)</td>
               <td>0</td>
@@ -4490,7 +4489,7 @@
               <td>2022-12-12</td>
               <td>1222HO011</td>
               <td>Derailment</td>
-              <td>7883</td>
+              <td>7,883</td>
               <td>38</td>
               <td>Switch improperly lined</td>
               <td>0</td>
@@ -4510,7 +4509,7 @@
               <td>2022-12-14</td>
               <td>1222HO017</td>
               <td>Other (describe in narrative)</td>
-              <td>13290</td>
+              <td>13,290</td>
               <td>0</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -4528,7 +4527,7 @@
               <td>2022-12-16</td>
               <td>1222HO022</td>
               <td>Other impacts</td>
-              <td>24607</td>
+              <td>24,607</td>
               <td>0</td>
               <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
               <td>0</td>
@@ -4542,7 +4541,7 @@
               <td>2022-12-16</td>
               <td>1222HO022</td>
               <td>Other impacts</td>
-              <td>27206</td>
+              <td>27,206</td>
               <td>0</td>
               <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
               <td>0</td>
@@ -4556,7 +4555,7 @@
               <td>2022-12-16</td>
               <td>1222HO022</td>
               <td>Other impacts</td>
-              <td>78457</td>
+              <td>78,457</td>
               <td>0</td>
               <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
               <td>0</td>
@@ -4584,7 +4583,7 @@
               <td>2022-12-26</td>
               <td>1222HO029</td>
               <td>Derailment</td>
-              <td>15748</td>
+              <td>15,748</td>
               <td>0</td>
               <td>Switch improperly lined, radio controlled</td>
               <td>0</td>
@@ -4612,7 +4611,7 @@
               <td>2022-12-29</td>
               <td>1222HO040</td>
               <td>Other impacts</td>
-              <td>77202</td>
+              <td>77,202</td>
               <td>99</td>
               <td>Other body defects, (CAR) (Provide detailed description in  narrative)</td>
               <td>0</td>
@@ -4656,7 +4655,7 @@
               <td>2023-01-18</td>
               <td>0123HO016</td>
               <td>Obstruction</td>
-              <td>58904</td>
+              <td>58,904</td>
               <td>0</td>
               <td>Object or equipment on or fouling track (motor vehicle - other than highway-rail crossing)</td>
               <td>0</td>
@@ -4678,7 +4677,7 @@
               <td>2023-01-24</td>
               <td>IT34290</td>
               <td>Derailment</td>
-              <td>160000</td>
+              <td>160,000</td>
               <td>0</td>
               <td>Extreme environmental condition ‑ TORNADO</td>
               <td>0</td>
@@ -4698,7 +4697,7 @@
               <td>2023-01-24</td>
               <td>0123HO028</td>
               <td>Other (describe in narrative)</td>
-              <td>330623</td>
+              <td>330,623</td>
               <td>500</td>
               <td>Extreme environmental condition ‑ TORNADO</td>
               <td>0</td>
@@ -4716,7 +4715,7 @@
               <td>2023-01-27</td>
               <td>0123HO038</td>
               <td>Other (describe in narrative)</td>
-              <td>35604</td>
+              <td>35,604</td>
               <td>0</td>
               <td>Interference (other than vandalism) with railroad operations by nonrailroad employee</td>
               <td>0</td>
@@ -4730,8 +4729,8 @@
               <td>2023-01-31</td>
               <td>0123HO036</td>
               <td>Derailment</td>
-              <td>148958</td>
-              <td>1122</td>
+              <td>148,958</td>
+              <td>1,122</td>
               <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
               <td>0</td>
               <td>0</td>
@@ -4752,7 +4751,7 @@
               <td>2023-02-02</td>
               <td>0223HO003</td>
               <td>Derailment</td>
-              <td>76381</td>
+              <td>76,381</td>
               <td>500</td>
               <td>Classification yard automatic control system - Inadequate or insufficient control  (e.g., automatic cycling, other software / programming deficiencies, etc.)</td>
               <td>0</td>
@@ -4782,7 +4781,7 @@
               <td>2023-02-04</td>
               <td>0223HO007</td>
               <td>Other impacts</td>
-              <td>13277</td>
+              <td>13,277</td>
               <td>0</td>
               <td>Classification yard automatic control system retarder failure</td>
               <td>0</td>
@@ -4824,7 +4823,7 @@
               <td>2023-02-18</td>
               <td>0223HO021</td>
               <td>Other impacts</td>
-              <td>25022</td>
+              <td>25,022</td>
               <td>0</td>
               <td>Classification yard automatic control system retarder failure</td>
               <td>0</td>
@@ -4846,7 +4845,7 @@
               <td>2023-02-25</td>
               <td>0223HO031</td>
               <td>Other impacts</td>
-              <td>1536</td>
+              <td>1,536</td>
               <td>0</td>
               <td>Classification yard automatic control system - Inadequate or insufficient control  (e.g., automatic cycling, other software / programming deficiencies, etc.)</td>
               <td>0</td>
@@ -4860,7 +4859,7 @@
               <td>2023-02-25</td>
               <td>0223HO031</td>
               <td>Other impacts</td>
-              <td>6566</td>
+              <td>6,566</td>
               <td>0</td>
               <td>Classification yard automatic control system - Inadequate or insufficient control  (e.g., automatic cycling, other software / programming deficiencies, etc.)</td>
               <td>0</td>
@@ -4874,8 +4873,8 @@
               <td>2023-02-25</td>
               <td>0223HO031</td>
               <td>Other impacts</td>
-              <td>110828</td>
-              <td>2880</td>
+              <td>110,828</td>
+              <td>2,880</td>
               <td>Classification yard automatic control system - Inadequate or insufficient control  (e.g., automatic cycling, other software / programming deficiencies, etc.)</td>
               <td>0</td>
               <td>0</td>
@@ -4888,7 +4887,7 @@
               <td>2023-02-27</td>
               <td>PTRA00014F</td>
               <td>Other (describe in narrative)</td>
-              <td>16700</td>
+              <td>16,700</td>
               <td>0</td>
               <td>Coupling speed excessive</td>
               <td>0</td>
@@ -4904,7 +4903,7 @@
               <td>2023-02-28</td>
               <td>0223HO037</td>
               <td>Other impacts</td>
-              <td>108392</td>
+              <td>108,392</td>
               <td>0</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -4918,7 +4917,7 @@
               <td>2023-02-28</td>
               <td>0223HO040</td>
               <td>Other impacts</td>
-              <td>2663</td>
+              <td>2,663</td>
               <td>0</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -4932,7 +4931,7 @@
               <td>2023-02-28</td>
               <td>0223HO040</td>
               <td>Other impacts</td>
-              <td>11027</td>
+              <td>11,027</td>
               <td>0</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -4964,7 +4963,7 @@
               <td>2023-03-08</td>
               <td>0323HO013</td>
               <td>Other (describe in narrative)</td>
-              <td>14055</td>
+              <td>14,055</td>
               <td>0</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -4980,7 +4979,7 @@
               <td>2023-03-12</td>
               <td>0323HO017</td>
               <td>Other (describe in narrative)</td>
-              <td>23768</td>
+              <td>23,768</td>
               <td>0</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -5004,7 +5003,7 @@
               <td>2023-03-28</td>
               <td>0323HO026</td>
               <td>Derailment</td>
-              <td>2311</td>
+              <td>2,311</td>
               <td>13</td>
               <td>Wide gage (due to defective or missing crossties)</td>
               <td>0</td>
@@ -5032,7 +5031,7 @@
               <td>2023-03-30</td>
               <td>0323HO027</td>
               <td>Other impacts</td>
-              <td>43217</td>
+              <td>43,217</td>
               <td>198</td>
               <td>Yard skate slid and failed to stop cars</td>
               <td>0</td>
@@ -5052,7 +5051,7 @@
               <td>2023-04-05</td>
               <td>0423HO007</td>
               <td>Obstruction</td>
-              <td>17340</td>
+              <td>17,340</td>
               <td>257</td>
               <td>Objects such as lading chains or straps fouling switches</td>
               <td>0</td>
@@ -5066,7 +5065,7 @@
               <td>2023-04-05</td>
               <td>0423HO011</td>
               <td>Other (describe in narrative)</td>
-              <td>15344</td>
+              <td>15,344</td>
               <td>0</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -5138,7 +5137,7 @@
               <td>2023-05-16</td>
               <td>0523HO017</td>
               <td>Derailment</td>
-              <td>55894</td>
+              <td>55,894</td>
               <td>250</td>
               <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
@@ -5176,7 +5175,7 @@
               <td>2023-05-26</td>
               <td>0523HO033</td>
               <td>Derailment</td>
-              <td>69589</td>
+              <td>69,589</td>
               <td>224</td>
               <td>Buffing or slack action excessive, train handling</td>
               <td>0</td>
@@ -5190,7 +5189,7 @@
               <td>2023-05-27</td>
               <td>0523HO036</td>
               <td>Derailment</td>
-              <td>10800</td>
+              <td>10,800</td>
               <td>259</td>
               <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
               <td>0</td>
@@ -5220,7 +5219,7 @@
               <td>2023-05-29</td>
               <td>RD0523127</td>
               <td>Derailment</td>
-              <td>27731</td>
+              <td>27,731</td>
               <td>0</td>
               <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
@@ -5284,7 +5283,7 @@
               <td>2023-06-15</td>
               <td>0623HO020</td>
               <td>Derailment</td>
-              <td>14390</td>
+              <td>14,390</td>
               <td>669</td>
               <td>Broken Rail - Detail fracture from shelling or head check</td>
               <td>0</td>
@@ -5332,8 +5331,8 @@
               <td>2023-07-05</td>
               <td>0723HO006</td>
               <td>Derailment</td>
-              <td>115052</td>
-              <td>7485</td>
+              <td>115,052</td>
+              <td>7,485</td>
               <td>Throttle (power), too rapid adjustment (H015)</td>
               <td>0</td>
               <td>0</td>
@@ -5358,7 +5357,7 @@
               <td>2023-07-10</td>
               <td>0723HO013</td>
               <td>Derailment</td>
-              <td>5173</td>
+              <td>5,173</td>
               <td>11</td>
               <td>Wide gage (due to defective or missing crossties)</td>
               <td>0</td>
@@ -5384,7 +5383,7 @@
               <td>2023-07-21</td>
               <td>RD0723119</td>
               <td>Derailment</td>
-              <td>4459</td>
+              <td>4,459</td>
               <td>85</td>
               <td>Shoving movement, absence of man on or at leading end of movement</td>
               <td>0</td>
@@ -5412,7 +5411,7 @@
               <td>2023-08-04</td>
               <td>0823HO006</td>
               <td>Derailment</td>
-              <td>18630</td>
+              <td>18,630</td>
               <td>962</td>
               <td>Buffing or slack action excessive, train handling</td>
               <td>0</td>
@@ -5456,7 +5455,7 @@
               <td>2023-08-26</td>
               <td>0823HO029</td>
               <td>Derailment</td>
-              <td>99534</td>
+              <td>99,534</td>
               <td>831</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -5476,7 +5475,7 @@
               <td>2023-08-31</td>
               <td>0823HO034</td>
               <td>Hwy-rail crossing</td>
-              <td>9024</td>
+              <td>9,024</td>
               <td>185</td>
               <td>Highway user misjudgment under normal weather and traffic conditions</td>
               <td>0</td>
@@ -5528,8 +5527,8 @@
               <td>2023-09-15</td>
               <td>RD0923125</td>
               <td>Derailment</td>
-              <td>128939</td>
-              <td>4090</td>
+              <td>128,939</td>
+              <td>4,090</td>
               <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
               <td>0</td>
@@ -5548,7 +5547,7 @@
               <td>2023-09-20</td>
               <td>RD0923133</td>
               <td>Derailment</td>
-              <td>26903</td>
+              <td>26,903</td>
               <td>250</td>
               <td>Shoving movement, absence of man on or at leading end of movement</td>
               <td>0</td>
@@ -5566,7 +5565,7 @@
               <td>2023-09-21</td>
               <td>0923HO026</td>
               <td>Derailment</td>
-              <td>168417</td>
+              <td>168,417</td>
               <td>0</td>
               <td>Yard skate slid and failed to stop cars</td>
               <td>0</td>
@@ -5596,7 +5595,7 @@
               <td>2023-10-02</td>
               <td>RD1023106</td>
               <td>Derailment</td>
-              <td>12987</td>
+              <td>12,987</td>
               <td>250</td>
               <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
@@ -5612,7 +5611,7 @@
               <td>2023-10-03</td>
               <td>1023HO002</td>
               <td>Derailment</td>
-              <td>4810</td>
+              <td>4,810</td>
               <td>98</td>
               <td>Other brake defects, cars (Provide detailed description in  narrative)</td>
               <td>0</td>
@@ -5628,7 +5627,7 @@
               <td>2023-10-04</td>
               <td>1023HO007</td>
               <td>Derailment</td>
-              <td>25686</td>
+              <td>25,686</td>
               <td>120</td>
               <td>Switch previously run through</td>
               <td>0</td>
@@ -5642,7 +5641,7 @@
               <td>2023-10-06</td>
               <td>1023HO010</td>
               <td>Derailment</td>
-              <td>11492</td>
+              <td>11,492</td>
               <td>318</td>
               <td>Traction motor failure (LOCOMOTIVE)</td>
               <td>0</td>
@@ -5676,7 +5675,7 @@
               <td>2023-10-20</td>
               <td>1023HO029</td>
               <td>Derailment</td>
-              <td>1367</td>
+              <td>1,367</td>
               <td>19</td>
               <td>Switch improperly lined</td>
               <td>0</td>
@@ -5690,8 +5689,8 @@
               <td>2023-10-20</td>
               <td>1023HO031</td>
               <td>Derailment</td>
-              <td>187700</td>
-              <td>6855</td>
+              <td>187,700</td>
+              <td>6,855</td>
               <td>.Broken Rail - Base</td>
               <td>0</td>
               <td>0</td>
@@ -5744,8 +5743,8 @@
               <td>2023-10-30</td>
               <td>1023HO044</td>
               <td>Derailment</td>
-              <td>464381</td>
-              <td>2646</td>
+              <td>464,381</td>
+              <td>2,646</td>
               <td>Switch improperly lined</td>
               <td>0</td>
               <td>0</td>
@@ -5758,8 +5757,8 @@
               <td>2023-10-30</td>
               <td>1023HO044</td>
               <td>Derailment</td>
-              <td>508313</td>
-              <td>2646</td>
+              <td>508,313</td>
+              <td>2,646</td>
               <td>Switch improperly lined</td>
               <td>0</td>
               <td>0</td>
@@ -5812,7 +5811,7 @@
               <td>2023-11-28</td>
               <td>1123HO025</td>
               <td>Hwy-rail crossing</td>
-              <td>14459</td>
+              <td>14,459</td>
               <td>280</td>
               <td>Highway user cited for violation of highway-rail grade crossing traffic laws</td>
               <td>2</td>
@@ -5838,7 +5837,7 @@
               <td>2023-12-05</td>
               <td>1223HO006</td>
               <td>Derailment</td>
-              <td>12249</td>
+              <td>12,249</td>
               <td>600</td>
               <td>.Broken Rail - Base</td>
               <td>0</td>
@@ -5852,7 +5851,7 @@
               <td>2023-12-06</td>
               <td>1223HO007</td>
               <td>Derailment</td>
-              <td>80393</td>
+              <td>80,393</td>
               <td>710</td>
               <td>Track alignment irregular (other than buckled/sunkink)</td>
               <td>0</td>
@@ -5876,7 +5875,7 @@
               <td>2023-12-19</td>
               <td>1223HO050</td>
               <td>Other (describe in narrative)</td>
-              <td>23804</td>
+              <td>23,804</td>
               <td>0</td>
               <td>Load fell from car</td>
               <td>0</td>
@@ -5898,7 +5897,7 @@
               <td>2023-12-23</td>
               <td>1223HO037</td>
               <td>Other impacts</td>
-              <td>1242</td>
+              <td>1,242</td>
               <td>0</td>
               <td>Classification yard automatic control system - Inadequate or insufficient control  (e.g., automatic cycling, other software / programming deficiencies, etc.)</td>
               <td>0</td>
@@ -5912,7 +5911,7 @@
               <td>2023-12-23</td>
               <td>1223HO037</td>
               <td>Other impacts</td>
-              <td>55185</td>
+              <td>55,185</td>
               <td>0</td>
               <td>Classification yard automatic control system - Inadequate or insufficient control  (e.g., automatic cycling, other software / programming deficiencies, etc.)</td>
               <td>0</td>
@@ -5946,7 +5945,7 @@
               <td>2024-01-02</td>
               <td>0124HO001</td>
               <td>Other impacts</td>
-              <td>74540</td>
+              <td>74,540</td>
               <td>0</td>
               <td>Other causes relating to train handling or makeup (Provide detailed description in narrative)</td>
               <td>0</td>
@@ -5982,7 +5981,7 @@
               <td>2024-01-25</td>
               <td>0124HO031</td>
               <td>Other (describe in narrative)</td>
-              <td>12344</td>
+              <td>12,344</td>
               <td>704</td>
               <td>Center sill broken or bent</td>
               <td>0</td>
@@ -6018,7 +6017,7 @@
               <td>2024-02-18</td>
               <td>0224HO024</td>
               <td>Other impacts</td>
-              <td>42691</td>
+              <td>42,691</td>
               <td>0</td>
               <td>Yard skate slid and failed to stop cars</td>
               <td>0</td>
@@ -6032,7 +6031,7 @@
               <td>2024-02-18</td>
               <td>0224HO024</td>
               <td>Other impacts</td>
-              <td>87810</td>
+              <td>87,810</td>
               <td>200</td>
               <td>Yard skate slid and failed to stop cars</td>
               <td>0</td>
@@ -6064,7 +6063,7 @@
               <td>2024-02-22</td>
               <td>0224HO030</td>
               <td>Other impacts</td>
-              <td>2379</td>
+              <td>2,379</td>
               <td>12</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -6086,7 +6085,7 @@
               <td>2024-03-04</td>
               <td>0324HO007</td>
               <td>Derailment</td>
-              <td>26857</td>
+              <td>26,857</td>
               <td>264</td>
               <td>Shoving movement, absence of man on or at leading end of movement</td>
               <td>0</td>
@@ -6134,7 +6133,7 @@
               <td>2024-03-19</td>
               <td>0324HO024</td>
               <td>Other impacts</td>
-              <td>2660</td>
+              <td>2,660</td>
               <td>0</td>
               <td>Cars left foul</td>
               <td>0</td>
@@ -6148,7 +6147,7 @@
               <td>2024-03-19</td>
               <td>0324HO024</td>
               <td>Other impacts</td>
-              <td>38763</td>
+              <td>38,763</td>
               <td>0</td>
               <td>Cars left foul</td>
               <td>0</td>
@@ -6184,7 +6183,7 @@
               <td>2024-03-27</td>
               <td>PTRA00045F</td>
               <td>Side collision</td>
-              <td>32000</td>
+              <td>32,000</td>
               <td>0</td>
               <td>Kicking or dropping cars, inadequate precautions</td>
               <td>0</td>
@@ -6198,7 +6197,7 @@
               <td>2024-03-27</td>
               <td>PTRA00045F</td>
               <td>Side collision</td>
-              <td>77000</td>
+              <td>77,000</td>
               <td>0</td>
               <td>Kicking or dropping cars, inadequate precautions</td>
               <td>0</td>
@@ -6224,7 +6223,7 @@
               <td>2024-04-10</td>
               <td>0424HO026</td>
               <td>Other impacts</td>
-              <td>26885</td>
+              <td>26,885</td>
               <td>0</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -6248,7 +6247,7 @@
               <td>2024-04-20</td>
               <td>0424HO027</td>
               <td>Other impacts</td>
-              <td>52850</td>
+              <td>52,850</td>
               <td>901</td>
               <td>Failure to apply hand brakes on car(s) (railroad employee)</td>
               <td>0</td>
@@ -6262,7 +6261,7 @@
               <td>2024-04-20</td>
               <td>0424HO027</td>
               <td>Other impacts</td>
-              <td>77547</td>
+              <td>77,547</td>
               <td>0</td>
               <td>Failure to apply hand brakes on car(s) (railroad employee)</td>
               <td>0</td>
@@ -6280,7 +6279,7 @@
               <td>2024-04-30</td>
               <td>0424HO054</td>
               <td>Obstruction</td>
-              <td>17720</td>
+              <td>17,720</td>
               <td>0</td>
               <td>Object or equipment on or fouling track - other than above (for  vandalism, see code M503)</td>
               <td>0</td>
@@ -6300,7 +6299,7 @@
               <td>2024-05-03</td>
               <td>0524HO005</td>
               <td>Derailment</td>
-              <td>23364</td>
+              <td>23,364</td>
               <td>0</td>
               <td>Defective or missing crossties (use code T110 if results in wide gage)</td>
               <td>0</td>
@@ -6342,7 +6341,7 @@
               <td>2024-05-16</td>
               <td>0524HO025</td>
               <td>Other impacts</td>
-              <td>116511</td>
+              <td>116,511</td>
               <td>0</td>
               <td>Extreme environmental condition ‑ TORNADO</td>
               <td>0</td>
@@ -6378,7 +6377,7 @@
               <td>2024-06-04</td>
               <td>0624HO007</td>
               <td>Hwy-rail crossing</td>
-              <td>5627</td>
+              <td>5,627</td>
               <td>28</td>
               <td>Highway user cited for violation of highway-rail grade crossing traffic laws</td>
               <td>0</td>
@@ -6394,7 +6393,7 @@
               <td>2024-06-06</td>
               <td>RD0624102</td>
               <td>Derailment</td>
-              <td>15500</td>
+              <td>15,500</td>
               <td>0</td>
               <td>Stock rail worn, broken or disconnected</td>
               <td>0</td>
@@ -6416,7 +6415,7 @@
               <td>2024-06-10</td>
               <td>0624HO012</td>
               <td>Derailment</td>
-              <td>13006</td>
+              <td>13,006</td>
               <td>200</td>
               <td>Buffing or slack action excessive, train handling</td>
               <td>0</td>
@@ -6434,7 +6433,7 @@
               <td>2024-06-13</td>
               <td>0624HO017</td>
               <td>Other impacts</td>
-              <td>45627</td>
+              <td>45,627</td>
               <td>0</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -6456,7 +6455,7 @@
               <td>2024-06-22</td>
               <td>240622001</td>
               <td>Other impacts</td>
-              <td>10000</td>
+              <td>10,000</td>
               <td>0</td>
               <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
               <td>0</td>
@@ -6470,7 +6469,7 @@
               <td>2024-06-22</td>
               <td>240622001</td>
               <td>Other impacts</td>
-              <td>43065</td>
+              <td>43,065</td>
               <td>0</td>
               <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
               <td>0</td>
@@ -6484,7 +6483,7 @@
               <td>2024-06-23</td>
               <td>0624HO028</td>
               <td>Derailment</td>
-              <td>16291</td>
+              <td>16,291</td>
               <td>867</td>
               <td>Automatic block or interlocking signal displaying a stop indication - failure to comply.*</td>
               <td>0</td>
@@ -6524,7 +6523,7 @@
               <td>2024-07-03</td>
               <td>0724HO005</td>
               <td>Other impacts</td>
-              <td>48948</td>
+              <td>48,948</td>
               <td>0</td>
               <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
               <td>0</td>
@@ -6550,7 +6549,7 @@
               <td>2024-07-14</td>
               <td>0724HO019</td>
               <td>Other impacts</td>
-              <td>5592</td>
+              <td>5,592</td>
               <td>300</td>
               <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
               <td>0</td>
@@ -6564,7 +6563,7 @@
               <td>2024-07-14</td>
               <td>0724HO019</td>
               <td>Other impacts</td>
-              <td>16535</td>
+              <td>16,535</td>
               <td>0</td>
               <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
               <td>0</td>
@@ -6600,7 +6599,7 @@
               <td>2024-07-21</td>
               <td>0724HO024</td>
               <td>Other impacts</td>
-              <td>54344</td>
+              <td>54,344</td>
               <td>338</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -6626,7 +6625,7 @@
               <td>2024-07-27</td>
               <td>0724HO050</td>
               <td>Other impacts</td>
-              <td>45146</td>
+              <td>45,146</td>
               <td>0</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -6646,8 +6645,8 @@
               <td>2024-08-02</td>
               <td>0824HO003</td>
               <td>Derailment</td>
-              <td>172826</td>
-              <td>6723</td>
+              <td>172,826</td>
+              <td>6,723</td>
               <td>Broken Rail - Detail fracture from shelling or head check</td>
               <td>0</td>
               <td>0</td>
@@ -6676,7 +6675,7 @@
               <td>2024-08-03</td>
               <td>0824HO004</td>
               <td>Other impacts</td>
-              <td>28752</td>
+              <td>28,752</td>
               <td>0</td>
               <td>Classification yard automatic control system retarder failure</td>
               <td>0</td>
@@ -6690,7 +6689,7 @@
               <td>2024-08-11</td>
               <td>2024012</td>
               <td>Side collision</td>
-              <td>20000</td>
+              <td>20,000</td>
               <td>0</td>
               <td>Kicking or dropping cars, inadequate precautions</td>
               <td>0</td>
@@ -6704,7 +6703,7 @@
               <td>2024-08-11</td>
               <td>2024012</td>
               <td>Side collision</td>
-              <td>43000</td>
+              <td>43,000</td>
               <td>0</td>
               <td>Kicking or dropping cars, inadequate precautions</td>
               <td>0</td>
@@ -6730,7 +6729,7 @@
               <td>2024-08-24</td>
               <td>2024014</td>
               <td>Side collision</td>
-              <td>53970</td>
+              <td>53,970</td>
               <td>0</td>
               <td>Failure to properly secure hand brake on car(s) (railroad  employee)</td>
               <td>0</td>
@@ -6744,7 +6743,7 @@
               <td>2024-08-24</td>
               <td>2024014</td>
               <td>Side collision</td>
-              <td>135911</td>
+              <td>135,911</td>
               <td>0</td>
               <td>Failure to properly secure hand brake on car(s) (railroad  employee)</td>
               <td>0</td>
@@ -6762,7 +6761,7 @@
               <td>2024-08-26</td>
               <td>0824HO050</td>
               <td>Other (describe in narrative)</td>
-              <td>16309</td>
+              <td>16,309</td>
               <td>0</td>
               <td>Interference (other than vandalism) with railroad operations by nonrailroad employee</td>
               <td>0</td>
@@ -6808,7 +6807,7 @@
               <td>2024-09-05</td>
               <td>0924HO011</td>
               <td>Other impacts</td>
-              <td>84092</td>
+              <td>84,092</td>
               <td>300</td>
               <td>Yard skate slid and failed to stop cars</td>
               <td>0</td>
@@ -6834,7 +6833,7 @@
               <td>2024-09-12</td>
               <td>2024017</td>
               <td>Side collision</td>
-              <td>24000</td>
+              <td>24,000</td>
               <td>0</td>
               <td>Other brake components damaged, worn, broken, or disconnected</td>
               <td>0</td>
@@ -6848,7 +6847,7 @@
               <td>2024-09-12</td>
               <td>2024017</td>
               <td>Side collision</td>
-              <td>35000</td>
+              <td>35,000</td>
               <td>0</td>
               <td>Other brake components damaged, worn, broken, or disconnected</td>
               <td>0</td>
@@ -6902,7 +6901,7 @@
               <td>2024-10-04</td>
               <td>2024018</td>
               <td>Side collision</td>
-              <td>30500</td>
+              <td>30,500</td>
               <td>135</td>
               <td>Kicking or dropping cars, inadequate precautions</td>
               <td>0</td>
@@ -6916,7 +6915,7 @@
               <td>2024-10-04</td>
               <td>2024018</td>
               <td>Side collision</td>
-              <td>205000</td>
+              <td>205,000</td>
               <td>0</td>
               <td>Kicking or dropping cars, inadequate precautions</td>
               <td>0</td>
@@ -6934,7 +6933,7 @@
               <td>2024-10-07</td>
               <td>1024HO011</td>
               <td>Other (describe in narrative)</td>
-              <td>20884</td>
+              <td>20,884</td>
               <td>0</td>
               <td>Interference (other than vandalism) with railroad operations by nonrailroad employee</td>
               <td>0</td>
@@ -6970,7 +6969,7 @@
               <td>2024-10-11</td>
               <td>1024HO013</td>
               <td>Other impacts</td>
-              <td>21041</td>
+              <td>21,041</td>
               <td>178</td>
               <td>Shoving movement, absence of man on or at leading end of movement</td>
               <td>0</td>
@@ -7012,7 +7011,7 @@
               <td>2024-11-10</td>
               <td>1124HO014</td>
               <td>Other impacts</td>
-              <td>60189</td>
+              <td>60,189</td>
               <td>0</td>
               <td>Passed couplers (automated classification yard)</td>
               <td>0</td>
@@ -7046,7 +7045,7 @@
               <td>2024-11-28</td>
               <td>2024024</td>
               <td>Derailment</td>
-              <td>7618</td>
+              <td>7,618</td>
               <td>19</td>
               <td>Switch improperly lined</td>
               <td>0</td>
@@ -7084,7 +7083,7 @@
               <td>2024-12-05</td>
               <td>1224HO010</td>
               <td>Other impacts</td>
-              <td>5492</td>
+              <td>5,492</td>
               <td>0</td>
               <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
               <td>0</td>
@@ -7098,7 +7097,7 @@
               <td>2024-12-05</td>
               <td>1224HO010</td>
               <td>Other impacts</td>
-              <td>14634</td>
+              <td>14,634</td>
               <td>880</td>
               <td>Automatic hump retarder failed to sufficiently slow car due to foreign material on wheels of car being humped</td>
               <td>0</td>
@@ -7112,8 +7111,8 @@
               <td>2024-12-06</td>
               <td>1224HO014</td>
               <td>Rear end collision</td>
-              <td>426677</td>
-              <td>5568</td>
+              <td>426,677</td>
+              <td>5,568</td>
               <td>Train on main track inside yard limits, excessive speed</td>
               <td>0</td>
               <td>0</td>
@@ -7170,8 +7169,8 @@
               <td>2025-01-01</td>
               <td>0125HO001</td>
               <td>Derailment</td>
-              <td>170618</td>
-              <td>2200</td>
+              <td>170,618</td>
+              <td>2,200</td>
               <td>Broken Rail - Detail fracture from shelling or head check</td>
               <td>0</td>
               <td>0</td>
@@ -7184,7 +7183,7 @@
               <td>2025-01-05</td>
               <td>0125HO004</td>
               <td>Derailment</td>
-              <td>9678</td>
+              <td>9,678</td>
               <td>74</td>
               <td>Independent (engine) brake, improper use (except actuation) (H023)</td>
               <td>0</td>
@@ -7202,7 +7201,7 @@
               <td>2025-01-15</td>
               <td>0125HO025</td>
               <td>Hwy-rail crossing</td>
-              <td>4764</td>
+              <td>4,764</td>
               <td>84</td>
               <td>Highway user cited for violation of highway-rail grade crossing traffic laws</td>
               <td>0</td>
@@ -7216,7 +7215,7 @@
               <td>2025-01-20</td>
               <td>2025001</td>
               <td>Derailment</td>
-              <td>72000</td>
+              <td>72,000</td>
               <td>200</td>
               <td>Lateral drawbar force on curve excessive, train make‑up</td>
               <td>0</td>

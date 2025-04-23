@@ -13,9 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Pirata+One&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html">Train Accidents</a>
+    <a class="navbar-brand text-dark" href="../index.html">Train Accidents</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -336,15 +336,15 @@
     <p>Below are statistics about WILLIAMSON county in Texas and a table that includes all reported train accidents in this county since 2020.</p>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mb-3 g-4">
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
-      <h5 class="card-title ">Total Accidents</h5>
+      <h5 class="card-title">Total Accidents</h5>
       <p class="card-text">9 </p>
     </div>
   </div>
   </div>
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
       <h5 class="card-title">Total Equipment Damage</h5>
       <p class="card-text">$511,295 </p>
@@ -352,7 +352,7 @@
   </div>
   </div>
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
       <h5 class="card-title">Total Track Damage</h5>
       <p class="card-text">$4,757 </p>
@@ -370,16 +370,15 @@
 
 <div class = "col">
   <table class="table table-striped table-hover table-bordered table-sm">
-      <thead>
+      <thead class="text-center">
         <tr>
-          
           <th scope="col">County Name</th>
           <th scope="col">Accident Date</th>
           <th scope="col">Accident Number</th>
           <th scope="col">Accident Type</th>
-          <th scope="col">Equipment Damage($)</th>
-          <th scope="col">Track Damage($)</th>
-          <th scope="col">Desc of Cause</th>
+          <th scope="col">Equipment Damage ($)</th>
+          <th scope="col">Track Damage ($)</th>
+          <th scope="col">Description of Cause</th>
           <th scope="col"># Injured</th>
           <th scope="col"># Killed</th>
         </tr>
@@ -1422,7 +1421,7 @@
               <td>2021-11-15</td>
               <td>1121SX012</td>
               <td>Hwy-rail crossing</td>
-              <td>9174</td>
+              <td>9,174</td>
               <td>25</td>
               <td>Highway user inattentiveness</td>
               <td>0</td>
@@ -1714,7 +1713,7 @@
               <td>2022-05-30</td>
               <td>0522SX032</td>
               <td>Derailment</td>
-              <td>28803</td>
+              <td>28,803</td>
               <td>106</td>
               <td>Switch point worn or broken</td>
               <td>0</td>
@@ -1730,7 +1729,7 @@
               <td>2022-05-31</td>
               <td>0522SX033</td>
               <td>Derailment</td>
-              <td>12269</td>
+              <td>12,269</td>
               <td>636</td>
               <td>Coupling speed excessive</td>
               <td>0</td>
@@ -2264,8 +2263,8 @@
               <td>2023-02-24</td>
               <td>20230224A</td>
               <td>Hwy-rail crossing</td>
-              <td>384279</td>
-              <td>3000</td>
+              <td>384,279</td>
+              <td>3,000</td>
               <td>Highway user inattentiveness</td>
               <td>1</td>
               <td>0</td>
@@ -2736,7 +2735,7 @@
               <td>2023-11-07</td>
               <td>202303</td>
               <td>Hwy-rail crossing</td>
-              <td>30000</td>
+              <td>30,000</td>
               <td>0</td>
               <td>Highway user inattentiveness</td>
               <td>0</td>
@@ -2796,7 +2795,7 @@
               <td>2023-12-04</td>
               <td>177442</td>
               <td>Hwy-rail crossing</td>
-              <td>29622</td>
+              <td>29,622</td>
               <td>0</td>
               <td>Highway user inattentiveness</td>
               <td>1</td>
@@ -2972,7 +2971,7 @@
               <td>2024-03-20</td>
               <td>0324SX019</td>
               <td>Hwy-rail crossing</td>
-              <td>17148</td>
+              <td>17,148</td>
               <td>990</td>
               <td>Highway user deliberately disregarded crossing warning devices</td>
               <td>1</td>

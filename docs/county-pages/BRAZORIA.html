@@ -13,9 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Pirata+One&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html">Train Accidents</a>
+    <a class="navbar-brand text-dark" href="../index.html">Train Accidents</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -336,15 +336,15 @@
     <p>Below are statistics about BRAZORIA county in Texas and a table that includes all reported train accidents in this county since 2020.</p>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mb-3 g-4">
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
-      <h5 class="card-title ">Total Accidents</h5>
+      <h5 class="card-title">Total Accidents</h5>
       <p class="card-text">18 </p>
     </div>
   </div>
   </div>
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
       <h5 class="card-title">Total Equipment Damage</h5>
       <p class="card-text">$540,109 </p>
@@ -352,7 +352,7 @@
   </div>
   </div>
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
       <h5 class="card-title">Total Track Damage</h5>
       <p class="card-text">$11,436 </p>
@@ -370,16 +370,15 @@
 
 <div class = "col">
   <table class="table table-striped table-hover table-bordered table-sm">
-      <thead>
+      <thead class="text-center">
         <tr>
-          
           <th scope="col">County Name</th>
           <th scope="col">Accident Date</th>
           <th scope="col">Accident Number</th>
           <th scope="col">Accident Type</th>
-          <th scope="col">Equipment Damage($)</th>
-          <th scope="col">Track Damage($)</th>
-          <th scope="col">Desc of Cause</th>
+          <th scope="col">Equipment Damage ($)</th>
+          <th scope="col">Track Damage ($)</th>
+          <th scope="col">Description of Cause</th>
           <th scope="col"># Injured</th>
           <th scope="col"># Killed</th>
         </tr>
@@ -478,7 +477,7 @@
               <td>2020-02-20</td>
               <td>0220GC024</td>
               <td>Derailment</td>
-              <td>79390</td>
+              <td>79,390</td>
               <td>117</td>
               <td>Broken Rail - Engine burn fracture</td>
               <td>0</td>
@@ -630,7 +629,7 @@
               <td>2020-05-20</td>
               <td>0520GC015</td>
               <td>Hwy-rail crossing</td>
-              <td>6271</td>
+              <td>6,271</td>
               <td>13</td>
               <td>Highway user inattentiveness</td>
               <td>0</td>
@@ -736,7 +735,7 @@
               <td>2020-07-15</td>
               <td>0720GC020</td>
               <td>Hwy-rail crossing</td>
-              <td>11651</td>
+              <td>11,651</td>
               <td>415</td>
               <td>Highway user misjudgment under normal weather and traffic conditions</td>
               <td>0</td>
@@ -764,7 +763,7 @@
               <td>2020-08-01</td>
               <td>0820GC003</td>
               <td>Derailment</td>
-              <td>9435</td>
+              <td>9,435</td>
               <td>76</td>
               <td>Kicking or dropping cars, inadequate precautions</td>
               <td>0</td>
@@ -1386,7 +1385,7 @@
               <td>2021-09-13</td>
               <td>0921GC016</td>
               <td>Derailment</td>
-              <td>5923</td>
+              <td>5,923</td>
               <td>60</td>
               <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
@@ -1676,7 +1675,7 @@
               <td>2022-04-08</td>
               <td>0422GC011</td>
               <td>Derailment</td>
-              <td>35456</td>
+              <td>35,456</td>
               <td>347</td>
               <td>Center plate disengaged from truck (car off center)</td>
               <td>0</td>
@@ -1770,7 +1769,7 @@
               <td>2022-05-28</td>
               <td>0522GC040</td>
               <td>Other (describe in narrative)</td>
-              <td>16392</td>
+              <td>16,392</td>
               <td>850</td>
               <td>Other body defects, (CAR) (Provide detailed description in  narrative)</td>
               <td>0</td>
@@ -1946,7 +1945,7 @@
               <td>2022-08-13</td>
               <td>0822GC012</td>
               <td>Derailment</td>
-              <td>31744</td>
+              <td>31,744</td>
               <td>99</td>
               <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
@@ -2114,7 +2113,7 @@
               <td>2022-11-01</td>
               <td>RD1122201</td>
               <td>Hwy-rail crossing</td>
-              <td>8000</td>
+              <td>8,000</td>
               <td>275</td>
               <td>Highway user inattentiveness</td>
               <td>1</td>
@@ -2280,7 +2279,7 @@
               <td>2023-01-24</td>
               <td>0123GC020</td>
               <td>Other (describe in narrative)</td>
-              <td>35586</td>
+              <td>35,586</td>
               <td>0</td>
               <td>Investigation complete, cause could not be determined (When using this code, the narrative must include the reason(s) why the cause of the accident/incident could not be determined.)</td>
               <td>0</td>
@@ -2602,7 +2601,7 @@
               <td>2023-07-21</td>
               <td>230721005</td>
               <td>Derailment</td>
-              <td>20000</td>
+              <td>20,000</td>
               <td>300</td>
               <td>Track alignment irregular (other than buckled/sunkink)</td>
               <td>0</td>
@@ -2718,8 +2717,8 @@
               <td>2023-09-21</td>
               <td>0923GC033</td>
               <td>Derailment</td>
-              <td>164224</td>
-              <td>7856</td>
+              <td>164,224</td>
+              <td>7,856</td>
               <td>Track alignment irregular (other than buckled/sunkink)</td>
               <td>0</td>
               <td>0</td>
@@ -3254,7 +3253,7 @@
               <td>2024-08-24</td>
               <td>0824HO046</td>
               <td>Derailment</td>
-              <td>10181</td>
+              <td>10,181</td>
               <td>0</td>
               <td>Switch not latched or locked</td>
               <td>0</td>
@@ -3268,7 +3267,7 @@
               <td>2024-08-24</td>
               <td>0824HO046</td>
               <td>Derailment</td>
-              <td>15439</td>
+              <td>15,439</td>
               <td>664</td>
               <td>Switch not latched or locked</td>
               <td>0</td>
@@ -3524,7 +3523,7 @@
               <td>2025-01-21</td>
               <td>0125HO037</td>
               <td>Derailment</td>
-              <td>90417</td>
+              <td>90,417</td>
               <td>364</td>
               <td>Broken Rail - Transverse/compound fissure</td>
               <td>0</td>

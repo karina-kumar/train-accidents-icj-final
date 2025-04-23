@@ -13,9 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Pirata+One&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html">Train Accidents</a>
+    <a class="navbar-brand text-dark" href="../index.html">Train Accidents</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -336,15 +336,15 @@
     <p>Below are statistics about BRAZOS county in Texas and a table that includes all reported train accidents in this county since 2020.</p>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mb-3 g-4">
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
-      <h5 class="card-title ">Total Accidents</h5>
+      <h5 class="card-title">Total Accidents</h5>
       <p class="card-text">5 </p>
     </div>
   </div>
   </div>
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
       <h5 class="card-title">Total Equipment Damage</h5>
       <p class="card-text">$349,892 </p>
@@ -352,7 +352,7 @@
   </div>
   </div>
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
       <h5 class="card-title">Total Track Damage</h5>
       <p class="card-text">$9,632 </p>
@@ -370,16 +370,15 @@
 
 <div class = "col">
   <table class="table table-striped table-hover table-bordered table-sm">
-      <thead>
+      <thead class="text-center">
         <tr>
-          
           <th scope="col">County Name</th>
           <th scope="col">Accident Date</th>
           <th scope="col">Accident Number</th>
           <th scope="col">Accident Type</th>
-          <th scope="col">Equipment Damage($)</th>
-          <th scope="col">Track Damage($)</th>
-          <th scope="col">Desc of Cause</th>
+          <th scope="col">Equipment Damage ($)</th>
+          <th scope="col">Track Damage ($)</th>
+          <th scope="col">Description of Cause</th>
           <th scope="col"># Injured</th>
           <th scope="col"># Killed</th>
         </tr>
@@ -802,7 +801,7 @@
               <td>2020-09-18</td>
               <td>0920HO027</td>
               <td>Derailment</td>
-              <td>15857</td>
+              <td>15,857</td>
               <td>196</td>
               <td>Wide gage (due to loose, broken, or defective gage rods)</td>
               <td>0</td>
@@ -1470,7 +1469,7 @@
               <td>2021-12-13</td>
               <td>1221HO010</td>
               <td>Hwy-rail crossing</td>
-              <td>6415</td>
+              <td>6,415</td>
               <td>10</td>
               <td>Highway user inattentiveness</td>
               <td>1</td>
@@ -2002,7 +2001,7 @@
               <td>2022-10-14</td>
               <td>1022HO015</td>
               <td>Hwy-rail crossing</td>
-              <td>2604</td>
+              <td>2,604</td>
               <td>23</td>
               <td>Highway user cited for violation of highway-rail grade crossing traffic laws</td>
               <td>0</td>
@@ -2542,8 +2541,8 @@
               <td>2023-07-31</td>
               <td>0723HO042</td>
               <td>Derailment</td>
-              <td>325016</td>
-              <td>9403</td>
+              <td>325,016</td>
+              <td>9,403</td>
               <td>Side bearing clearance insufficient</td>
               <td>0</td>
               <td>0</td>

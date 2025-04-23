@@ -1,0 +1,10 @@
+#county-card {
+    height: 8rem;
+
+    .card-text{
+       font-size: clamp(2rem, 3vw, 12rem);
+       white-space: nowrap;
+        
+    }
+
+}

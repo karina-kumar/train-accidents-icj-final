@@ -13,9 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Pirata+One&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html">Train Accidents</a>
+    <a class="navbar-brand text-dark" href="../index.html">Train Accidents</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -336,15 +336,15 @@
     <p>Below are statistics about HARDIN county in Texas and a table that includes all reported train accidents in this county since 2020.</p>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mb-3 g-4">
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
-      <h5 class="card-title ">Total Accidents</h5>
+      <h5 class="card-title">Total Accidents</h5>
       <p class="card-text">11 </p>
     </div>
   </div>
   </div>
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
       <h5 class="card-title">Total Equipment Damage</h5>
       <p class="card-text">$1,012,732 </p>
@@ -352,7 +352,7 @@
   </div>
   </div>
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
       <h5 class="card-title">Total Track Damage</h5>
       <p class="card-text">$3,201 </p>
@@ -370,16 +370,15 @@
 
 <div class = "col">
   <table class="table table-striped table-hover table-bordered table-sm">
-      <thead>
+      <thead class="text-center">
         <tr>
-          
           <th scope="col">County Name</th>
           <th scope="col">Accident Date</th>
           <th scope="col">Accident Number</th>
           <th scope="col">Accident Type</th>
-          <th scope="col">Equipment Damage($)</th>
-          <th scope="col">Track Damage($)</th>
-          <th scope="col">Desc of Cause</th>
+          <th scope="col">Equipment Damage ($)</th>
+          <th scope="col">Track Damage ($)</th>
+          <th scope="col">Description of Cause</th>
           <th scope="col"># Injured</th>
           <th scope="col"># Killed</th>
         </tr>
@@ -826,7 +825,7 @@
               <td>2020-09-26</td>
               <td>RD0920124</td>
               <td>Other (describe in narrative)</td>
-              <td>26030</td>
+              <td>26,030</td>
               <td>0</td>
               <td>Passed couplers (other than automated classification yard)</td>
               <td>0</td>
@@ -1188,7 +1187,7 @@
               <td>2021-06-08</td>
               <td>RD0621110</td>
               <td>Derailment</td>
-              <td>26677</td>
+              <td>26,677</td>
               <td>100</td>
               <td>Failure to release hand brakes on car(s) (railroad employee)</td>
               <td>0</td>
@@ -1522,8 +1521,8 @@
               <td>2022-01-02</td>
               <td>RD0122102</td>
               <td>Derailment</td>
-              <td>594811</td>
-              <td>2005</td>
+              <td>594,811</td>
+              <td>2,005</td>
               <td>Knuckle broken or defective</td>
               <td>0</td>
               <td>0</td>
@@ -2258,7 +2257,7 @@
               <td>2023-02-07</td>
               <td>0223GC006</td>
               <td>Hwy-rail crossing</td>
-              <td>6645</td>
+              <td>6,645</td>
               <td>15</td>
               <td>Highway user inattentiveness</td>
               <td>1</td>
@@ -2470,7 +2469,7 @@
               <td>2023-06-12</td>
               <td>RD0623112</td>
               <td>Derailment</td>
-              <td>67433</td>
+              <td>67,433</td>
               <td>150</td>
               <td>Failure to stretch cars before shoving</td>
               <td>0</td>
@@ -2962,7 +2961,7 @@
               <td>2024-04-08</td>
               <td>RD0424108</td>
               <td>Derailment</td>
-              <td>47037</td>
+              <td>47,037</td>
               <td>186</td>
               <td>Failure to release hand brakes on car(s) (railroad employee)</td>
               <td>0</td>
@@ -3066,7 +3065,7 @@
               <td>2024-06-09</td>
               <td>RD0624108</td>
               <td>Derailment</td>
-              <td>7237</td>
+              <td>7,237</td>
               <td>395</td>
               <td>Failure to apply sufficient number of hand brakes on car(s) (railroad employee)</td>
               <td>0</td>
@@ -3088,7 +3087,7 @@
               <td>2024-06-15</td>
               <td>RD0624114</td>
               <td>Derailment</td>
-              <td>92520</td>
+              <td>92,520</td>
               <td>249</td>
               <td>Failure to apply sufficient number of hand brakes on car(s) (railroad employee)</td>
               <td>0</td>
@@ -3166,7 +3165,7 @@
               <td>2024-07-26</td>
               <td>RD0724129</td>
               <td>Derailment</td>
-              <td>6473</td>
+              <td>6,473</td>
               <td>27</td>
               <td>Other coupler and draft system defects, (CAR) (Provide detailed description in narrative)</td>
               <td>0</td>
@@ -3180,7 +3179,7 @@
               <td>2024-07-26</td>
               <td>RD0724129</td>
               <td>Derailment</td>
-              <td>137369</td>
+              <td>137,369</td>
               <td>0</td>
               <td>Other coupler and draft system defects, (CAR) (Provide detailed description in narrative)</td>
               <td>0</td>

@@ -13,9 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Pirata+One&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html">Train Accidents</a>
+    <a class="navbar-brand text-dark" href="../index.html">Train Accidents</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -336,15 +336,15 @@
     <p>Below are statistics about ERATH county in Texas and a table that includes all reported train accidents in this county since 2020.</p>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mb-3 g-4">
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
-      <h5 class="card-title ">Total Accidents</h5>
+      <h5 class="card-title">Total Accidents</h5>
       <p class="card-text">4 </p>
     </div>
   </div>
   </div>
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
       <h5 class="card-title">Total Equipment Damage</h5>
       <p class="card-text">$791,532 </p>
@@ -352,7 +352,7 @@
   </div>
   </div>
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
       <h5 class="card-title">Total Track Damage</h5>
       <p class="card-text">$4,921 </p>
@@ -370,16 +370,15 @@
 
 <div class = "col">
   <table class="table table-striped table-hover table-bordered table-sm">
-      <thead>
+      <thead class="text-center">
         <tr>
-          
           <th scope="col">County Name</th>
           <th scope="col">Accident Date</th>
           <th scope="col">Accident Number</th>
           <th scope="col">Accident Type</th>
-          <th scope="col">Equipment Damage($)</th>
-          <th scope="col">Track Damage($)</th>
-          <th scope="col">Desc of Cause</th>
+          <th scope="col">Equipment Damage ($)</th>
+          <th scope="col">Track Damage ($)</th>
+          <th scope="col">Description of Cause</th>
           <th scope="col"># Injured</th>
           <th scope="col"># Killed</th>
         </tr>
@@ -884,7 +883,7 @@
               <td>2020-11-24</td>
               <td>20112401</td>
               <td>Derailment</td>
-              <td>9470</td>
+              <td>9,470</td>
               <td>12</td>
               <td>Broken Rail - Head and web separation (outside joint bar limits)</td>
               <td>0</td>
@@ -1178,7 +1177,7 @@
               <td>2021-06-11</td>
               <td>21061102</td>
               <td>Hwy-rail crossing</td>
-              <td>100000</td>
+              <td>100,000</td>
               <td>0</td>
               <td>Highway user deliberately disregarded crossing warning devices</td>
               <td>0</td>
@@ -2018,8 +2017,8 @@
               <td>2022-10-22</td>
               <td>22102201</td>
               <td>Derailment</td>
-              <td>667000</td>
-              <td>4580</td>
+              <td>667,000</td>
+              <td>4,580</td>
               <td>Human Factor - track</td>
               <td>0</td>
               <td>0</td>
@@ -2426,7 +2425,7 @@
               <td>2023-05-31</td>
               <td>23053101</td>
               <td>Hwy-rail crossing</td>
-              <td>15062</td>
+              <td>15,062</td>
               <td>329</td>
               <td>Highway user deliberately disregarded crossing warning devices</td>
               <td>0</td>

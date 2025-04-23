@@ -13,9 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Pirata+One&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html">Train Accidents</a>
+    <a class="navbar-brand text-dark" href="../index.html">Train Accidents</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -336,15 +336,15 @@
     <p>Below are statistics about KAUFMAN county in Texas and a table that includes all reported train accidents in this county since 2020.</p>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mb-3 g-4">
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
-      <h5 class="card-title ">Total Accidents</h5>
+      <h5 class="card-title">Total Accidents</h5>
       <p class="card-text">4 </p>
     </div>
   </div>
   </div>
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
       <h5 class="card-title">Total Equipment Damage</h5>
       <p class="card-text">$167,882 </p>
@@ -352,7 +352,7 @@
   </div>
   </div>
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
       <h5 class="card-title">Total Track Damage</h5>
       <p class="card-text">$413 </p>
@@ -370,16 +370,15 @@
 
 <div class = "col">
   <table class="table table-striped table-hover table-bordered table-sm">
-      <thead>
+      <thead class="text-center">
         <tr>
-          
           <th scope="col">County Name</th>
           <th scope="col">Accident Date</th>
           <th scope="col">Accident Number</th>
           <th scope="col">Accident Type</th>
-          <th scope="col">Equipment Damage($)</th>
-          <th scope="col">Track Damage($)</th>
-          <th scope="col">Desc of Cause</th>
+          <th scope="col">Equipment Damage ($)</th>
+          <th scope="col">Track Damage ($)</th>
+          <th scope="col">Description of Cause</th>
           <th scope="col"># Injured</th>
           <th scope="col"># Killed</th>
         </tr>
@@ -532,7 +531,7 @@
               <td>2020-03-17</td>
               <td>0320TO019</td>
               <td>Derailment</td>
-              <td>38514</td>
+              <td>38,514</td>
               <td>240</td>
               <td>Wide gage (due to defective or missing crossties)</td>
               <td>0</td>
@@ -816,7 +815,7 @@
               <td>2020-09-21</td>
               <td>0920TO025</td>
               <td>Hwy-rail crossing</td>
-              <td>18962</td>
+              <td>18,962</td>
               <td>173</td>
               <td>Highway user misjudgment under normal weather and traffic conditions</td>
               <td>0</td>
@@ -2274,7 +2273,7 @@
               <td>2023-03-04</td>
               <td>0323TO007</td>
               <td>Other (describe in narrative)</td>
-              <td>90876</td>
+              <td>90,876</td>
               <td>0</td>
               <td>Load shifted</td>
               <td>0</td>
@@ -3212,7 +3211,7 @@
               <td>2024-10-03</td>
               <td>1024TO004</td>
               <td>Obstruction</td>
-              <td>19530</td>
+              <td>19,530</td>
               <td>0</td>
               <td>Object or equipment on or fouling track (motor vehicle - other than highway-rail crossing)</td>
               <td>0</td>

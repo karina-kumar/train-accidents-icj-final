@@ -13,9 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Pirata+One&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html">Train Accidents</a>
+    <a class="navbar-brand text-dark" href="../index.html">Train Accidents</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -336,15 +336,15 @@
     <p>Below are statistics about VICTORIA county in Texas and a table that includes all reported train accidents in this county since 2020.</p>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mb-3 g-4">
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
-      <h5 class="card-title ">Total Accidents</h5>
+      <h5 class="card-title">Total Accidents</h5>
       <p class="card-text">6 </p>
     </div>
   </div>
   </div>
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
       <h5 class="card-title">Total Equipment Damage</h5>
       <p class="card-text">$223,354 </p>
@@ -352,7 +352,7 @@
   </div>
   </div>
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
       <h5 class="card-title">Total Track Damage</h5>
       <p class="card-text">$565 </p>
@@ -370,16 +370,15 @@
 
 <div class = "col">
   <table class="table table-striped table-hover table-bordered table-sm">
-      <thead>
+      <thead class="text-center">
         <tr>
-          
           <th scope="col">County Name</th>
           <th scope="col">Accident Date</th>
           <th scope="col">Accident Number</th>
           <th scope="col">Accident Type</th>
-          <th scope="col">Equipment Damage($)</th>
-          <th scope="col">Track Damage($)</th>
-          <th scope="col">Desc of Cause</th>
+          <th scope="col">Equipment Damage ($)</th>
+          <th scope="col">Track Damage ($)</th>
+          <th scope="col">Description of Cause</th>
           <th scope="col"># Injured</th>
           <th scope="col"># Killed</th>
         </tr>
@@ -510,7 +509,7 @@
               <td>2020-03-06</td>
               <td>20030603</td>
               <td>Fire/violent rupture</td>
-              <td>103382</td>
+              <td>103,382</td>
               <td>0</td>
               <td>Crank case or air box explosion (LOCOMOTIVE)</td>
               <td>0</td>
@@ -1636,7 +1635,7 @@
               <td>2022-04-07</td>
               <td>0422GC009</td>
               <td>Other impacts</td>
-              <td>11363</td>
+              <td>11,363</td>
               <td>0</td>
               <td>Extreme environmental condition ‑ EXTREME WIND VELOCITY</td>
               <td>0</td>
@@ -1908,7 +1907,7 @@
               <td>2022-08-19</td>
               <td>0822GC017</td>
               <td>Derailment</td>
-              <td>1680</td>
+              <td>1,680</td>
               <td>213</td>
               <td>Derail, failure to apply or remove</td>
               <td>0</td>
@@ -2520,7 +2519,7 @@
               <td>2023-07-17</td>
               <td>0723GC025</td>
               <td>Fire/violent rupture</td>
-              <td>37795</td>
+              <td>37,795</td>
               <td>352</td>
               <td>Fire, other than vandalism, involving on‑track equipment</td>
               <td>0</td>
@@ -3278,7 +3277,7 @@
               <td>2024-10-29</td>
               <td>1024HO039</td>
               <td>Fire/violent rupture</td>
-              <td>69073</td>
+              <td>69,073</td>
               <td>0</td>
               <td>Fire, other than vandalism, involving on‑track equipment</td>
               <td>0</td>

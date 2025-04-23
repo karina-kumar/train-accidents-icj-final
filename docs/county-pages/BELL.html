@@ -13,9 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Pirata+One&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html">Train Accidents</a>
+    <a class="navbar-brand text-dark" href="../index.html">Train Accidents</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -336,15 +336,15 @@
     <p>Below are statistics about BELL county in Texas and a table that includes all reported train accidents in this county since 2020.</p>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mb-3 g-4">
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
-      <h5 class="card-title ">Total Accidents</h5>
+      <h5 class="card-title">Total Accidents</h5>
       <p class="card-text">26 </p>
     </div>
   </div>
   </div>
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
       <h5 class="card-title">Total Equipment Damage</h5>
       <p class="card-text">$1,420,548 </p>
@@ -352,7 +352,7 @@
   </div>
   </div>
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
       <h5 class="card-title">Total Track Damage</h5>
       <p class="card-text">$12,226 </p>
@@ -370,16 +370,15 @@
 
 <div class = "col">
   <table class="table table-striped table-hover table-bordered table-sm">
-      <thead>
+      <thead class="text-center">
         <tr>
-          
           <th scope="col">County Name</th>
           <th scope="col">Accident Date</th>
           <th scope="col">Accident Number</th>
           <th scope="col">Accident Type</th>
-          <th scope="col">Equipment Damage($)</th>
-          <th scope="col">Track Damage($)</th>
-          <th scope="col">Desc of Cause</th>
+          <th scope="col">Equipment Damage ($)</th>
+          <th scope="col">Track Damage ($)</th>
+          <th scope="col">Description of Cause</th>
           <th scope="col"># Injured</th>
           <th scope="col"># Killed</th>
         </tr>
@@ -408,7 +407,7 @@
               <td>2020-01-19</td>
               <td>RD0120114</td>
               <td>Derailment</td>
-              <td>42900</td>
+              <td>42,900</td>
               <td>154</td>
               <td>Broken Rail - Detail fracture from shelling or head check</td>
               <td>0</td>
@@ -620,7 +619,7 @@
               <td>2020-04-28</td>
               <td>RD0420115</td>
               <td>Derailment</td>
-              <td>15314</td>
+              <td>15,314</td>
               <td>600</td>
               <td>Derail, failure to apply or remove</td>
               <td>0</td>
@@ -890,7 +889,7 @@
               <td>2020-10-21</td>
               <td>RD1020118</td>
               <td>Derailment</td>
-              <td>72641</td>
+              <td>72,641</td>
               <td>406</td>
               <td>Objects such as lading chains or straps fouling switches</td>
               <td>0</td>
@@ -1266,7 +1265,7 @@
               <td>2021-07-06</td>
               <td>RD0721109</td>
               <td>Derailment</td>
-              <td>12638</td>
+              <td>12,638</td>
               <td>350</td>
               <td>Broken Rail - Transverse/compound fissure</td>
               <td>0</td>
@@ -1640,7 +1639,7 @@
               <td>2022-03-03</td>
               <td>RD0322103</td>
               <td>Derailment</td>
-              <td>62497</td>
+              <td>62,497</td>
               <td>632</td>
               <td>Buffing or slack action excessive, train handling</td>
               <td>0</td>
@@ -1820,7 +1819,7 @@
               <td>2022-06-27</td>
               <td>RD0622124</td>
               <td>Derailment</td>
-              <td>83774</td>
+              <td>83,774</td>
               <td>217</td>
               <td>Switching movement, excessive speed</td>
               <td>0</td>
@@ -2106,7 +2105,7 @@
               <td>2022-10-27</td>
               <td>RD1022127</td>
               <td>Derailment</td>
-              <td>6170</td>
+              <td>6,170</td>
               <td>17</td>
               <td>Other miscellaneous causes (Provide detailed description in narrative)</td>
               <td>0</td>
@@ -2136,7 +2135,7 @@
               <td>2022-11-09</td>
               <td>RD1122113</td>
               <td>Derailment</td>
-              <td>2067</td>
+              <td>2,067</td>
               <td>16</td>
               <td>Spring/power switch mechanism malfunction</td>
               <td>0</td>
@@ -2274,7 +2273,7 @@
               <td>2022-12-31</td>
               <td>RD1222132</td>
               <td>Derailment</td>
-              <td>15884</td>
+              <td>15,884</td>
               <td>0</td>
               <td>Improper operation of train line air connections  (bottling the air)</td>
               <td>0</td>
@@ -2434,7 +2433,7 @@
               <td>2023-03-25</td>
               <td>RD0323127</td>
               <td>Derailment</td>
-              <td>11200</td>
+              <td>11,200</td>
               <td>194</td>
               <td>Failure to release hand brakes on car(s) (railroad employee)</td>
               <td>0</td>
@@ -2538,7 +2537,7 @@
               <td>2023-05-24</td>
               <td>RD0523204</td>
               <td>Hwy-rail crossing</td>
-              <td>11639</td>
+              <td>11,639</td>
               <td>300</td>
               <td>Highway user inattentiveness</td>
               <td>0</td>
@@ -2616,7 +2615,7 @@
               <td>2023-06-26</td>
               <td>RD0623133</td>
               <td>Other (describe in narrative)</td>
-              <td>12571</td>
+              <td>12,571</td>
               <td>0</td>
               <td>Failure to apply sufficient number of hand brakes on car(s) (railroad employee)</td>
               <td>0</td>
@@ -2926,7 +2925,7 @@
               <td>2023-12-13</td>
               <td>RD1223112</td>
               <td>Derailment</td>
-              <td>41382</td>
+              <td>41,382</td>
               <td>108</td>
               <td>Other miscellaneous causes (Provide detailed description in narrative)</td>
               <td>0</td>
@@ -3234,7 +3233,7 @@
               <td>2024-07-14</td>
               <td>RD0724114</td>
               <td>Other (describe in narrative)</td>
-              <td>40382</td>
+              <td>40,382</td>
               <td>0</td>
               <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
               <td>0</td>
@@ -3248,7 +3247,7 @@
               <td>2024-07-14</td>
               <td>RD0724114</td>
               <td>Other (describe in narrative)</td>
-              <td>45014</td>
+              <td>45,014</td>
               <td>0</td>
               <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
               <td>0</td>
@@ -3278,8 +3277,8 @@
               <td>2024-07-22</td>
               <td>RD0724122</td>
               <td>Derailment</td>
-              <td>392903</td>
-              <td>2222</td>
+              <td>392,903</td>
+              <td>2,222</td>
               <td>Failure to stretch cars before shoving</td>
               <td>0</td>
               <td>0</td>
@@ -3312,8 +3311,8 @@
               <td>2024-08-03</td>
               <td>RD0824104</td>
               <td>Derailment</td>
-              <td>505752</td>
-              <td>5909</td>
+              <td>505,752</td>
+              <td>5,909</td>
               <td>Failure to release hand brakes on car(s) (railroad employee)</td>
               <td>0</td>
               <td>0</td>
@@ -3398,7 +3397,7 @@
               <td>2024-09-18</td>
               <td>RD0924113</td>
               <td>Derailment</td>
-              <td>6000</td>
+              <td>6,000</td>
               <td>0</td>
               <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
               <td>0</td>
@@ -3412,7 +3411,7 @@
               <td>2024-09-18</td>
               <td>RD0924113</td>
               <td>Derailment</td>
-              <td>12000</td>
+              <td>12,000</td>
               <td>859</td>
               <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
               <td>0</td>
@@ -3446,7 +3445,7 @@
               <td>2024-10-01</td>
               <td>RD1024101</td>
               <td>Derailment</td>
-              <td>2110</td>
+              <td>2,110</td>
               <td>49</td>
               <td>Knuckle broken or defective</td>
               <td>0</td>
@@ -3460,7 +3459,7 @@
               <td>2024-10-01</td>
               <td>RD1024101</td>
               <td>Derailment</td>
-              <td>5056</td>
+              <td>5,056</td>
               <td>0</td>
               <td>Knuckle broken or defective</td>
               <td>0</td>
@@ -3596,7 +3595,7 @@
               <td>2024-12-19</td>
               <td>RD1224121</td>
               <td>Derailment</td>
-              <td>20404</td>
+              <td>20,404</td>
               <td>154</td>
               <td>Switch damaged or out of adjustment</td>
               <td>0</td>

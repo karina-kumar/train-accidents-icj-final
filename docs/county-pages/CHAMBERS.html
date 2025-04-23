@@ -13,9 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Pirata+One&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html">Train Accidents</a>
+    <a class="navbar-brand text-dark" href="../index.html">Train Accidents</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -336,15 +336,15 @@
     <p>Below are statistics about CHAMBERS county in Texas and a table that includes all reported train accidents in this county since 2020.</p>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mb-3 g-4">
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
-      <h5 class="card-title ">Total Accidents</h5>
+      <h5 class="card-title">Total Accidents</h5>
       <p class="card-text">34 </p>
     </div>
   </div>
   </div>
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
       <h5 class="card-title">Total Equipment Damage</h5>
       <p class="card-text">$1,027,476 </p>
@@ -352,7 +352,7 @@
   </div>
   </div>
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
       <h5 class="card-title">Total Track Damage</h5>
       <p class="card-text">$3,677 </p>
@@ -370,16 +370,15 @@
 
 <div class = "col">
   <table class="table table-striped table-hover table-bordered table-sm">
-      <thead>
+      <thead class="text-center">
         <tr>
-          
           <th scope="col">County Name</th>
           <th scope="col">Accident Date</th>
           <th scope="col">Accident Number</th>
           <th scope="col">Accident Type</th>
-          <th scope="col">Equipment Damage($)</th>
-          <th scope="col">Track Damage($)</th>
-          <th scope="col">Desc of Cause</th>
+          <th scope="col">Equipment Damage ($)</th>
+          <th scope="col">Track Damage ($)</th>
+          <th scope="col">Description of Cause</th>
           <th scope="col"># Injured</th>
           <th scope="col"># Killed</th>
         </tr>
@@ -484,7 +483,7 @@
               <td>2020-02-18</td>
               <td>F032020</td>
               <td>Derailment</td>
-              <td>45000</td>
+              <td>45,000</td>
               <td>0</td>
               <td>Shoving movement, absence of man on or at leading end of movement</td>
               <td>0</td>
@@ -640,7 +639,7 @@
               <td>2020-05-20</td>
               <td>RLAX52220</td>
               <td>Raking collision</td>
-              <td>10700</td>
+              <td>10,700</td>
               <td>0</td>
               <td>Failure to apply hand brakes on car(s) (railroad employee)</td>
               <td>0</td>
@@ -732,7 +731,7 @@
               <td>2020-07-09</td>
               <td>F072020</td>
               <td>Derailment</td>
-              <td>42000</td>
+              <td>42,000</td>
               <td>160</td>
               <td>Radio communication, failure to give/receive</td>
               <td>0</td>
@@ -746,7 +745,7 @@
               <td>2020-07-11</td>
               <td>0720HO006</td>
               <td>Derailment</td>
-              <td>20213</td>
+              <td>20,213</td>
               <td>870</td>
               <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
               <td>0</td>
@@ -818,7 +817,7 @@
               <td>2020-08-18</td>
               <td>RLAX81820</td>
               <td>Derailment</td>
-              <td>10700</td>
+              <td>10,700</td>
               <td>392</td>
               <td>Derail, failure to apply or remove</td>
               <td>0</td>
@@ -930,7 +929,7 @@
               <td>2020-11-12</td>
               <td>RLAX111220</td>
               <td>Side collision</td>
-              <td>16260</td>
+              <td>16,260</td>
               <td>219</td>
               <td>Other general switching rules (Provide detailed  description in narrative)</td>
               <td>0</td>
@@ -944,7 +943,7 @@
               <td>2020-11-12</td>
               <td>RLAX111220</td>
               <td>Side collision</td>
-              <td>24623</td>
+              <td>24,623</td>
               <td>0</td>
               <td>Other general switching rules (Provide detailed  description in narrative)</td>
               <td>0</td>
@@ -1084,7 +1083,7 @@
               <td>2021-02-20</td>
               <td>RLAX22021</td>
               <td>Raking collision</td>
-              <td>11200</td>
+              <td>11,200</td>
               <td>0</td>
               <td>Failure to apply hand brakes on car(s) (railroad employee)</td>
               <td>0</td>
@@ -1306,7 +1305,7 @@
               <td>2021-06-26</td>
               <td>0621HO031</td>
               <td>Other impacts</td>
-              <td>4564</td>
+              <td>4,564</td>
               <td>0</td>
               <td>Improper operation of train line air connections  (bottling the air)</td>
               <td>0</td>
@@ -1320,7 +1319,7 @@
               <td>2021-06-26</td>
               <td>0621HO031</td>
               <td>Other impacts</td>
-              <td>183808</td>
+              <td>183,808</td>
               <td>0</td>
               <td>Improper operation of train line air connections  (bottling the air)</td>
               <td>0</td>
@@ -1402,7 +1401,7 @@
               <td>2021-08-01</td>
               <td>0821HO001</td>
               <td>Derailment</td>
-              <td>15819</td>
+              <td>15,819</td>
               <td>104</td>
               <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
@@ -1866,7 +1865,7 @@
               <td>2022-05-19</td>
               <td>RLAX51922</td>
               <td>Derailment</td>
-              <td>11300</td>
+              <td>11,300</td>
               <td>0</td>
               <td>Failure to stretch cars before shoving</td>
               <td>0</td>
@@ -2412,7 +2411,7 @@
               <td>2023-02-06</td>
               <td>032023</td>
               <td>Derailment</td>
-              <td>25000</td>
+              <td>25,000</td>
               <td>500</td>
               <td>Derail, failure to apply or remove</td>
               <td>0</td>
@@ -2464,7 +2463,7 @@
               <td>2023-03-04</td>
               <td>0323HO006</td>
               <td>Derailment</td>
-              <td>5159</td>
+              <td>5,159</td>
               <td>51</td>
               <td>Cross level of track irregular (not at joints)</td>
               <td>0</td>
@@ -2586,7 +2585,7 @@
               <td>2023-05-17</td>
               <td>RLAX51723</td>
               <td>Raking collision</td>
-              <td>11500</td>
+              <td>11,500</td>
               <td>0</td>
               <td>Object or equipment on or fouling track - other than above (for  vandalism, see code M503)</td>
               <td>0</td>
@@ -2718,7 +2717,7 @@
               <td>2023-07-20</td>
               <td>RLAX72023</td>
               <td>Raking collision</td>
-              <td>11500</td>
+              <td>11,500</td>
               <td>0</td>
               <td>Shoving movement, absence of man on or at leading end of movement</td>
               <td>0</td>
@@ -2794,7 +2793,7 @@
               <td>2023-09-04</td>
               <td>092023</td>
               <td>Derailment</td>
-              <td>15000</td>
+              <td>15,000</td>
               <td>800</td>
               <td>Radio communication equipment failure</td>
               <td>0</td>
@@ -2830,7 +2829,7 @@
               <td>2023-09-10</td>
               <td>0923HO016</td>
               <td>Derailment</td>
-              <td>8642</td>
+              <td>8,642</td>
               <td>71</td>
               <td>Wide gage (due to loose, broken, or defective gage rods)</td>
               <td>0</td>
@@ -2924,7 +2923,7 @@
               <td>2023-10-21</td>
               <td>1023HO034</td>
               <td>Other impacts</td>
-              <td>2638</td>
+              <td>2,638</td>
               <td>0</td>
               <td>Kicking or dropping cars, inadequate precautions</td>
               <td>0</td>
@@ -2938,7 +2937,7 @@
               <td>2023-10-21</td>
               <td>1023HO034</td>
               <td>Other impacts</td>
-              <td>14975</td>
+              <td>14,975</td>
               <td>0</td>
               <td>Kicking or dropping cars, inadequate precautions</td>
               <td>0</td>
@@ -2956,7 +2955,7 @@
               <td>2023-10-23</td>
               <td>102323</td>
               <td>Derailment</td>
-              <td>11500</td>
+              <td>11,500</td>
               <td>0</td>
               <td>Switching movement, excessive speed</td>
               <td>0</td>
@@ -3032,7 +3031,7 @@
               <td>2023-12-04</td>
               <td>122023</td>
               <td>Derailment</td>
-              <td>200000</td>
+              <td>200,000</td>
               <td>100</td>
               <td>Buffing or slack action excessive, train handling</td>
               <td>0</td>
@@ -3108,7 +3107,7 @@
               <td>2024-01-14</td>
               <td>0124HO015</td>
               <td>Derailment</td>
-              <td>26514</td>
+              <td>26,514</td>
               <td>160</td>
               <td>Wide gage (due to loose, broken, or defective gage rods)</td>
               <td>0</td>
@@ -3146,7 +3145,7 @@
               <td>2024-02-12</td>
               <td>RLAX21224</td>
               <td>Derailment</td>
-              <td>32061</td>
+              <td>32,061</td>
               <td>250</td>
               <td>Derail, failure to apply or remove</td>
               <td>0</td>
@@ -3308,7 +3307,7 @@
               <td>2024-05-24</td>
               <td>052024B</td>
               <td>Other impacts</td>
-              <td>224000</td>
+              <td>224,000</td>
               <td>0</td>
               <td>Shoving movement, absence of man on or at leading end of movement</td>
               <td>0</td>
@@ -3322,7 +3321,7 @@
               <td>2024-05-24</td>
               <td>052024B</td>
               <td>Side collision</td>
-              <td>6000</td>
+              <td>6,000</td>
               <td>0</td>
               <td>Shoving movement, absence of man on or at leading end of movement</td>
               <td>0</td>
@@ -3478,7 +3477,7 @@
               <td>2024-08-29</td>
               <td>RLAX82924</td>
               <td>Derailment</td>
-              <td>12000</td>
+              <td>12,000</td>
               <td>0</td>
               <td>Shoving movement, absence of man on or at leading end of movement</td>
               <td>0</td>
@@ -3696,7 +3695,7 @@
               <td>2025-01-12</td>
               <td>RLAX11225</td>
               <td>Derailment</td>
-              <td>12400</td>
+              <td>12,400</td>
               <td>0</td>
               <td>Radio communication, failure to give/receive</td>
               <td>0</td>
@@ -3720,7 +3719,7 @@
               <td>2025-01-27</td>
               <td>RLAX12725</td>
               <td>Derailment</td>
-              <td>12400</td>
+              <td>12,400</td>
               <td>0</td>
               <td>Shoving movement, absence of man on or at leading end of movement</td>
               <td>0</td>

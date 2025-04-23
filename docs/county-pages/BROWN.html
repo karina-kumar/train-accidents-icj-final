@@ -13,9 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Pirata+One&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html">Train Accidents</a>
+    <a class="navbar-brand text-dark" href="../index.html">Train Accidents</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -336,15 +336,15 @@
     <p>Below are statistics about BROWN county in Texas and a table that includes all reported train accidents in this county since 2020.</p>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mb-3 g-4">
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
-      <h5 class="card-title ">Total Accidents</h5>
+      <h5 class="card-title">Total Accidents</h5>
       <p class="card-text">11 </p>
     </div>
   </div>
   </div>
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
       <h5 class="card-title">Total Equipment Damage</h5>
       <p class="card-text">$911,856 </p>
@@ -352,7 +352,7 @@
   </div>
   </div>
   <div class="col">
-  <div class="card text-center" style="height: 10rem;" >
+  <div id="county-card" class="card text-center">
     <div class="card-body">
       <h5 class="card-title">Total Track Damage</h5>
       <p class="card-text">$6,739 </p>
@@ -370,16 +370,15 @@
 
 <div class = "col">
   <table class="table table-striped table-hover table-bordered table-sm">
-      <thead>
+      <thead class="text-center">
         <tr>
-          
           <th scope="col">County Name</th>
           <th scope="col">Accident Date</th>
           <th scope="col">Accident Number</th>
           <th scope="col">Accident Type</th>
-          <th scope="col">Equipment Damage($)</th>
-          <th scope="col">Track Damage($)</th>
-          <th scope="col">Desc of Cause</th>
+          <th scope="col">Equipment Damage ($)</th>
+          <th scope="col">Track Damage ($)</th>
+          <th scope="col">Description of Cause</th>
           <th scope="col"># Injured</th>
           <th scope="col"># Killed</th>
         </tr>
@@ -424,7 +423,7 @@
               <td>2020-01-27</td>
               <td>RD0120118</td>
               <td>Derailment</td>
-              <td>13561</td>
+              <td>13,561</td>
               <td>149</td>
               <td>Switch not latched or locked</td>
               <td>0</td>
@@ -692,7 +691,7 @@
               <td>2020-06-25</td>
               <td>RD0620123</td>
               <td>Derailment</td>
-              <td>10000</td>
+              <td>10,000</td>
               <td>295</td>
               <td>Failure to comply with restricted speed or its equivalent not in connection with a block or interlocking signal.</td>
               <td>0</td>
@@ -874,7 +873,7 @@
               <td>2020-10-28</td>
               <td>RD1020121</td>
               <td>Derailment</td>
-              <td>19500</td>
+              <td>19,500</td>
               <td>124</td>
               <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
@@ -1324,7 +1323,7 @@
               <td>2021-08-25</td>
               <td>RD0821119</td>
               <td>Derailment</td>
-              <td>28704</td>
+              <td>28,704</td>
               <td>758</td>
               <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
@@ -1484,8 +1483,8 @@
               <td>2021-11-26</td>
               <td>RD1121117</td>
               <td>Derailment</td>
-              <td>293838</td>
-              <td>1000</td>
+              <td>293,838</td>
+              <td>1,000</td>
               <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
               <td>0</td>
@@ -1746,7 +1745,7 @@
               <td>2022-05-24</td>
               <td>RD0522125</td>
               <td>Derailment</td>
-              <td>16800</td>
+              <td>16,800</td>
               <td>375</td>
               <td>Buffing or slack action excessive, train handling</td>
               <td>0</td>
@@ -2060,7 +2059,7 @@
               <td>2022-10-20</td>
               <td>RD1022121</td>
               <td>Other impacts</td>
-              <td>12493</td>
+              <td>12,493</td>
               <td>0</td>
               <td>Shoving movement, man on or at leading end of movement, failure to control</td>
               <td>0</td>
@@ -2146,7 +2145,7 @@
               <td>2022-11-20</td>
               <td>RD1122121</td>
               <td>Derailment</td>
-              <td>43888</td>
+              <td>43,888</td>
               <td>311</td>
               <td>Switch not latched or locked</td>
               <td>0</td>
@@ -2244,7 +2243,7 @@
               <td>2023-01-09</td>
               <td>RD0123104</td>
               <td>Derailment</td>
-              <td>55350</td>
+              <td>55,350</td>
               <td>150</td>
               <td>Turnout frog (self guarded), worn or broken</td>
               <td>0</td>
@@ -3064,7 +3063,7 @@
               <td>2024-05-21</td>
               <td>RD0524120</td>
               <td>Derailment</td>
-              <td>2500</td>
+              <td>2,500</td>
               <td>56</td>
               <td>Roadbed settled or soft</td>
               <td>0</td>
@@ -3188,8 +3187,8 @@
               <td>2024-08-01</td>
               <td>RD0824102</td>
               <td>Derailment</td>
-              <td>415222</td>
-              <td>3521</td>
+              <td>415,222</td>
+              <td>3,521</td>
               <td>Objects such as lading chains or straps fouling wheels</td>
               <td>0</td>
               <td>0</td>
